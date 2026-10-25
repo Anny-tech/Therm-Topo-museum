@@ -38,12 +38,9 @@ The atlas is built as a set of plugins over one catalogue of materials. Each plu
 
 | Plugin | Status |
 |---|---|
-| DFT-relaxed crystal structures | ✅ active |
-| Tutorials & learning paths (41 curated reviews, courses, books, software docs and databases, tagged by level and audience) | ✅ active |
-| Knowledge graph & ontology (JSON-LD and Turtle, aligned with schema.org, SKOS and RDFS) | ✅ active |
-| Experimental zT(T) curves | 🔜 planned |
-| Surface states & ARPES | 🔜 planned |
-| Synthesis recipes | 🔜 planned |
+| DFT-relaxed crystal structures |✓ active |
+| Tutorials & learning paths (41 curated reviews, courses, books, software docs and databases, tagged by level and audience) |✓ active |
+| Knowledge graph & ontology (JSON-LD and Turtle, aligned with schema.org, SKOS and RDFS) |✓ active |
 
 The knowledge graph is published at `site/data/knowledge-graph.jsonld`, and the ontology at `site/data/ontology/ttm.jsonld` and `ttm.ttl`.
 
