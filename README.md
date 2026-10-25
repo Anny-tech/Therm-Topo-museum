@@ -1,0 +1,192 @@
+# TeTI Atlas — a museum of thermoelectric and topological materials
+
+**TeTI Atlas** is a website that collects crystal structures, headline experimental results and learning resources for thermoelectric (TE) and topological-insulator (TI) materials in one place. It is written mainly for **experimentalists**: every exhibit says which DFT structure to trust, how far it is from the measured one, and what to watch out for before comparing it with your own XRD, ARPES or transport data.
+
+**Live site:** https://anny-tech.github.io/Therm-Topo-museum/
+
+<!-- Add a screenshot of the home page here: ![TeTI Atlas home page](docs/screenshot.png) -->
+
+---
+
+## What's inside
+
+The atlas is organised as **exhibit halls** (material families), each holding **exhibits** (individual compounds and alloys). The current catalogue has **55 materials in 7 halls**:
+
+| Hall | Materials on display |
+|---|---|
+| **Tetradymites** | Bi₂Te₃, Sb₂Te₃, Bi₂Se₃, Bi₂Te₂Se, MnBi₂Te₄, Bi₀.₅Sb₁.₅Te₃, Bi₂Te₃₋ₓSeₓ |
+| **Skutterudites** | CoSb₃, RhSb₃, IrSb₃, CoAs₃, CeFe₄Sb₁₂, LaFe₄Sb₁₂, YbFe₄Sb₁₂, filled (Ba,La,Yb)ᵧCo₄Sb₁₂ |
+| **Half-Heuslers** | ZrNiSn, HfNiSn, TiNiSn, NbFeSb, ZrCoSb, ZrCoBi, TiCoSb, YPtBi, LuPtBi, ScPtBi |
+| **Zintl phases** | Mg₃Sb₂, Mg₃Bi₂, Mg₃Sb₂₋ₓBiₓ, CaZn₂Sb₂, YbZn₂Sb₂, EuZn₂Sb₂, Yb₁₄MnSb₁₁, Ca₅Al₂Sb₆, EuIn₂As₂ |
+| **IV–VI chalcogenides** | PbTe, PbSe, SnTe, Pb₁₋ₓSnₓSe, SnSe, GeTe |
+| **Topological semimetals** | Bi, Sb, Bi₁₋ₓSbₓ, Cd₃As₂, Na₃Bi, TaAs, NbP, WTe₂, ZrTe₅, HfTe₅ |
+| **More thermoelectrics** | Mg₂Si, Mg₂Sn, Mg₂Si₁₋ₓSnₓ, Cu₂Se, BiCuSeO |
+
+Each compound exhibit includes:
+
+- **DFT-relaxed structures** from up to five sources (Materials Project, JARVIS-DFT, Alexandria PBE, Alexandria PBEsol, OQMD), with one **recommended** structure and the reason it was chosen
+- **Benchmark against experiment**: lattice-parameter and volume deviations from the Crystallography Open Database (COD) entry, where one exists
+- **Symmetry** found by spglib, with the tolerance that was needed reported on the page
+- **Downloads** as CIF and POSCAR (conventional standard cell), plus an interactive 3D viewer
+- **Structure descriptions** (robocrystallographer) and **coordination polyhedra / bond tables** ([Crystal-GENUI](https://github.com/Anny-tech/Crystal-GENUI))
+- **JARVIS-DFT BoltzTraP Seebeck coefficients and power factors**, with the conditions behind them (600 K, 10²⁰ cm⁻³, constant relaxation time) stated next to the numbers
+- **Topological classification, operating regime, headline results and caveats**, each backed by a DOI
+
+## Knowledge plugins
+
+The atlas is built as a set of plugins over one catalogue of materials. Each plugin adds one kind of knowledge.
+
+| Plugin | Status |
+|---|---|
+| DFT-relaxed crystal structures | ✅ active |
+| Tutorials & learning paths (41 curated reviews, courses, books, software docs and databases, tagged by level and audience) | ✅ active |
+| Knowledge graph & ontology (JSON-LD and Turtle, aligned with schema.org, SKOS and RDFS) | ✅ active |
+| Experimental zT(T) curves | 🔜 planned |
+| Surface states & ARPES | 🔜 planned |
+| Synthesis recipes | 🔜 planned |
+
+The knowledge graph is published at `site/data/knowledge-graph.jsonld`, and the ontology at `site/data/ontology/ttm.jsonld` and `ttm.ttl`.
+
+## Provenance rules
+
+The only hand-written content is the curated catalogue in `pipeline/catalog/*.yaml`. Everything else is generated:
+
+- Every **structure and DFT number** comes from a named database and is retrieved through the [OPTIMADE](https://www.optimade.org/) API (JARVIS-DFT comes from its published `dft_3d` dataset).
+- Every **bibliographic record** (authors, title, journal, year) is taken from Crossref by resolving the DOI. Nothing is typed by hand.
+- Every **external link** is checked by `pipeline/check_links.py`.
+- The **About** page on the site explains how the structure is chosen, how symmetry is determined, and where the method's limits are.
+
+## Repository layout
+
+```
+├── config.yaml                 # public site URL (used in JSON-LD identifiers and citations)
+├── requirements.txt
+├── pipeline/
+│   ├── build.py                # builds everything in site/data/
+│   ├── check_links.py          # verifies every external link in the built site
+│   ├── catalog/
+│   │   ├── families.yaml       # exhibit halls (order here = order on the site)
+│   │   ├── materials.yaml      # the curated materials catalogue
+│   │   └── tutorials.yaml      # the tutorials plugin
+│   └── ttm/                    # pipeline package
+│       ├── sources.py          # OPTIMADE providers, JARVIS-DFT, COD
+│       ├── symmetry.py         # spglib analysis at several tolerances
+│       ├── analysis.py         # robocrys + Crystal-GENUI
+│       ├── crossref.py         # DOI resolution
+│       ├── ontology.py         # ontology (TBox) and knowledge graph (ABox)
+│       └── ...
+├── site/                       # the static website (deployed as-is)
+│   ├── index.html
+│   ├── assets/                 # CSS, JS (hash router, page modules, 3D viewer)
+│   ├── plugins/registry.json   # list of knowledge plugins
+│   └── data/                   # generated by the pipeline; do not edit by hand
+└── .github/workflows/
+    ├── pages.yml               # deploys site/ to GitHub Pages
+    └── refresh-data.yml        # monthly data rebuild → pull request
+```
+
+## Running it locally
+
+### View the site
+
+The site is plain HTML and JavaScript with no build step, but it loads JSON with `fetch`, so it must be served over HTTP rather than opened from disk:
+
+```bash
+git clone https://github.com/Anny-tech/Therm-Topo-museum.git
+cd Therm-Topo-museum
+python3 -m http.server -d site
+```
+
+Then open http://localhost:8000.
+
+### Rebuild the data
+
+Requires Python 3.10+ (CI uses 3.12).
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python pipeline/build.py --download-jarvis   # first run: also fetches the JARVIS-DFT dataset (~45 MB)
+python pipeline/check_links.py               # optional: check all external links
+```
+
+Useful options for `build.py`:
+
+| Option | What it does |
+|---|---|
+| `--only bi2te3 snse` | Rebuild only these material ids; the rest are kept from the last build |
+| `--refresh` | Ignore the HTTP cache and re-query every source |
+| `--strict` | Fail if any DOI does not resolve on Crossref |
+| `--skip-analysis` | Skip robocrystallographer and Crystal-GENUI (much faster) |
+| `--download-jarvis` | Download (or re-download) the JARVIS-DFT dataset |
+
+HTTP responses are cached in `pipeline/cache/` (git-ignored), so repeated builds are fast and polite to the databases.
+
+## Adding a material
+
+1. Add an entry to `pipeline/catalog/materials.yaml`. The header of that file documents every field. The essentials are:
+
+   ```yaml
+   - id: bi2te3                     # URL slug
+     formula: Bi2Te3                # reduced formula, used to query the databases
+     name: Bismuth telluride
+     kind: compound                 # compound | alloy (alloys list their end-members under `members`)
+     family: tetradymites           # an id from families.yaml
+     applications: [thermoelectric, topological]
+     spacegroups: [166]             # experimental space group(s); used to pick the right polymorph
+     topology: 3D strong topological insulator
+     thermoelectric: n- and p-type, best near 300–450 K
+     summary: >
+       One short paragraph for an experimentalist.
+     highlights:
+       - property: Surface state
+         value: Single Dirac cone observed by ARPES
+         doi: 10.1126/science.1173034
+     caveats: >
+       What to know before trusting DFT numbers for this material.
+     refs:
+       - 10.1038/nphys1270
+   ```
+
+2. Build just that material: `python pipeline/build.py --only <id>`
+3. Serve the site and check the exhibit, then open a pull request.
+
+Every claim in `highlights` must carry a DOI. Leave `topology` out if the classification is not established in the literature.
+
+## Adding a plugin
+
+1. Add a stage to `pipeline/build.py` (or a separate script) that writes static JSON to `site/data/<plugin>/`, keyed by the material `id`.
+2. Add a page module `site/assets/js/pages/<plugin>.js` exporting `render(root, params, query)`, and register its route in `site/assets/js/app.js`.
+3. If the plugin introduces new concepts, add them to `pipeline/ttm/ontology.py` so they appear in the knowledge graph.
+4. Add an entry to `site/plugins/registry.json`. Record the source and licence of every number.
+
+## Deployment and automatic updates
+
+- **`pages.yml`** deploys the `site/` folder to GitHub Pages on every push to `main` that touches `site/`. In the repository settings, set **Pages → Source** to **GitHub Actions**.
+- **`refresh-data.yml`** rebuilds all data on the 3rd of each month (or on demand from the Actions tab) and opens a pull request instead of pushing directly, so a person reviews every change to the structures before it goes live. Before merging, check `site/data/build_info.json` (source counts, unresolved DOIs) and the diffs in `site/data/materials/`.
+
+## Data sources and licences
+
+The code is released under the [MIT License](LICENSE). The **data** keeps the licence of the database it came from. If you reuse a structure, cite and credit that database:
+
+| Source | Functional | Licence | Cite |
+|---|---|---|---|
+| [Materials Project](https://materialsproject.org) | GGA/GGA+U/r²SCAN | CC BY 4.0 | [10.1063/1.4812323](https://doi.org/10.1063/1.4812323) |
+| [JARVIS-DFT](https://jarvis.nist.gov) | OptB88vdW | NIST public data | [10.1038/s41524-020-00440-1](https://doi.org/10.1038/s41524-020-00440-1) |
+| [Alexandria](https://alexandria.icams.rub.de/) | PBE, PBEsol | CC BY 4.0 | [10.1002/adma.202210788](https://doi.org/10.1002/adma.202210788) |
+| [OQMD](https://oqmd.org) | PBE (+U) | CC BY 4.0 | [10.1038/npjcompumats.2015.10](https://doi.org/10.1038/npjcompumats.2015.10) |
+| [Crystallography Open Database](https://www.crystallography.net/cod/) | experiment | CC0 | [10.1107/S0021889809016690](https://doi.org/10.1107/S0021889809016690) |
+
+Transport data: JARVIS-DFT BoltzTraP calculations, Choudhary, Garrity & Tavazza, *J. Phys.: Condens. Matter* **32**, 475501 (2020), [10.1088/1361-648X/aba06b](https://doi.org/10.1088/1361-648X/aba06b).
+
+Data access uses [OPTIMADE](https://www.optimade.org/) (Andersen et al., *Sci. Data* 2021, [10.1038/s41597-021-00974-z](https://doi.org/10.1038/s41597-021-00974-z)). Structure analysis uses [spglib](https://spglib.readthedocs.io/), [robocrystallographer](https://github.com/hackingmaterials/robocrystallographer) and [Crystal-GENUI](https://github.com/Anny-tech/Crystal-GENUI).
+
+## Contributing
+
+Corrections and new materials are welcome. Open an issue for a wrong number, a broken link or a missing material, or open a pull request following the steps under [Adding a material](#adding-a-material). Experimental results are especially welcome when they come with a DOI.
+
+## Author
+
+Ankita Biswas, University of Virginia
