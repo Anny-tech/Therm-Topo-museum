@@ -1,0 +1,548 @@
+{
+ "@context": {
+  "ttm": "ontology#",
+  "schema": "https://schema.org/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "owl": "http://www.w3.org/2002/07/owl#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "dcterms": "http://purl.org/dc/terms/",
+  "label": "rdfs:label",
+  "comment": "rdfs:comment",
+  "broader": {
+   "@id": "skos:broader",
+   "@type": "@id"
+  },
+  "subClassOf": {
+   "@id": "rdfs:subClassOf",
+   "@type": "@id"
+  },
+  "domain": {
+   "@id": "rdfs:domain",
+   "@type": "@id"
+  },
+  "range": {
+   "@id": "rdfs:range",
+   "@type": "@id"
+  },
+  "equivalentClass": {
+   "@id": "owl:equivalentClass",
+   "@type": "@id"
+  }
+ },
+ "@graph": [
+  {
+   "@id": "ttm:",
+   "@type": "owl:Ontology",
+   "label": "TeTI Atlas ontology",
+   "comment": "Vocabulary linking thermoelectric and topological materials to structure, chemistry, phases, provenance and literature.",
+   "dcterms:license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+   "@id": "ttm:Material",
+   "@type": "owl:Class",
+   "label": "Material",
+   "comment": "A solid-state material on display in the atlas.",
+   "subClassOf": "schema:Thing"
+  },
+  {
+   "@id": "ttm:Compound",
+   "@type": "owl:Class",
+   "label": "Compound",
+   "comment": "A stoichiometric, ordered crystalline phase with a DFT-relaxed structure.",
+   "subClassOf": "ttm:Material"
+  },
+  {
+   "@id": "ttm:AlloySystem",
+   "@type": "owl:Class",
+   "label": "Alloy system",
+   "comment": "A solid solution between exhibited end-member compounds; no single DFT cell.",
+   "subClassOf": "ttm:Material"
+  },
+  {
+   "@id": "ttm:MaterialFamily",
+   "@type": "owl:Class",
+   "label": "Material family",
+   "comment": "An exhibit hall: a chemically/structurally related family.",
+   "subClassOf": "skos:Collection"
+  },
+  {
+   "@id": "ttm:StructureType",
+   "@type": "owl:Class",
+   "label": "Structure type",
+   "comment": "A crystal-structure prototype (e.g. tetradymite, skutterudite).",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:SpaceGroup",
+   "@type": "owl:Class",
+   "label": "Space group",
+   "comment": "One of the 230 crystallographic space groups.",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:CrystalSystem",
+   "@type": "owl:Class",
+   "label": "Crystal system",
+   "comment": "One of the seven crystal systems.",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:ChemicalElement",
+   "@type": "owl:Class",
+   "label": "Chemical element",
+   "comment": "A chemical element.",
+   "subClassOf": "schema:Thing",
+   "equivalentClass": "http://www.wikidata.org/entity/Q11344"
+  },
+  {
+   "@id": "ttm:Application",
+   "@type": "owl:Class",
+   "label": "Application",
+   "comment": "A technological application domain.",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:TopologicalPhase",
+   "@type": "owl:Class",
+   "label": "Topological phase",
+   "comment": "A class of electronic band topology.",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:OperatingRegime",
+   "@type": "owl:Class",
+   "label": "Operating regime",
+   "comment": "Temperature window in which a thermoelectric is used.",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:CoordinationMotif",
+   "@type": "owl:Class",
+   "label": "Coordination motif",
+   "comment": "Coordination-polyhedron shape found in a structure (Crystal-GENUI).",
+   "subClassOf": "skos:Concept"
+  },
+  {
+   "@id": "ttm:Database",
+   "@type": "owl:Class",
+   "label": "Database",
+   "comment": "An open materials database providing DFT or experimental structures.",
+   "subClassOf": "schema:Dataset"
+  },
+  {
+   "@id": "ttm:ScholarlyReference",
+   "@type": "owl:Class",
+   "label": "Scholarly reference",
+   "comment": "A peer-reviewed publication, identified by DOI.",
+   "subClassOf": "schema:ScholarlyArticle"
+  },
+  {
+   "@id": "ttm:DFTStructure",
+   "@type": "owl:Class",
+   "label": "DFT-relaxed structure",
+   "comment": "A structure relaxed with density-functional theory in a specific database.",
+   "subClassOf": "schema:Dataset"
+  },
+  {
+   "@id": "ttm:ExperimentalStructure",
+   "@type": "owl:Class",
+   "label": "Experimental structure",
+   "comment": "A structure refined from diffraction data (COD).",
+   "subClassOf": "schema:Dataset"
+  },
+  {
+   "@id": "ttm:memberOfFamily",
+   "@type": "owl:ObjectProperty",
+   "label": "member of family",
+   "domain": "ttm:Material",
+   "range": "ttm:MaterialFamily"
+  },
+  {
+   "@id": "ttm:hasStructureType",
+   "@type": "owl:ObjectProperty",
+   "label": "has structure type",
+   "domain": "ttm:MaterialFamily",
+   "range": "ttm:StructureType"
+  },
+  {
+   "@id": "ttm:crystallizesIn",
+   "@type": "owl:ObjectProperty",
+   "label": "crystallizes in",
+   "domain": "ttm:Compound",
+   "range": "ttm:SpaceGroup"
+  },
+  {
+   "@id": "ttm:inCrystalSystem",
+   "@type": "owl:ObjectProperty",
+   "label": "in crystal system",
+   "domain": "ttm:SpaceGroup",
+   "range": "ttm:CrystalSystem"
+  },
+  {
+   "@id": "ttm:containsElement",
+   "@type": "owl:ObjectProperty",
+   "label": "contains element",
+   "domain": "ttm:Material",
+   "range": "ttm:ChemicalElement"
+  },
+  {
+   "@id": "ttm:hasApplication",
+   "@type": "owl:ObjectProperty",
+   "label": "has application",
+   "domain": "ttm:Material",
+   "range": "ttm:Application"
+  },
+  {
+   "@id": "ttm:exhibitsTopologicalPhase",
+   "@type": "owl:ObjectProperty",
+   "label": "exhibits topological phase",
+   "domain": "ttm:Material",
+   "range": "ttm:TopologicalPhase"
+  },
+  {
+   "@id": "ttm:operatesIn",
+   "@type": "owl:ObjectProperty",
+   "label": "operates in",
+   "domain": "ttm:Material",
+   "range": "ttm:OperatingRegime"
+  },
+  {
+   "@id": "ttm:alloyOf",
+   "@type": "owl:ObjectProperty",
+   "label": "alloy of",
+   "domain": "ttm:AlloySystem",
+   "range": "ttm:Compound"
+  },
+  {
+   "@id": "ttm:describedIn",
+   "@type": "owl:ObjectProperty",
+   "label": "described in",
+   "domain": "ttm:Material",
+   "range": "ttm:ScholarlyReference"
+  },
+  {
+   "@id": "ttm:hasDFTStructure",
+   "@type": "owl:ObjectProperty",
+   "label": "has DFT structure",
+   "domain": "ttm:Compound",
+   "range": "ttm:DFTStructure"
+  },
+  {
+   "@id": "ttm:hasExperimentalStructure",
+   "@type": "owl:ObjectProperty",
+   "label": "has experimental structure",
+   "domain": "ttm:Compound",
+   "range": "ttm:ExperimentalStructure"
+  },
+  {
+   "@id": "ttm:computedBy",
+   "@type": "owl:ObjectProperty",
+   "label": "computed by",
+   "domain": "ttm:DFTStructure",
+   "range": "ttm:Database"
+  },
+  {
+   "@id": "ttm:hasCoordinationMotif",
+   "@type": "owl:ObjectProperty",
+   "label": "has coordination motif",
+   "domain": "ttm:Compound",
+   "range": "ttm:CoordinationMotif"
+  },
+  {
+   "@id": "ttm:chemicalFormula",
+   "@type": "owl:DatatypeProperty",
+   "label": "chemicalFormula",
+   "comment": "Reduced chemical formula."
+  },
+  {
+   "@id": "ttm:spaceGroupNumber",
+   "@type": "owl:DatatypeProperty",
+   "label": "spaceGroupNumber",
+   "comment": "International Tables space-group number."
+  },
+  {
+   "@id": "ttm:latticeA",
+   "@type": "owl:DatatypeProperty",
+   "label": "latticeA",
+   "comment": "Conventional lattice parameter a (Å)."
+  },
+  {
+   "@id": "ttm:latticeB",
+   "@type": "owl:DatatypeProperty",
+   "label": "latticeB",
+   "comment": "Conventional lattice parameter b (Å)."
+  },
+  {
+   "@id": "ttm:latticeC",
+   "@type": "owl:DatatypeProperty",
+   "label": "latticeC",
+   "comment": "Conventional lattice parameter c (Å)."
+  },
+  {
+   "@id": "ttm:energyAboveHull",
+   "@type": "owl:DatatypeProperty",
+   "label": "energyAboveHull",
+   "comment": "Energy above the convex hull (eV/atom)."
+  },
+  {
+   "@id": "ttm:bandGap",
+   "@type": "owl:DatatypeProperty",
+   "label": "bandGap",
+   "comment": "DFT band gap (eV) in the stated functional."
+  },
+  {
+   "@id": "ttm:spinOrbitSpillage",
+   "@type": "owl:DatatypeProperty",
+   "label": "spinOrbitSpillage",
+   "comment": "JARVIS spin–orbit spillage; ≥ 0.5 indicates SOC-driven band inversion."
+  },
+  {
+   "@id": "ttm:seebeckN",
+   "@type": "owl:DatatypeProperty",
+   "label": "seebeckN",
+   "comment": "JARVIS-DFT BoltzTraP Seebeck coefficient, n-type (µV/K), at 600 K and 1e20 cm^-3 electrons, constant relaxation time."
+  },
+  {
+   "@id": "ttm:seebeckP",
+   "@type": "owl:DatatypeProperty",
+   "label": "seebeckP",
+   "comment": "JARVIS-DFT BoltzTraP Seebeck coefficient, p-type (µV/K), at 600 K and 1e20 cm^-3 holes, constant relaxation time."
+  },
+  {
+   "@id": "ttm:functional",
+   "@type": "owl:DatatypeProperty",
+   "label": "functional",
+   "comment": "Exchange–correlation functional of the calculation."
+  },
+  {
+   "@id": "ttm:TopologicalPhaseScheme",
+   "@type": "skos:ConceptScheme",
+   "label": "Topological phases"
+  },
+  {
+   "@id": "ttm:TopologicalPhaseRoot",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Topological phases",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   }
+  },
+  {
+   "@id": "ttm:TopologicalInsulator",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Topological insulator",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalPhaseRoot"
+  },
+  {
+   "@id": "ttm:StrongTopologicalInsulator",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Strong Z2 topological insulator",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalInsulator"
+  },
+  {
+   "@id": "ttm:TopologicalCrystallineInsulator",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Topological crystalline insulator",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalInsulator"
+  },
+  {
+   "@id": "ttm:MagneticTopologicalInsulator",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Magnetic topological insulator",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalInsulator"
+  },
+  {
+   "@id": "ttm:AxionInsulator",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Axion insulator",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:MagneticTopologicalInsulator"
+  },
+  {
+   "@id": "ttm:TopologicalSemimetal",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Topological semimetal",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalPhaseRoot"
+  },
+  {
+   "@id": "ttm:DiracSemimetal",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Dirac semimetal",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalSemimetal"
+  },
+  {
+   "@id": "ttm:WeylSemimetal",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Weyl semimetal",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalSemimetal"
+  },
+  {
+   "@id": "ttm:NodalLineSemimetal",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Nodal-line semimetal",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalSemimetal"
+  },
+  {
+   "@id": "ttm:Z2Semimetal",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Z2 non-trivial semimetal",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalSemimetal"
+  },
+  {
+   "@id": "ttm:BandInvertedCandidate",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Band-inverted (candidate)",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalPhaseRoot"
+  },
+  {
+   "@id": "ttm:NearTopologicalTransition",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "Near a topological transition",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:TopologicalPhaseRoot"
+  },
+  {
+   "@id": "ttm:HighSpillage",
+   "@type": [
+    "skos:Concept",
+    "ttm:TopologicalPhase"
+   ],
+   "label": "SOC band inversion indicated (spillage ≥ 0.5, DFT)",
+   "skos:inScheme": {
+    "@id": "ttm:TopologicalPhaseScheme"
+   },
+   "broader": "ttm:BandInvertedCandidate"
+  },
+  {
+   "@id": "ttm:OperatingRegimeScheme",
+   "@type": "skos:ConceptScheme",
+   "label": "Thermoelectric operating regimes"
+  },
+  {
+   "@id": "ttm:Cryogenic",
+   "@type": [
+    "skos:Concept",
+    "ttm:OperatingRegime"
+   ],
+   "label": "Cryogenic (< 250 K)",
+   "skos:inScheme": {
+    "@id": "ttm:OperatingRegimeScheme"
+   },
+   "ttm:minTemperatureK": 0,
+   "ttm:maxTemperatureK": 250
+  },
+  {
+   "@id": "ttm:NearRoomTemperature",
+   "@type": [
+    "skos:Concept",
+    "ttm:OperatingRegime"
+   ],
+   "label": "Near room temperature (250–500 K)",
+   "skos:inScheme": {
+    "@id": "ttm:OperatingRegimeScheme"
+   },
+   "ttm:minTemperatureK": 250,
+   "ttm:maxTemperatureK": 500
+  },
+  {
+   "@id": "ttm:MidTemperature",
+   "@type": [
+    "skos:Concept",
+    "ttm:OperatingRegime"
+   ],
+   "label": "Mid temperature (500–900 K)",
+   "skos:inScheme": {
+    "@id": "ttm:OperatingRegimeScheme"
+   },
+   "ttm:minTemperatureK": 500,
+   "ttm:maxTemperatureK": 900
+  },
+  {
+   "@id": "ttm:HighTemperature",
+   "@type": [
+    "skos:Concept",
+    "ttm:OperatingRegime"
+   ],
+   "label": "High temperature (> 900 K)",
+   "skos:inScheme": {
+    "@id": "ttm:OperatingRegimeScheme"
+   },
+   "ttm:minTemperatureK": 900,
+   "ttm:maxTemperatureK": 5000
+  }
+ ]
+}

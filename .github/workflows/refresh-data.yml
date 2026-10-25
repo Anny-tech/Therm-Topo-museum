@@ -1,0 +1,37 @@
+name: Refresh data
+
+# Rebuilds site/data from the databases once a month and opens a pull request,
+# so a person reviews every change to the structures before it goes live.
+on:
+  schedule:
+    - cron: "17 4 3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build data
+        run: python pipeline/build.py --download-jarvis --refresh
+      - name: Check links
+        run: python pipeline/check_links.py
+        continue-on-error: true
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data-refresh
+          commit-message: "Refresh structures and literature data"
+          title: "Monthly data refresh"
+          body: |
+            Automated rebuild of `site/data` from Materials Project, JARVIS-DFT, Alexandria, OQMD, COD and Crossref.
+            Before merging, review `site/data/build_info.json` (source counts, unresolved DOIs) and the diffs of `site/data/materials/`.

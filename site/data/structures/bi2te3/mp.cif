@@ -1,0 +1,41 @@
+# Bi2Te3_mp_mp-34202
+# Source: Materials Project mp-34202 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-34202
+# Conventional standard cell from spglib; symmetry detected: R-3m (No. 166) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Bi2Te3_mp_mp-34202
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.418100
+_cell_length_b     4.418100
+_cell_length_c     32.257300
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       545.3000
+_chemical_formula_sum 'Bi2Te3'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Bi1    Bi  0.333333 0.666667 0.269837 1.0
+  Bi2    Bi  0.333333 0.666667 0.063496 1.0
+  Te1    Te  0.666667 0.333333 0.116526 1.0
+  Te2    Te  0.000000 0.000000 0.000000 1.0
+  Te3    Te  0.000000 0.000000 0.216808 1.0
+  Bi3    Bi  0.000000 0.000000 0.603170 1.0
+  Bi4    Bi  0.000000 0.000000 0.396830 1.0
+  Te4    Te  0.333333 0.666667 0.449859 1.0
+  Te5    Te  0.666667 0.333333 0.333333 1.0
+  Te6    Te  0.666667 0.333333 0.550141 1.0
+  Bi5    Bi  0.666667 0.333333 0.936504 1.0
+  Bi6    Bi  0.666667 0.333333 0.730163 1.0
+  Te7    Te  0.000000 0.000000 0.783192 1.0
+  Te8    Te  0.333333 0.666667 0.666667 1.0
+  Te9    Te  0.333333 0.666667 0.883474 1.0

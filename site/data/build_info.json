@@ -1,0 +1,951 @@
+{
+ "built": "2026-10-25T21:38:37+00:00",
+ "site_url": "https://anny-tech.github.io/teti-atlas/",
+ "sources": [
+  {
+   "key": "mp",
+   "name": "Materials Project",
+   "functional": "GGA/GGA+U/r2SCAN (MP mixing scheme)",
+   "cite": "10.1063/1.4812323",
+   "homepage": "https://materialsproject.org",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "n_structures": 47,
+   "n_unavailable": 0
+  },
+  {
+   "key": "jarvis",
+   "name": "JARVIS-DFT",
+   "functional": "OptB88vdW",
+   "cite": "10.1038/s41524-020-00440-1",
+   "homepage": "https://jarvis.nist.gov",
+   "license": "NIST public data",
+   "license_url": "https://www.nist.gov/open/license",
+   "n_structures": 40,
+   "n_unavailable": 0
+  },
+  {
+   "key": "alex-pbe",
+   "name": "Alexandria (PBE)",
+   "functional": "PBE",
+   "cite": "10.1002/adma.202210788",
+   "homepage": "https://alexandria.icams.rub.de/",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "n_structures": 47,
+   "n_unavailable": 0
+  },
+  {
+   "key": "alex-pbesol",
+   "name": "Alexandria (PBEsol)",
+   "functional": "PBEsol",
+   "cite": "10.1002/adma.202210788",
+   "homepage": "https://alexandria.icams.rub.de/",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "n_structures": 45,
+   "n_unavailable": 0
+  },
+  {
+   "key": "oqmd",
+   "name": "OQMD",
+   "functional": "PBE (+U)",
+   "cite": "10.1038/npjcompumats.2015.10",
+   "homepage": "https://oqmd.org",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "n_structures": 20,
+   "n_unavailable": 28
+  },
+  {
+   "key": "cod",
+   "name": "Crystallography Open Database",
+   "cite": "10.1107/s0021889809016690",
+   "homepage": "https://www.crystallography.net/cod/",
+   "license": "CC0 (public domain)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "n_structures": 31
+  }
+ ],
+ "counts": {
+  "materials": 55,
+  "compounds": 48,
+  "alloys": 7,
+  "structures": 199,
+  "references": 80,
+  "tutorials": 41,
+  "elements": 40,
+  "families": 7,
+  "graph_nodes": 211,
+  "graph_links": 725
+ },
+ "unresolved_dois": [],
+ "transport_conditions": {
+  "source": "jarvis",
+  "doi": "10.1088/1361-648x/aba06b",
+  "code": "BoltzTraP",
+  "code_doi": "10.1016/j.cpc.2006.03.007",
+  "temperature_K": 600,
+  "carrier_concentration_cm3": 1e+20,
+  "relaxation_time_s": 1e-14,
+  "approximations": "constant relaxation time and rigid band",
+  "bands": "OptB88vdW band structure from JARVIS's standard workflow (the paper does not report spin–orbit coupling for transport)",
+  "seebeck_unit": "µV/K",
+  "powerfactor_unit": "µW/(m K²)",
+  "notes": [
+   "The same 600 K and 10²⁰ cm⁻³ are used for every material, whatever its real operating temperature or doping.",
+   "τ cancels in the Seebeck coefficient but sets the absolute scale of the power factor."
+  ]
+ },
+ "structure_status": {
+  "benchmarked": 28,
+  "not benchmarked": 18,
+  "ambiguous": 2
+ },
+ "volume_benchmark_percent": 5.0,
+ "data_gaps": [
+  {
+   "id": "bi2te3",
+   "formula_display": "Bi2Te3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-25 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "sb2te3",
+   "formula_display": "Sb2Te3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1070 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "bi2se3",
+   "formula_display": "Bi2Se3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1067 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "bi2te2se",
+   "formula_display": "Bi2Te2Se",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-4101 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "mnbi2te4",
+   "formula_display": "MnBi2Te4",
+   "level": "ambiguous",
+   "issues": [
+    {
+     "kind": "curated",
+     "severity": "ambiguous",
+     "text": "The magnetic ground state (A-type antiferromagnet) needs a cell doubled along c. The database structures are R-3m cells relaxed ferromagnetic or non-magnetic, so their lattice parameters and gaps refer to a different magnetic state."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-82132 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "cosb3",
+   "formula_display": "CoSb3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1088 has no spin–orbit spillage, mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "rhsb3",
+   "formula_display": "RhSb3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-20761 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "irsb3",
+   "formula_display": "IrSb3",
+   "level": "benchmarked",
+   "issues": []
+  },
+  {
+   "id": "coas3",
+   "formula_display": "CoAs3",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-53247 has no spin–orbit spillage, mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "cefe4sb12",
+   "formula_display": "CeFe4Sb12",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 204, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "lafe4sb12",
+   "formula_display": "LaFe4Sb12",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 204, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "ybfe4sb12",
+   "formula_display": "YbFe4Sb12",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 204, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "Alexandria (PBEsol) has no entry for this composition."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-112996 has no spin–orbit spillage, mBJ gap, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "zrnisn",
+   "formula_display": "ZrNiSn",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1091 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "hfnisn",
+   "formula_display": "HfNiSn",
+   "level": "benchmarked",
+   "issues": []
+  },
+  {
+   "id": "tinisn",
+   "formula_display": "TiNiSn",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-78738 has no spin–orbit spillage, mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "nbfesb",
+   "formula_display": "NbFeSb",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 83928 (licensed database) as its experimental parent."
+    }
+   ]
+  },
+  {
+   "id": "zrcosb",
+   "formula_display": "ZrCoSb",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 108317 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-18207 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "zrcobi",
+   "formula_display": "ZrCoBi",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 107120 (licensed database) as its experimental parent."
+    }
+   ]
+  },
+  {
+   "id": "ticosb",
+   "formula_display": "TiCoSb",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 624919,624920,169138,169139,169140,169141,169142,169143,169144,169145,169146,169147,169148,169149,169150,169151,169152,169153,169154,169155,169156,169157,169158,169159,169160,169161,169162,169163,169164,169165,53070 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1513 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "yptbi",
+   "formula_display": "YPtBi",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "luptbi",
+   "formula_display": "LuPtBi",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "scptbi",
+   "formula_display": "ScPtBi",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 216, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "Materials Project has no entry for this composition."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "mg3sb2",
+   "formula_display": "Mg3Sb2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-86379 has no spin–orbit spillage, mBJ gap, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "mg3bi2",
+   "formula_display": "Mg3Bi2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-86799 has no spin–orbit spillage, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "cazn2sb2",
+   "formula_display": "CaZn2Sb2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    }
+   ]
+  },
+  {
+   "id": "ybzn2sb2",
+   "formula_display": "YbZn2Sb2",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 164, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "Alexandria (PBEsol) has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-92632 has no spin–orbit spillage, mBJ gap, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "euzn2sb2",
+   "formula_display": "EuZn2Sb2",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 164, so the DFT structures cannot be checked against experiment here."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "yb14mnsb11",
+   "formula_display": "Yb14MnSb11",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "Alexandria (PBE) has no entry for this composition."
+    },
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "Alexandria (PBEsol) has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "ca5al2sb6",
+   "formula_display": "Ca5Al2Sb6",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 55, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 60146 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-27531 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "euin2as2",
+   "formula_display": "EuIn2As2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-empty",
+     "severity": "missing",
+     "text": "JARVIS-DFT has no entry for this composition."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "pbte",
+   "formula_display": "PbTe",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-150058 has no spin–orbit spillage, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "pbse",
+   "formula_display": "PbSe",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-91670 has no spin–orbit spillage, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "snte",
+   "formula_display": "SnTe",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-149916 has no spin–orbit spillage, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "snse",
+   "formula_display": "SnSe",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-109012 has no spin–orbit spillage, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "gete",
+   "formula_display": "GeTe",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "cod-inconsistent",
+     "severity": "missing",
+     "text": "The COD reference (1539728) is internally inconsistent: its cell (a = 8.378, c = 10.650 Å) gives 107.9 Å³ per listed atom, 3.9× the DFT value, so it is not used as a reference."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1157 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "bi",
+   "formula_display": "Bi",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-837 has no BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "sb",
+   "formula_display": "Sb",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-14591 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "cd3as2",
+   "formula_display": "Cd3As2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "no-jarvis",
+     "severity": "missing",
+     "text": "There is no JARVIS-DFT entry in the experimental space group, so spin–orbit spillage, the mBJ gap and the BoltzTraP Seebeck coefficients are unavailable."
+    }
+   ]
+  },
+  {
+   "id": "na3bi",
+   "formula_display": "Na3Bi",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    }
+   ]
+  },
+  {
+   "id": "taas",
+   "formula_display": "TaAs",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 109, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 611457,611451,44068 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-20249 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "nbp",
+   "formula_display": "NbP",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 109, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 81493 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-16139 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "wte2",
+   "formula_display": "WTe2",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-78 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "zrte5",
+   "formula_display": "ZrTe5",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 63, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 85506,85507,602282 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-86924 has no spin–orbit spillage, mBJ gap, BoltzTraP Seebeck coefficients."
+    }
+   ]
+  },
+  {
+   "id": "hfte5",
+   "formula_display": "HfTe5",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-9080 has no mBJ gap."
+    }
+   ]
+  },
+  {
+   "id": "mg2si",
+   "formula_display": "Mg2Si",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1076 has no spin–orbit spillage."
+    }
+   ]
+  },
+  {
+   "id": "mg2sn",
+   "formula_display": "Mg2Sn",
+   "level": "benchmarked",
+   "issues": [
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    }
+   ]
+  },
+  {
+   "id": "cu2se",
+   "formula_display": "Cu2Se",
+   "level": "ambiguous",
+   "issues": [
+    {
+     "kind": "curated",
+     "severity": "ambiguous",
+     "text": "In the thermoelectric β phase, Cu is spread over partially occupied sites in an fcc Se framework. Every DFT cell is an ordered approximant that picks one Cu arrangement, so the structure shown is a model, not the measured structure."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    }
+   ]
+  },
+  {
+   "id": "bicuseo",
+   "formula_display": "BiCuSeO",
+   "level": "not benchmarked",
+   "issues": [
+    {
+     "kind": "no-cod",
+     "severity": "missing",
+     "text": "COD has no structure of this composition in space group No. 129, so the DFT structures cannot be checked against experiment here. JARVIS-DFT cites ICSD 75128,74475 (licensed database) as its experimental parent."
+    },
+    {
+     "kind": "source-unavailable",
+     "severity": "missing",
+     "text": "OQMD could not be reached when the data were fetched (2026-10-25)."
+    },
+    {
+     "kind": "jarvis-partial",
+     "severity": "missing",
+     "text": "JARVIS-DFT JVASP-1118 has no mBJ gap."
+    }
+   ]
+  }
+ ],
+ "tools": {
+  "robocrystallographer": "10.1557/mrc.2019.94",
+  "crystal_genui": "https://github.com/Anny-tech/Crystal-GENUI"
+ }
+}

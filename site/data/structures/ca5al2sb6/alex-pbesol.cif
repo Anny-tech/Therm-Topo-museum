@@ -1,0 +1,52 @@
+# Ca5Al2Sb6_alex-pbesol_agm003234024
+# Source: Alexandria (PBEsol) agm003234024 (PBEsol), https://alexandria.icams.rub.de/pbesol/v1/structures/agm003234024
+# Conventional standard cell from spglib; symmetry detected: Pbam (No. 55) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Ca5Al2Sb6_alex-pbesol_agm003234024
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     11.920400
+_cell_length_b     13.906100
+_cell_length_c     4.446800
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  90.0000
+_cell_volume       737.1280
+_chemical_formula_sum 'Al2Ca5Sb6'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Al1    Al  0.331567 0.787306 0.500000 1.0
+  Al2    Al  0.668433 0.212694 0.500000 1.0
+  Al3    Al  0.168433 0.287306 0.500000 1.0
+  Al4    Al  0.831567 0.712694 0.500000 1.0
+  Ca1    Ca  0.327904 0.983618 0.000000 1.0
+  Ca2    Ca  0.672096 0.016382 0.000000 1.0
+  Ca3    Ca  0.172096 0.483618 0.000000 1.0
+  Ca4    Ca  0.827904 0.516382 0.000000 1.0
+  Ca5    Ca  0.000000 0.000000 0.000000 1.0
+  Ca6    Ca  0.500000 0.500000 0.000000 1.0
+  Ca7    Ca  0.908519 0.247244 0.000000 1.0
+  Ca8    Ca  0.091481 0.752756 0.000000 1.0
+  Ca9    Ca  0.591481 0.747244 0.000000 1.0
+  Ca10   Ca  0.408519 0.252756 0.000000 1.0
+  Sb1    Sb  0.162549 0.176284 0.000000 1.0
+  Sb2    Sb  0.837451 0.823716 0.000000 1.0
+  Sb3    Sb  0.337451 0.676284 0.000000 1.0
+  Sb4    Sb  0.662549 0.323716 0.000000 1.0
+  Sb5    Sb  0.155170 0.907157 0.500000 1.0
+  Sb6    Sb  0.844830 0.092843 0.500000 1.0
+  Sb7    Sb  0.344830 0.407157 0.500000 1.0
+  Sb8    Sb  0.655170 0.592843 0.500000 1.0
+  Sb9    Sb  0.527208 0.899506 0.500000 1.0
+  Sb10   Sb  0.472792 0.100494 0.500000 1.0
+  Sb11   Sb  0.972792 0.399506 0.500000 1.0
+  Sb12   Sb  0.027208 0.600494 0.500000 1.0

@@ -1,0 +1,32 @@
+# Bi_jarvis_JVASP-837
+# Source: JARVIS-DFT JVASP-837 (OptB88vdW), https://www.ctcms.nist.gov/~knc6/jsmol/JVASP-837.html
+# Conventional standard cell from spglib; symmetry detected: R-3m (No. 166) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Bi_jarvis_JVASP-837
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.583800
+_cell_length_b     4.583800
+_cell_length_c     12.093100
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       220.0490
+_chemical_formula_sum 'Bi'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Bi1    Bi  0.000000 0.000000 0.234564 1.0
+  Bi2    Bi  0.666667 0.333333 0.098769 1.0
+  Bi3    Bi  0.666667 0.333333 0.567897 1.0
+  Bi4    Bi  0.333333 0.666667 0.432103 1.0
+  Bi5    Bi  0.333333 0.666667 0.901231 1.0
+  Bi6    Bi  0.000000 0.000000 0.765436 1.0

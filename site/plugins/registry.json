@@ -1,0 +1,52 @@
+{
+  "plugins": [
+    {
+      "id": "structures",
+      "name": "DFT-relaxed crystal structures",
+      "status": "active",
+      "route": "#/explore",
+      "icon": "◇",
+      "description": "Relaxed structures from Materials Project, JARVIS-DFT, Alexandria and OQMD, symmetry-analysed with spglib, benchmarked against experimental COD structures, with CIF/POSCAR downloads, Robocrystallographer descriptions and Crystal-GENUI coordination polyhedra.",
+      "provides": ["3D viewer", "multi-database comparison", "DFT vs experiment", "CIF / POSCAR", "polyhedra & Pauling rules", "text description"]
+    },
+    {
+      "id": "tutorials",
+      "name": "Tutorials & learning paths",
+      "status": "active",
+      "route": "#/tutorials",
+      "icon": "✎",
+      "description": "Curated reviews, courses, books, software documentation and databases, chosen for experimentalists working on thermoelectric and topological materials. Bibliographic data comes from Crossref.",
+      "provides": ["reviews", "courses", "software docs", "databases"]
+    },
+    {
+      "id": "knowledge-graph",
+      "name": "Knowledge graph & ontology",
+      "status": "active",
+      "route": "#/ontology",
+      "icon": "✳",
+      "description": "A small OWL/SKOS ontology linking materials, families, space groups, topological phases, operating regimes, coordination motifs, databases and literature. Downloadable as JSON-LD and Turtle.",
+      "provides": ["JSON-LD", "Turtle", "interactive graph"]
+    },
+    {
+      "id": "zt-curves",
+      "name": "Experimental zT(T) curves",
+      "status": "planned",
+      "icon": "∿",
+      "description": "Digitised temperature-dependent zT, Seebeck, conductivity and thermal-conductivity data with sample descriptors, e.g. from the Starrydata project."
+    },
+    {
+      "id": "arpes",
+      "name": "Surface states & ARPES",
+      "status": "planned",
+      "icon": "⌒",
+      "description": "Topological invariants from Topological Quantum Chemistry, plus links to published ARPES spectra and surface-state Fermi-velocity data."
+    },
+    {
+      "id": "synthesis",
+      "name": "Synthesis recipes",
+      "status": "planned",
+      "icon": "⚗",
+      "description": "Crystal growth and densification routes (Bridgman, flux, ball-milling + SPS, MBE) with conditions extracted from the literature."
+    }
+  ]
+}

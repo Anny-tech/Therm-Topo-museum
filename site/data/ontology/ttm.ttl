@@ -1,0 +1,256 @@
+@prefix ttm: <ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+
+ttm:Material a owl:Class ;
+    rdfs:label "Material" ;
+    rdfs:comment "A solid-state material on display in the atlas." ;
+    rdfs:subClassOf schema:Thing .
+
+ttm:Compound a owl:Class ;
+    rdfs:label "Compound" ;
+    rdfs:comment "A stoichiometric, ordered crystalline phase with a DFT-relaxed structure." ;
+    rdfs:subClassOf ttm:Material .
+
+ttm:AlloySystem a owl:Class ;
+    rdfs:label "Alloy system" ;
+    rdfs:comment "A solid solution between exhibited end-member compounds; no single DFT cell." ;
+    rdfs:subClassOf ttm:Material .
+
+ttm:MaterialFamily a owl:Class ;
+    rdfs:label "Material family" ;
+    rdfs:comment "An exhibit hall: a chemically/structurally related family." ;
+    rdfs:subClassOf skos:Collection .
+
+ttm:StructureType a owl:Class ;
+    rdfs:label "Structure type" ;
+    rdfs:comment "A crystal-structure prototype (e.g. tetradymite, skutterudite)." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:SpaceGroup a owl:Class ;
+    rdfs:label "Space group" ;
+    rdfs:comment "One of the 230 crystallographic space groups." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:CrystalSystem a owl:Class ;
+    rdfs:label "Crystal system" ;
+    rdfs:comment "One of the seven crystal systems." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:ChemicalElement a owl:Class ;
+    rdfs:label "Chemical element" ;
+    rdfs:comment "A chemical element." ;
+    rdfs:subClassOf schema:Thing ;
+    owl:equivalentClass <http://www.wikidata.org/entity/Q11344> .
+
+ttm:Application a owl:Class ;
+    rdfs:label "Application" ;
+    rdfs:comment "A technological application domain." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:TopologicalPhase a owl:Class ;
+    rdfs:label "Topological phase" ;
+    rdfs:comment "A class of electronic band topology." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:OperatingRegime a owl:Class ;
+    rdfs:label "Operating regime" ;
+    rdfs:comment "Temperature window in which a thermoelectric is used." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:CoordinationMotif a owl:Class ;
+    rdfs:label "Coordination motif" ;
+    rdfs:comment "Coordination-polyhedron shape found in a structure (Crystal-GENUI)." ;
+    rdfs:subClassOf skos:Concept .
+
+ttm:Database a owl:Class ;
+    rdfs:label "Database" ;
+    rdfs:comment "An open materials database providing DFT or experimental structures." ;
+    rdfs:subClassOf schema:Dataset .
+
+ttm:ScholarlyReference a owl:Class ;
+    rdfs:label "Scholarly reference" ;
+    rdfs:comment "A peer-reviewed publication, identified by DOI." ;
+    rdfs:subClassOf schema:ScholarlyArticle .
+
+ttm:DFTStructure a owl:Class ;
+    rdfs:label "DFT-relaxed structure" ;
+    rdfs:comment "A structure relaxed with density-functional theory in a specific database." ;
+    rdfs:subClassOf schema:Dataset .
+
+ttm:ExperimentalStructure a owl:Class ;
+    rdfs:label "Experimental structure" ;
+    rdfs:comment "A structure refined from diffraction data (COD)." ;
+    rdfs:subClassOf schema:Dataset .
+
+ttm:memberOfFamily a owl:ObjectProperty ;
+    rdfs:label "member of family" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:MaterialFamily .
+
+ttm:hasStructureType a owl:ObjectProperty ;
+    rdfs:label "has structure type" ;
+    rdfs:domain ttm:MaterialFamily ;
+    rdfs:range ttm:StructureType .
+
+ttm:crystallizesIn a owl:ObjectProperty ;
+    rdfs:label "crystallizes in" ;
+    rdfs:domain ttm:Compound ;
+    rdfs:range ttm:SpaceGroup .
+
+ttm:inCrystalSystem a owl:ObjectProperty ;
+    rdfs:label "in crystal system" ;
+    rdfs:domain ttm:SpaceGroup ;
+    rdfs:range ttm:CrystalSystem .
+
+ttm:containsElement a owl:ObjectProperty ;
+    rdfs:label "contains element" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:ChemicalElement .
+
+ttm:hasApplication a owl:ObjectProperty ;
+    rdfs:label "has application" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:Application .
+
+ttm:exhibitsTopologicalPhase a owl:ObjectProperty ;
+    rdfs:label "exhibits topological phase" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:TopologicalPhase .
+
+ttm:operatesIn a owl:ObjectProperty ;
+    rdfs:label "operates in" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:OperatingRegime .
+
+ttm:alloyOf a owl:ObjectProperty ;
+    rdfs:label "alloy of" ;
+    rdfs:domain ttm:AlloySystem ;
+    rdfs:range ttm:Compound .
+
+ttm:describedIn a owl:ObjectProperty ;
+    rdfs:label "described in" ;
+    rdfs:domain ttm:Material ;
+    rdfs:range ttm:ScholarlyReference .
+
+ttm:hasDFTStructure a owl:ObjectProperty ;
+    rdfs:label "has DFT structure" ;
+    rdfs:domain ttm:Compound ;
+    rdfs:range ttm:DFTStructure .
+
+ttm:hasExperimentalStructure a owl:ObjectProperty ;
+    rdfs:label "has experimental structure" ;
+    rdfs:domain ttm:Compound ;
+    rdfs:range ttm:ExperimentalStructure .
+
+ttm:computedBy a owl:ObjectProperty ;
+    rdfs:label "computed by" ;
+    rdfs:domain ttm:DFTStructure ;
+    rdfs:range ttm:Database .
+
+ttm:hasCoordinationMotif a owl:ObjectProperty ;
+    rdfs:label "has coordination motif" ;
+    rdfs:domain ttm:Compound ;
+    rdfs:range ttm:CoordinationMotif .
+
+ttm:chemicalFormula a owl:DatatypeProperty ;
+    rdfs:comment "Reduced chemical formula." .
+
+ttm:spaceGroupNumber a owl:DatatypeProperty ;
+    rdfs:comment "International Tables space-group number." .
+
+ttm:latticeA a owl:DatatypeProperty ;
+    rdfs:comment "Conventional lattice parameter a (Å)." .
+
+ttm:latticeB a owl:DatatypeProperty ;
+    rdfs:comment "Conventional lattice parameter b (Å)." .
+
+ttm:latticeC a owl:DatatypeProperty ;
+    rdfs:comment "Conventional lattice parameter c (Å)." .
+
+ttm:energyAboveHull a owl:DatatypeProperty ;
+    rdfs:comment "Energy above the convex hull (eV/atom)." .
+
+ttm:bandGap a owl:DatatypeProperty ;
+    rdfs:comment "DFT band gap (eV) in the stated functional." .
+
+ttm:spinOrbitSpillage a owl:DatatypeProperty ;
+    rdfs:comment "JARVIS spin–orbit spillage; ≥ 0.5 indicates SOC-driven band inversion." .
+
+ttm:seebeckN a owl:DatatypeProperty ;
+    rdfs:comment "JARVIS-DFT BoltzTraP Seebeck coefficient, n-type (µV/K), at 600 K and 1e20 cm^-3 electrons, constant relaxation time." .
+
+ttm:seebeckP a owl:DatatypeProperty ;
+    rdfs:comment "JARVIS-DFT BoltzTraP Seebeck coefficient, p-type (µV/K), at 600 K and 1e20 cm^-3 holes, constant relaxation time." .
+
+ttm:functional a owl:DatatypeProperty ;
+    rdfs:comment "Exchange–correlation functional of the calculation." .
+
+ttm:TopologicalPhaseRoot a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Topological phases" .
+
+ttm:TopologicalInsulator a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Topological insulator" ;
+    skos:broader ttm:TopologicalPhaseRoot .
+
+ttm:StrongTopologicalInsulator a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Strong Z2 topological insulator" ;
+    skos:broader ttm:TopologicalInsulator .
+
+ttm:TopologicalCrystallineInsulator a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Topological crystalline insulator" ;
+    skos:broader ttm:TopologicalInsulator .
+
+ttm:MagneticTopologicalInsulator a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Magnetic topological insulator" ;
+    skos:broader ttm:TopologicalInsulator .
+
+ttm:AxionInsulator a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Axion insulator" ;
+    skos:broader ttm:MagneticTopologicalInsulator .
+
+ttm:TopologicalSemimetal a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Topological semimetal" ;
+    skos:broader ttm:TopologicalPhaseRoot .
+
+ttm:DiracSemimetal a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Dirac semimetal" ;
+    skos:broader ttm:TopologicalSemimetal .
+
+ttm:WeylSemimetal a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Weyl semimetal" ;
+    skos:broader ttm:TopologicalSemimetal .
+
+ttm:NodalLineSemimetal a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Nodal-line semimetal" ;
+    skos:broader ttm:TopologicalSemimetal .
+
+ttm:Z2Semimetal a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Z2 non-trivial semimetal" ;
+    skos:broader ttm:TopologicalSemimetal .
+
+ttm:BandInvertedCandidate a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Band-inverted (candidate)" ;
+    skos:broader ttm:TopologicalPhaseRoot .
+
+ttm:NearTopologicalTransition a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "Near a topological transition" ;
+    skos:broader ttm:TopologicalPhaseRoot .
+
+ttm:HighSpillage a skos:Concept, ttm:TopologicalPhase ;
+    skos:prefLabel "SOC band inversion indicated (spillage ≥ 0.5, DFT)" ;
+    skos:broader ttm:BandInvertedCandidate .
+
+ttm:Cryogenic a skos:Concept, ttm:OperatingRegime ;
+    skos:prefLabel "Cryogenic (< 250 K)" .
+
+ttm:NearRoomTemperature a skos:Concept, ttm:OperatingRegime ;
+    skos:prefLabel "Near room temperature (250–500 K)" .
+
+ttm:MidTemperature a skos:Concept, ttm:OperatingRegime ;
+    skos:prefLabel "Mid temperature (500–900 K)" .
+
+ttm:HighTemperature a skos:Concept, ttm:OperatingRegime ;
+    skos:prefLabel "High temperature (> 900 K)" .

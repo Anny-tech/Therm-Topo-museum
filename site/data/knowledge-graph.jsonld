@@ -1,0 +1,4218 @@
+{
+ "@context": {
+  "ttm": "ontology#",
+  "schema": "https://schema.org/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "owl": "http://www.w3.org/2002/07/owl#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "dcterms": "http://purl.org/dc/terms/",
+  "label": "rdfs:label",
+  "comment": "rdfs:comment",
+  "broader": {
+   "@id": "skos:broader",
+   "@type": "@id"
+  },
+  "subClassOf": {
+   "@id": "rdfs:subClassOf",
+   "@type": "@id"
+  },
+  "domain": {
+   "@id": "rdfs:domain",
+   "@type": "@id"
+  },
+  "range": {
+   "@id": "rdfs:range",
+   "@type": "@id"
+  },
+  "equivalentClass": {
+   "@id": "owl:equivalentClass",
+   "@type": "@id"
+  },
+  "material": "material/",
+  "family": "family/",
+  "element": "element/",
+  "sg": "spacegroup/",
+  "cs": "crystal-system/",
+  "phase": "ttm:",
+  "regime": "ttm:",
+  "app": "application/",
+  "motif": "motif/",
+  "db": "database/",
+  "stype": "structure-type/",
+  "doi": "https://doi.org/"
+ },
+ "@graph": [
+  {
+   "@id": "app:thermoelectric",
+   "@type": "ttm:Application",
+   "label": "Thermoelectrics"
+  },
+  {
+   "@id": "app:topological",
+   "@type": "ttm:Application",
+   "label": "Topological quantum materials"
+  },
+  {
+   "@id": "family:tetradymites",
+   "@type": "ttm:MaterialFamily",
+   "label": "Tetradymites",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Tetradymite (R-3m), quintuple-layer stacking"
+    }
+   ]
+  },
+  {
+   "@id": "stype:Tetradymite (R-3m), quintuple-layer stacking",
+   "@type": "ttm:StructureType",
+   "label": "Tetradymite (R-3m)"
+  },
+  {
+   "@id": "family:skutterudites",
+   "@type": "ttm:MaterialFamily",
+   "label": "Skutterudites",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Skutterudite (Im-3), CoAs3-type with voids"
+    }
+   ]
+  },
+  {
+   "@id": "stype:Skutterudite (Im-3), CoAs3-type with voids",
+   "@type": "ttm:StructureType",
+   "label": "Skutterudite (Im-3)"
+  },
+  {
+   "@id": "family:half-heuslers",
+   "@type": "ttm:MaterialFamily",
+   "label": "Half-Heuslers",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:MgAgAs-type (F-43m)"
+    }
+   ]
+  },
+  {
+   "@id": "stype:MgAgAs-type (F-43m)",
+   "@type": "ttm:StructureType",
+   "label": "MgAgAs-type (F-43m)"
+  },
+  {
+   "@id": "family:zintl",
+   "@type": "ttm:MaterialFamily",
+   "label": "Zintl phases",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Valence-precise polyanionic frameworks"
+    }
+   ]
+  },
+  {
+   "@id": "stype:Valence-precise polyanionic frameworks",
+   "@type": "ttm:StructureType",
+   "label": "Valence-precise polyanionic frameworks"
+  },
+  {
+   "@id": "family:rocksalt-chalcogenides",
+   "@type": "ttm:MaterialFamily",
+   "label": "IV–VI chalcogenides",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Rocksalt and distorted rocksalt (Pnma, R3m)"
+    }
+   ]
+  },
+  {
+   "@id": "stype:Rocksalt and distorted rocksalt (Pnma, R3m)",
+   "@type": "ttm:StructureType",
+   "label": "Rocksalt and distorted rocksalt (Pnma"
+  },
+  {
+   "@id": "family:topological-semimetals",
+   "@type": "ttm:MaterialFamily",
+   "label": "Topological semimetals",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Various"
+    }
+   ]
+  },
+  {
+   "@id": "stype:Various",
+   "@type": "ttm:StructureType",
+   "label": "Various"
+  },
+  {
+   "@id": "family:other-thermoelectrics",
+   "@type": "ttm:MaterialFamily",
+   "label": "More thermoelectrics",
+   "ttm:hasStructureType": [
+    {
+     "@id": "stype:Various"
+    }
+   ]
+  },
+  {
+   "@id": "material:bi2te3",
+   "@type": "ttm:Material",
+   "label": "Bi2Te3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:StrongTopologicalInsulator"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:NearRoomTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1126/science.1173034"
+    },
+    {
+     "@id": "doi:10.1038/nphys1270"
+    },
+    {
+     "@id": "doi:10.1038/natrevmats.2017.49"
+    }
+   ]
+  },
+  {
+   "@id": "element:Te",
+   "@type": "ttm:ChemicalElement",
+   "label": "Te"
+  },
+  {
+   "@id": "element:Bi",
+   "@type": "ttm:ChemicalElement",
+   "label": "Bi"
+  },
+  {
+   "@id": "sg:166",
+   "@type": "ttm:SpaceGroup",
+   "label": "R-3m (#166)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:trigonal"
+    }
+   ]
+  },
+  {
+   "@id": "cs:trigonal",
+   "@type": "ttm:CrystalSystem",
+   "label": "Trigonal"
+  },
+  {
+   "@id": "motif:octahedron",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Octahedron"
+  },
+  {
+   "@id": "db:mp",
+   "@type": "ttm:Database",
+   "label": "Materials Project",
+   "schema:url": "https://materialsproject.org"
+  },
+  {
+   "@id": "db:jarvis",
+   "@type": "ttm:Database",
+   "label": "JARVIS-DFT",
+   "schema:url": "https://jarvis.nist.gov"
+  },
+  {
+   "@id": "db:alex-pbe",
+   "@type": "ttm:Database",
+   "label": "Alexandria (PBE)",
+   "schema:url": "https://alexandria.icams.rub.de/"
+  },
+  {
+   "@id": "db:alex-pbesol",
+   "@type": "ttm:Database",
+   "label": "Alexandria (PBEsol)",
+   "schema:url": "https://alexandria.icams.rub.de/"
+  },
+  {
+   "@id": "db:oqmd",
+   "@type": "ttm:Database",
+   "label": "OQMD",
+   "schema:url": "https://oqmd.org"
+  },
+  {
+   "@id": "doi:10.1126/science.1173034",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Chen 2009",
+   "schema:url": "https://doi.org/10.1126/science.1173034",
+   "schema:name": "Experimental Realization of a Three-Dimensional Topological Insulator, Bi 2 Te 3"
+  },
+  {
+   "@id": "doi:10.1038/nphys1270",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhang 2009",
+   "schema:url": "https://doi.org/10.1038/nphys1270",
+   "schema:name": "Topological insulators in Bi2Se3, Bi2Te3 and Sb2Te3 with a single Dirac cone on the surface"
+  },
+  {
+   "@id": "doi:10.1038/natrevmats.2017.49",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Heremans 2017",
+   "schema:url": "https://doi.org/10.1038/natrevmats.2017.49",
+   "schema:name": "Tetradymites as thermoelectrics and topological insulators"
+  },
+  {
+   "@id": "material:sb2te3",
+   "@type": "ttm:Material",
+   "label": "Sb2Te3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Te"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:StrongTopologicalInsulator"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nphys1270"
+    }
+   ]
+  },
+  {
+   "@id": "element:Sb",
+   "@type": "ttm:ChemicalElement",
+   "label": "Sb"
+  },
+  {
+   "@id": "material:bi2se3",
+   "@type": "ttm:Material",
+   "label": "Bi2Se3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:StrongTopologicalInsulator"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nphys1274"
+    },
+    {
+     "@id": "doi:10.1038/nphys1270"
+    }
+   ]
+  },
+  {
+   "@id": "element:Se",
+   "@type": "ttm:ChemicalElement",
+   "label": "Se"
+  },
+  {
+   "@id": "doi:10.1038/nphys1274",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Xia 2009",
+   "schema:url": "https://doi.org/10.1038/nphys1274",
+   "schema:name": "Observation of a large-gap topological-insulator class with a single Dirac cone on the surface"
+  },
+  {
+   "@id": "material:bi2te2se",
+   "@type": "ttm:Material",
+   "label": "Bi2Te2Se",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:StrongTopologicalInsulator"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.82.241306"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1103/physrevb.82.241306",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Ren 2010",
+   "schema:url": "https://doi.org/10.1103/physrevb.82.241306",
+   "schema:name": "Large bulk resistivity and surface quantum oscillations in the topological insulator Bi 2 Te 2 Se"
+  },
+  {
+   "@id": "material:mnbi2te4",
+   "@type": "ttm:Material",
+   "label": "MnBi2Te4",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mn"
+    },
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:MagneticTopologicalInsulator"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/s41586-019-1840-9"
+    },
+    {
+     "@id": "doi:10.1126/science.aax8156"
+    }
+   ]
+  },
+  {
+   "@id": "element:Mn",
+   "@type": "ttm:ChemicalElement",
+   "label": "Mn"
+  },
+  {
+   "@id": "doi:10.1038/s41586-019-1840-9",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Otrokov 2019",
+   "schema:url": "https://doi.org/10.1038/s41586-019-1840-9",
+   "schema:name": "Prediction and observation of an antiferromagnetic topological insulator"
+  },
+  {
+   "@id": "doi:10.1126/science.aax8156",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Deng 2020",
+   "schema:url": "https://doi.org/10.1126/science.aax8156",
+   "schema:name": "Quantum anomalous Hall effect in intrinsic magnetic topological insulator MnBi 2 Te 4"
+  },
+  {
+   "@id": "material:bisbte-alloy",
+   "@type": "ttm:Material",
+   "label": "Bi0.5Sb1.5Te3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:NearRoomTemperature"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:bi2te3"
+    },
+    {
+     "@id": "material:sb2te3"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1126/science.1156446"
+    },
+    {
+     "@id": "doi:10.1126/science.aaa4166"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1126/science.1156446",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Poudel 2008",
+   "schema:url": "https://doi.org/10.1126/science.1156446",
+   "schema:name": "High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys"
+  },
+  {
+   "@id": "doi:10.1126/science.aaa4166",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Kim 2015",
+   "schema:url": "https://doi.org/10.1126/science.aaa4166",
+   "schema:name": "Dense dislocation arrays embedded in grain boundaries for high-performance bulk thermoelectrics"
+  },
+  {
+   "@id": "material:bitese-alloy",
+   "@type": "ttm:Material",
+   "label": "Bi2Te3-xSex",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:tetradymites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:NearRoomTemperature"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:bi2te3"
+    },
+    {
+     "@id": "material:bi2se3"
+    },
+    {
+     "@id": "material:bi2te2se"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/natrevmats.2017.49"
+    }
+   ]
+  },
+  {
+   "@id": "material:cosb3",
+   "@type": "ttm:Material",
+   "label": "CoSb3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat4430"
+    },
+    {
+     "@id": "doi:10.1126/science.272.5266.1325"
+    }
+   ]
+  },
+  {
+   "@id": "element:Co",
+   "@type": "ttm:ChemicalElement",
+   "label": "Co"
+  },
+  {
+   "@id": "sg:204",
+   "@type": "ttm:SpaceGroup",
+   "label": "Im-3 (#204)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:cubic"
+    }
+   ]
+  },
+  {
+   "@id": "cs:cubic",
+   "@type": "ttm:CrystalSystem",
+   "label": "Cubic"
+  },
+  {
+   "@id": "doi:10.1038/nmat4430",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Tang 2015",
+   "schema:url": "https://doi.org/10.1038/nmat4430",
+   "schema:name": "Convergence of multi-valley bands as the electronic origin of high thermoelectric performance in CoSb3 skutterudites"
+  },
+  {
+   "@id": "doi:10.1126/science.272.5266.1325",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Sales 1996",
+   "schema:url": "https://doi.org/10.1126/science.272.5266.1325",
+   "schema:name": "Filled Skutterudite Antimonides: A New Class of Thermoelectric Materials"
+  },
+  {
+   "@id": "material:rhsb3",
+   "@type": "ttm:Material",
+   "label": "RhSb3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Rh"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:Rh",
+   "@type": "ttm:ChemicalElement",
+   "label": "Rh"
+  },
+  {
+   "@id": "material:irsb3",
+   "@type": "ttm:Material",
+   "label": "IrSb3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Ir"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ir",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ir"
+  },
+  {
+   "@id": "material:coas3",
+   "@type": "ttm:Material",
+   "label": "CoAs3",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:As"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:As",
+   "@type": "ttm:ChemicalElement",
+   "label": "As"
+  },
+  {
+   "@id": "material:cefe4sb12",
+   "@type": "ttm:Material",
+   "label": "CeFe4Sb12",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Fe"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Ce"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1126/science.272.5266.1325"
+    }
+   ]
+  },
+  {
+   "@id": "element:Fe",
+   "@type": "ttm:ChemicalElement",
+   "label": "Fe"
+  },
+  {
+   "@id": "element:Ce",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ce"
+  },
+  {
+   "@id": "material:lafe4sb12",
+   "@type": "ttm:Material",
+   "label": "LaFe4Sb12",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Fe"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:La"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1126/science.272.5266.1325"
+    }
+   ]
+  },
+  {
+   "@id": "element:La",
+   "@type": "ttm:ChemicalElement",
+   "label": "La"
+  },
+  {
+   "@id": "material:ybfe4sb12",
+   "@type": "ttm:Material",
+   "label": "YbFe4Sb12",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Fe"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Yb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:204"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1021/ja111199y"
+    }
+   ]
+  },
+  {
+   "@id": "element:Yb",
+   "@type": "ttm:ChemicalElement",
+   "label": "Yb"
+  },
+  {
+   "@id": "doi:10.1021/ja111199y",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Shi 2011",
+   "schema:url": "https://doi.org/10.1021/ja111199y",
+   "schema:name": "Multiple-Filled Skutterudites: High Thermoelectric Figure of Merit through Separately Optimizing Electrical and Thermal Transports"
+  },
+  {
+   "@id": "material:filled-cosb3-alloy",
+   "@type": "ttm:Material",
+   "label": "(Ba,La,Yb)yCo4Sb12",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:skutterudites"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Ba"
+    },
+    {
+     "@id": "element:La"
+    },
+    {
+     "@id": "element:Yb"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:cosb3"
+    },
+    {
+     "@id": "material:ybfe4sb12"
+    },
+    {
+     "@id": "material:lafe4sb12"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1021/ja111199y"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ba",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ba"
+  },
+  {
+   "@id": "material:zrnisn",
+   "@type": "ttm:Material",
+   "label": "ZrNiSn",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ni"
+    },
+    {
+     "@id": "element:Zr"
+    },
+    {
+     "@id": "element:Sn"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    },
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:bicapped square antiprism"
+    },
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ni",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ni"
+  },
+  {
+   "@id": "element:Zr",
+   "@type": "ttm:ChemicalElement",
+   "label": "Zr"
+  },
+  {
+   "@id": "element:Sn",
+   "@type": "ttm:ChemicalElement",
+   "label": "Sn"
+  },
+  {
+   "@id": "sg:216",
+   "@type": "ttm:SpaceGroup",
+   "label": "F-43m (#216)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:cubic"
+    }
+   ]
+  },
+  {
+   "@id": "motif:bicapped square antiprism",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Bicapped square antiprism"
+  },
+  {
+   "@id": "motif:tetrahedron",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Tetrahedron"
+  },
+  {
+   "@id": "material:hfnisn",
+   "@type": "ttm:Material",
+   "label": "HfNiSn",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ni"
+    },
+    {
+     "@id": "element:Sn"
+    },
+    {
+     "@id": "element:Hf"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:bicapped square antiprism"
+    },
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:Hf",
+   "@type": "ttm:ChemicalElement",
+   "label": "Hf"
+  },
+  {
+   "@id": "material:tinisn",
+   "@type": "ttm:Material",
+   "label": "TiNiSn",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ti"
+    },
+    {
+     "@id": "element:Ni"
+    },
+    {
+     "@id": "element:Sn"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:bicapped square antiprism"
+    },
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ti",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ti"
+  },
+  {
+   "@id": "material:nbfesb",
+   "@type": "ttm:Material",
+   "label": "NbFeSb",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Fe"
+    },
+    {
+     "@id": "element:Nb"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:bicapped square antiprism"
+    },
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/ncomms9144"
+    }
+   ]
+  },
+  {
+   "@id": "element:Nb",
+   "@type": "ttm:ChemicalElement",
+   "label": "Nb"
+  },
+  {
+   "@id": "doi:10.1038/ncomms9144",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Fu 2015",
+   "schema:url": "https://doi.org/10.1038/ncomms9144",
+   "schema:name": "Realizing high figure of merit in heavy-band p-type half-Heusler thermoelectric materials"
+  },
+  {
+   "@id": "material:zrcosb",
+   "@type": "ttm:Material",
+   "label": "ZrCoSb",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:Zr"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "material:zrcobi",
+   "@type": "ttm:Material",
+   "label": "ZrCoBi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:Zr"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:bicapped square antiprism"
+    },
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/s41467-018-04958-3"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/s41467-018-04958-3",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhu 2018",
+   "schema:url": "https://doi.org/10.1038/s41467-018-04958-3",
+   "schema:name": "Discovery of ZrCoBi based half Heuslers with high thermoelectric conversion efficiency"
+  },
+  {
+   "@id": "material:ticosb",
+   "@type": "ttm:Material",
+   "label": "TiCoSb",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ti"
+    },
+    {
+     "@id": "element:Co"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ]
+  },
+  {
+   "@id": "material:yptbi",
+   "@type": "ttm:Material",
+   "label": "YPtBi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Y"
+    },
+    {
+     "@id": "element:Pt"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:BandInvertedCandidate"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:cube"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    },
+    {
+     "@id": "db:oqmd"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat2770"
+    },
+    {
+     "@id": "doi:10.1038/nmat2771"
+    }
+   ]
+  },
+  {
+   "@id": "element:Y",
+   "@type": "ttm:ChemicalElement",
+   "label": "Y"
+  },
+  {
+   "@id": "element:Pt",
+   "@type": "ttm:ChemicalElement",
+   "label": "Pt"
+  },
+  {
+   "@id": "motif:cube",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Cube"
+  },
+  {
+   "@id": "doi:10.1038/nmat2770",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Chadov 2010",
+   "schema:url": "https://doi.org/10.1038/nmat2770",
+   "schema:name": "Tunable multifunctional topological insulators in ternary Heusler compounds"
+  },
+  {
+   "@id": "doi:10.1038/nmat2771",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Lin 2010",
+   "schema:url": "https://doi.org/10.1038/nmat2771",
+   "schema:name": "Half-Heusler ternary compounds as new multifunctional experimental platforms for topological quantum phenomena"
+  },
+  {
+   "@id": "material:luptbi",
+   "@type": "ttm:Material",
+   "label": "LuPtBi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Lu"
+    },
+    {
+     "@id": "element:Pt"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:BandInvertedCandidate"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:cube"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat2770"
+    },
+    {
+     "@id": "doi:10.1038/nmat2771"
+    }
+   ]
+  },
+  {
+   "@id": "element:Lu",
+   "@type": "ttm:ChemicalElement",
+   "label": "Lu"
+  },
+  {
+   "@id": "material:scptbi",
+   "@type": "ttm:Material",
+   "label": "ScPtBi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:half-heuslers"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sc"
+    },
+    {
+     "@id": "element:Pt"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:216"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:cube"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat2770"
+    }
+   ]
+  },
+  {
+   "@id": "element:Sc",
+   "@type": "ttm:ChemicalElement",
+   "label": "Sc"
+  },
+  {
+   "@id": "material:mg3sb2",
+   "@type": "ttm:Material",
+   "label": "Mg3Sb2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:164"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:NearRoomTemperature"
+    },
+    {
+     "@id": "regime:MidTemperature"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1002/adma.201603955"
+    },
+    {
+     "@id": "doi:10.1038/ncomms13901"
+    }
+   ]
+  },
+  {
+   "@id": "element:Mg",
+   "@type": "ttm:ChemicalElement",
+   "label": "Mg"
+  },
+  {
+   "@id": "sg:164",
+   "@type": "ttm:SpaceGroup",
+   "label": "P-3m1 (#164)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:trigonal"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1002/adma.201603955",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Tamaki 2016",
+   "schema:url": "https://doi.org/10.1002/adma.201603955",
+   "schema:name": "Isotropic Conduction Network and Defect Chemistry in Mg 3+ δ Sb 2 ‐Based Layered Zintl Compounds with High Thermoelectric Performance"
+  },
+  {
+   "@id": "doi:10.1038/ncomms13901",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhang 2017",
+   "schema:url": "https://doi.org/10.1038/ncomms13901",
+   "schema:name": "Discovery of high-performance low-cost n-type Mg3Sb2-based thermoelectric materials with multi-valley conduction bands"
+  },
+  {
+   "@id": "material:mg3bi2",
+   "@type": "ttm:Material",
+   "label": "Mg3Bi2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:164"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:NodalLineSemimetal"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    },
+    {
+     "@id": "motif:pentagonal bipyramid / capped octahedron"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1126/science.aax7792"
+    },
+    {
+     "@id": "doi:10.1002/advs.201800897"
+    }
+   ]
+  },
+  {
+   "@id": "motif:pentagonal bipyramid / capped octahedron",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Pentagonal bipyramid / capped octahedron"
+  },
+  {
+   "@id": "doi:10.1126/science.aax7792",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Mao 2019",
+   "schema:url": "https://doi.org/10.1126/science.aax7792",
+   "schema:name": "High thermoelectric cooling performance of n-type Mg 3 Bi 2 -based materials"
+  },
+  {
+   "@id": "doi:10.1002/advs.201800897",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Chang 2019",
+   "schema:url": "https://doi.org/10.1002/advs.201800897",
+   "schema:name": "Realization of a Type‐II Nodal‐Line Semimetal in Mg3Bi2"
+  },
+  {
+   "@id": "material:mgsbbi-alloy",
+   "@type": "ttm:Material",
+   "label": "Mg3Sb2-xBix",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:mg3sb2"
+    },
+    {
+     "@id": "material:mg3bi2"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1002/adma.201603955"
+    },
+    {
+     "@id": "doi:10.1126/science.aax7792"
+    }
+   ]
+  },
+  {
+   "@id": "material:cazn2sb2",
+   "@type": "ttm:Material",
+   "label": "CaZn2Sb2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ca"
+    },
+    {
+     "@id": "element:Zn"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:164"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1039/b702266b"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ca",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ca"
+  },
+  {
+   "@id": "element:Zn",
+   "@type": "ttm:ChemicalElement",
+   "label": "Zn"
+  },
+  {
+   "@id": "doi:10.1039/b702266b",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Kauzlarich 2007",
+   "schema:url": "https://doi.org/10.1039/b702266b",
+   "schema:name": "Zintl phases for thermoelectric devices"
+  },
+  {
+   "@id": "material:ybzn2sb2",
+   "@type": "ttm:Material",
+   "label": "YbZn2Sb2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Zn"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Yb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:164"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1039/b702266b"
+    }
+   ]
+  },
+  {
+   "@id": "material:euzn2sb2",
+   "@type": "ttm:Material",
+   "label": "EuZn2Sb2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Zn"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Eu"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:164"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ]
+  },
+  {
+   "@id": "element:Eu",
+   "@type": "ttm:ChemicalElement",
+   "label": "Eu"
+  },
+  {
+   "@id": "material:yb14mnsb11",
+   "@type": "ttm:Material",
+   "label": "Yb14MnSb11",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mn"
+    },
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Yb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:142"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1021/cm060261t"
+    }
+   ]
+  },
+  {
+   "@id": "sg:142",
+   "@type": "ttm:SpaceGroup",
+   "label": "I4_1/acd (#142)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:tetragonal"
+    }
+   ]
+  },
+  {
+   "@id": "cs:tetragonal",
+   "@type": "ttm:CrystalSystem",
+   "label": "Tetragonal"
+  },
+  {
+   "@id": "doi:10.1021/cm060261t",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Brown 2006",
+   "schema:url": "https://doi.org/10.1021/cm060261t",
+   "schema:name": "Yb14MnSb11: New High Efficiency Thermoelectric Material for Power Generation"
+  },
+  {
+   "@id": "material:ca5al2sb6",
+   "@type": "ttm:Material",
+   "label": "Ca5Al2Sb6",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Al"
+    },
+    {
+     "@id": "element:Ca"
+    },
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:55"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1039/b702266b"
+    }
+   ]
+  },
+  {
+   "@id": "element:Al",
+   "@type": "ttm:ChemicalElement",
+   "label": "Al"
+  },
+  {
+   "@id": "sg:55",
+   "@type": "ttm:SpaceGroup",
+   "label": "Pbam (#55)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:orthorhombic"
+    }
+   ]
+  },
+  {
+   "@id": "cs:orthorhombic",
+   "@type": "ttm:CrystalSystem",
+   "label": "Orthorhombic"
+  },
+  {
+   "@id": "material:euin2as2",
+   "@type": "ttm:Material",
+   "label": "EuIn2As2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:zintl"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:As"
+    },
+    {
+     "@id": "element:In"
+    },
+    {
+     "@id": "element:Eu"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:194"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:AxionInsulator"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevlett.122.256402"
+    }
+   ]
+  },
+  {
+   "@id": "element:In",
+   "@type": "ttm:ChemicalElement",
+   "label": "In"
+  },
+  {
+   "@id": "sg:194",
+   "@type": "ttm:SpaceGroup",
+   "label": "P6_3/mmc (#194)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:hexagonal"
+    }
+   ]
+  },
+  {
+   "@id": "cs:hexagonal",
+   "@type": "ttm:CrystalSystem",
+   "label": "Hexagonal"
+  },
+  {
+   "@id": "doi:10.1103/physrevlett.122.256402",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Xu 2019",
+   "schema:url": "https://doi.org/10.1103/physrevlett.122.256402",
+   "schema:name": "Higher-Order Topology of the Axion Insulator EuIn 2 As 2"
+  },
+  {
+   "@id": "material:pbte",
+   "@type": "ttm:Material",
+   "label": "PbTe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Pb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    },
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nature09996"
+    },
+    {
+     "@id": "doi:10.1038/nature11439"
+    }
+   ]
+  },
+  {
+   "@id": "element:Pb",
+   "@type": "ttm:ChemicalElement",
+   "label": "Pb"
+  },
+  {
+   "@id": "sg:225",
+   "@type": "ttm:SpaceGroup",
+   "label": "Fm-3m (#225)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:cubic"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/nature09996",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Pei 2011",
+   "schema:url": "https://doi.org/10.1038/nature09996",
+   "schema:name": "Convergence of electronic bands for high performance bulk thermoelectrics"
+  },
+  {
+   "@id": "doi:10.1038/nature11439",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Biswas 2012",
+   "schema:url": "https://doi.org/10.1038/nature11439",
+   "schema:name": "High-performance bulk thermoelectrics with all-scale hierarchical architectures"
+  },
+  {
+   "@id": "material:pbse",
+   "@type": "ttm:Material",
+   "label": "PbSe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Pb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat3449"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/nmat3449",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Dziawa 2012",
+   "schema:url": "https://doi.org/10.1038/nmat3449",
+   "schema:name": "Topological crystalline insulator states in Pb1−xSnxSe"
+  },
+  {
+   "@id": "material:snte",
+   "@type": "ttm:Material",
+   "label": "SnTe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sn"
+    },
+    {
+     "@id": "element:Te"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:TopologicalCrystallineInsulator"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevlett.106.106802"
+    },
+    {
+     "@id": "doi:10.1038/ncomms1969"
+    },
+    {
+     "@id": "doi:10.1038/nphys2442"
+    },
+    {
+     "@id": "doi:10.1073/pnas.1305735110"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1103/physrevlett.106.106802",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Fu 2011",
+   "schema:url": "https://doi.org/10.1103/physrevlett.106.106802",
+   "schema:name": "Topological Crystalline Insulators"
+  },
+  {
+   "@id": "doi:10.1038/ncomms1969",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Hsieh 2012",
+   "schema:url": "https://doi.org/10.1038/ncomms1969",
+   "schema:name": "Topological crystalline insulators in the SnTe material class"
+  },
+  {
+   "@id": "doi:10.1038/nphys2442",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Tanaka 2012",
+   "schema:url": "https://doi.org/10.1038/nphys2442",
+   "schema:name": "Experimental realization of a topological crystalline insulator in SnTe"
+  },
+  {
+   "@id": "doi:10.1073/pnas.1305735110",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhang 2013",
+   "schema:url": "https://doi.org/10.1073/pnas.1305735110",
+   "schema:name": "High thermoelectric performance by resonant dopant indium in nanostructured SnTe"
+  },
+  {
+   "@id": "material:pbsnse-alloy",
+   "@type": "ttm:Material",
+   "label": "Pb1-xSnxSe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Sn"
+    },
+    {
+     "@id": "element:Pb"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:TopologicalCrystallineInsulator"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:pbse"
+    },
+    {
+     "@id": "material:snse"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat3449"
+    }
+   ]
+  },
+  {
+   "@id": "material:snse",
+   "@type": "ttm:Material",
+   "label": "SnSe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Sn"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:62"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    },
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nature13184"
+    },
+    {
+     "@id": "doi:10.1126/science.aad3749"
+    },
+    {
+     "@id": "doi:10.1038/s41563-021-01064-6"
+    }
+   ]
+  },
+  {
+   "@id": "sg:62",
+   "@type": "ttm:SpaceGroup",
+   "label": "Pnma (#62)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:orthorhombic"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/nature13184",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhao 2014",
+   "schema:url": "https://doi.org/10.1038/nature13184",
+   "schema:name": "Ultralow thermal conductivity and high thermoelectric figure of merit in SnSe crystals"
+  },
+  {
+   "@id": "doi:10.1126/science.aad3749",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhao 2016",
+   "schema:url": "https://doi.org/10.1126/science.aad3749",
+   "schema:name": "Ultrahigh power factor and thermoelectric performance in hole-doped single-crystal SnSe"
+  },
+  {
+   "@id": "doi:10.1038/s41563-021-01064-6",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Zhou 2021",
+   "schema:url": "https://doi.org/10.1038/s41563-021-01064-6",
+   "schema:name": "Polycrystalline SnSe with a thermoelectric figure of merit greater than the single crystal"
+  },
+  {
+   "@id": "material:gete",
+   "@type": "ttm:Material",
+   "label": "GeTe",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:rocksalt-chalcogenides"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Ge"
+    },
+    {
+     "@id": "element:Te"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:160"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1002/adma.201203199"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ge",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ge"
+  },
+  {
+   "@id": "sg:160",
+   "@type": "ttm:SpaceGroup",
+   "label": "R3m (#160)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:trigonal"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1002/adma.201203199",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Sante 2013",
+   "schema:url": "https://doi.org/10.1002/adma.201203199",
+   "schema:name": "Electric Control of the Giant Rashba Effect in Bulk GeTe"
+  },
+  {
+   "@id": "material:bi",
+   "@type": "ttm:Material",
+   "label": "Bi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    },
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.76.045302"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1103/physrevb.76.045302",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Fu 2007",
+   "schema:url": "https://doi.org/10.1103/physrevb.76.045302",
+   "schema:name": "Topological insulators with inversion symmetry"
+  },
+  {
+   "@id": "material:sb",
+   "@type": "ttm:Material",
+   "label": "Sb",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:166"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:Z2Semimetal"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.76.045302"
+    }
+   ]
+  },
+  {
+   "@id": "material:bisb-alloy",
+   "@type": "ttm:Material",
+   "label": "Bi1-xSbx",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Sb"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:StrongTopologicalInsulator"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:bi"
+    },
+    {
+     "@id": "material:sb"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.76.045302"
+    },
+    {
+     "@id": "doi:10.1038/nature06843"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/nature06843",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Hsieh 2008",
+   "schema:url": "https://doi.org/10.1038/nature06843",
+   "schema:name": "A topological Dirac insulator in a quantum spin Hall phase"
+  },
+  {
+   "@id": "material:cd3as2",
+   "@type": "ttm:Material",
+   "label": "Cd3As2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:As"
+    },
+    {
+     "@id": "element:Cd"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:142"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:DiracSemimetal"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.88.125427"
+    },
+    {
+     "@id": "doi:10.1038/nmat3990"
+    },
+    {
+     "@id": "doi:10.1038/ncomms4786"
+    },
+    {
+     "@id": "doi:10.1021/ic403163d"
+    }
+   ]
+  },
+  {
+   "@id": "element:Cd",
+   "@type": "ttm:ChemicalElement",
+   "label": "Cd"
+  },
+  {
+   "@id": "doi:10.1103/physrevb.88.125427",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Wang 2013",
+   "schema:url": "https://doi.org/10.1103/physrevb.88.125427",
+   "schema:name": "Three-dimensional Dirac semimetal and quantum transport in Cd3As2"
+  },
+  {
+   "@id": "doi:10.1038/nmat3990",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Liu 2014",
+   "schema:url": "https://doi.org/10.1038/nmat3990",
+   "schema:name": "A stable three-dimensional topological Dirac semimetal Cd3As2"
+  },
+  {
+   "@id": "doi:10.1038/ncomms4786",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Neupane 2014",
+   "schema:url": "https://doi.org/10.1038/ncomms4786",
+   "schema:name": "Observation of a three-dimensional topological Dirac semimetal phase in high-mobility Cd3As2"
+  },
+  {
+   "@id": "doi:10.1021/ic403163d",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Ali 2014",
+   "schema:url": "https://doi.org/10.1021/ic403163d",
+   "schema:name": "The Crystal and Electronic Structures of Cd 3 As 2 , the Three-Dimensional Electronic Analogue of Graphene"
+  },
+  {
+   "@id": "material:na3bi",
+   "@type": "ttm:Material",
+   "label": "Na3Bi",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Na"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:194"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:DiracSemimetal"
+    },
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:11-vertex polyhedron (6×3-gon, 6×4-gon)"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevb.85.195320"
+    },
+    {
+     "@id": "doi:10.1126/science.1245085"
+    }
+   ]
+  },
+  {
+   "@id": "element:Na",
+   "@type": "ttm:ChemicalElement",
+   "label": "Na"
+  },
+  {
+   "@id": "motif:11-vertex polyhedron (6×3-gon, 6×4-gon)",
+   "@type": "ttm:CoordinationMotif",
+   "label": "11-vertex polyhedron (6×3-gon, 6×4-gon)"
+  },
+  {
+   "@id": "doi:10.1103/physrevb.85.195320",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Wang 2012",
+   "schema:url": "https://doi.org/10.1103/physrevb.85.195320",
+   "schema:name": "Dirac semimetal and topological phase transitions in A 3 Bi ( A = Na , K, Rb)"
+  },
+  {
+   "@id": "doi:10.1126/science.1245085",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Liu 2014",
+   "schema:url": "https://doi.org/10.1126/science.1245085",
+   "schema:name": "Discovery of a Three-Dimensional Topological Dirac Semimetal, Na 3 Bi"
+  },
+  {
+   "@id": "material:taas",
+   "@type": "ttm:Material",
+   "label": "TaAs",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:As"
+    },
+    {
+     "@id": "element:Ta"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:109"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:WeylSemimetal"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevx.5.011029"
+    },
+    {
+     "@id": "doi:10.1038/ncomms8373"
+    },
+    {
+     "@id": "doi:10.1126/science.aaa9297"
+    },
+    {
+     "@id": "doi:10.1103/physrevx.5.031013"
+    }
+   ]
+  },
+  {
+   "@id": "element:Ta",
+   "@type": "ttm:ChemicalElement",
+   "label": "Ta"
+  },
+  {
+   "@id": "sg:109",
+   "@type": "ttm:SpaceGroup",
+   "label": "I4_1md (#109)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:tetragonal"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1103/physrevx.5.011029",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Weng 2015",
+   "schema:url": "https://doi.org/10.1103/physrevx.5.011029",
+   "schema:name": "Weyl Semimetal Phase in Noncentrosymmetric Transition-Metal Monophosphides"
+  },
+  {
+   "@id": "doi:10.1038/ncomms8373",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Huang 2015",
+   "schema:url": "https://doi.org/10.1038/ncomms8373",
+   "schema:name": "A Weyl Fermion semimetal with surface Fermi arcs in the transition metal monopnictide TaAs class"
+  },
+  {
+   "@id": "doi:10.1126/science.aaa9297",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Xu 2015",
+   "schema:url": "https://doi.org/10.1126/science.aaa9297",
+   "schema:name": "Discovery of a Weyl fermion semimetal and topological Fermi arcs"
+  },
+  {
+   "@id": "doi:10.1103/physrevx.5.031013",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Lv 2015",
+   "schema:url": "https://doi.org/10.1103/physrevx.5.031013",
+   "schema:name": "Experimental Discovery of Weyl Semimetal TaAs"
+  },
+  {
+   "@id": "material:nbp",
+   "@type": "ttm:Material",
+   "label": "NbP",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:P"
+    },
+    {
+     "@id": "element:Nb"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:109"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:WeylSemimetal"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nphys3372"
+    }
+   ]
+  },
+  {
+   "@id": "element:P",
+   "@type": "ttm:ChemicalElement",
+   "label": "P"
+  },
+  {
+   "@id": "doi:10.1038/nphys3372",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Shekhar 2015",
+   "schema:url": "https://doi.org/10.1038/nphys3372",
+   "schema:name": "Extremely large magnetoresistance and ultrahigh mobility in the topological Weyl semimetal candidate NbP"
+  },
+  {
+   "@id": "material:wte2",
+   "@type": "ttm:Material",
+   "label": "WTe2",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:W"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:31"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:WeylSemimetal"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:octahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nature13763"
+    },
+    {
+     "@id": "doi:10.1038/nature15768"
+    }
+   ]
+  },
+  {
+   "@id": "element:W",
+   "@type": "ttm:ChemicalElement",
+   "label": "W"
+  },
+  {
+   "@id": "sg:31",
+   "@type": "ttm:SpaceGroup",
+   "label": "Pmn2_1 (#31)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:orthorhombic"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1038/nature13763",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Ali 2014",
+   "schema:url": "https://doi.org/10.1038/nature13763",
+   "schema:name": "Large, non-saturating magnetoresistance in WTe2"
+  },
+  {
+   "@id": "doi:10.1038/nature15768",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Soluyanov 2015",
+   "schema:url": "https://doi.org/10.1038/nature15768",
+   "schema:name": "Type-II Weyl semimetals"
+  },
+  {
+   "@id": "material:zrte5",
+   "@type": "ttm:Material",
+   "label": "ZrTe5",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Zr"
+    },
+    {
+     "@id": "element:Te"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:63"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:NearTopologicalTransition"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevx.4.011002"
+    },
+    {
+     "@id": "doi:10.1038/nphys3648"
+    }
+   ]
+  },
+  {
+   "@id": "sg:63",
+   "@type": "ttm:SpaceGroup",
+   "label": "Cmcm (#63)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:orthorhombic"
+    }
+   ]
+  },
+  {
+   "@id": "doi:10.1103/physrevx.4.011002",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Weng 2014",
+   "schema:url": "https://doi.org/10.1103/physrevx.4.011002",
+   "schema:name": "Transition-Metal Pentatelluride ZrTe 5 and HfTe 5 : A Paradigm for Large-Gap Quantum Spin Hall Insulators"
+  },
+  {
+   "@id": "doi:10.1038/nphys3648",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Li 2016",
+   "schema:url": "https://doi.org/10.1038/nphys3648",
+   "schema:name": "Chiral magnetic effect in ZrTe5"
+  },
+  {
+   "@id": "material:hfte5",
+   "@type": "ttm:Material",
+   "label": "HfTe5",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:topological-semimetals"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:topological"
+    },
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Te"
+    },
+    {
+     "@id": "element:Hf"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:63"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevx.4.011002"
+    }
+   ]
+  },
+  {
+   "@id": "material:mg2si",
+   "@type": "ttm:Material",
+   "label": "Mg2Si",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:other-thermoelectrics"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Si"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevlett.108.166601"
+    }
+   ]
+  },
+  {
+   "@id": "element:Si",
+   "@type": "ttm:ChemicalElement",
+   "label": "Si"
+  },
+  {
+   "@id": "doi:10.1103/physrevlett.108.166601",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Liu 2012",
+   "schema:url": "https://doi.org/10.1103/physrevlett.108.166601",
+   "schema:name": "Convergence of Conduction Bands as a Means of Enhancing Thermoelectric Performance of n -Type Mg 2 Si 1 − x Sn x Solid Solutions"
+  },
+  {
+   "@id": "material:mg2sn",
+   "@type": "ttm:Material",
+   "label": "Mg2Sn",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:other-thermoelectrics"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Sn"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:cube"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevlett.108.166601"
+    }
+   ]
+  },
+  {
+   "@id": "material:mg2sisn-alloy",
+   "@type": "ttm:Material",
+   "label": "Mg2Si1-xSnx",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:other-thermoelectrics"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Mg"
+    },
+    {
+     "@id": "element:Si"
+    },
+    {
+     "@id": "element:Sn"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    }
+   ],
+   "ttm:alloyOf": [
+    {
+     "@id": "material:mg2si"
+    },
+    {
+     "@id": "material:mg2sn"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1103/physrevlett.108.166601"
+    }
+   ]
+  },
+  {
+   "@id": "material:cu2se",
+   "@type": "ttm:Material",
+   "label": "Cu2Se",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:other-thermoelectrics"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:Cu"
+    },
+    {
+     "@id": "element:Se"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:225"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    },
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:cube"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ],
+   "ttm:describedIn": [
+    {
+     "@id": "doi:10.1038/nmat3273"
+    }
+   ]
+  },
+  {
+   "@id": "element:Cu",
+   "@type": "ttm:ChemicalElement",
+   "label": "Cu"
+  },
+  {
+   "@id": "doi:10.1038/nmat3273",
+   "@type": "ttm:ScholarlyReference",
+   "label": "Liu 2012",
+   "schema:url": "https://doi.org/10.1038/nmat3273",
+   "schema:name": "Copper ion liquid-like thermoelectrics"
+  },
+  {
+   "@id": "material:bicuseo",
+   "@type": "ttm:Material",
+   "label": "BiCuSeO",
+   "ttm:memberOfFamily": [
+    {
+     "@id": "family:other-thermoelectrics"
+    }
+   ],
+   "ttm:hasApplication": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ],
+   "ttm:containsElement": [
+    {
+     "@id": "element:O"
+    },
+    {
+     "@id": "element:Cu"
+    },
+    {
+     "@id": "element:Se"
+    },
+    {
+     "@id": "element:Bi"
+    }
+   ],
+   "ttm:crystallizesIn": [
+    {
+     "@id": "sg:129"
+    }
+   ],
+   "ttm:exhibitsTopologicalPhase": [
+    {
+     "@id": "phase:HighSpillage"
+    }
+   ],
+   "ttm:operatesIn": [
+    {
+     "@id": "regime:MidTemperature"
+    },
+    {
+     "@id": "regime:HighTemperature"
+    }
+   ],
+   "ttm:hasCoordinationMotif": [
+    {
+     "@id": "motif:square antiprism"
+    },
+    {
+     "@id": "motif:tetrahedron"
+    }
+   ],
+   "ttm:computedBy": [
+    {
+     "@id": "db:mp"
+    },
+    {
+     "@id": "db:jarvis"
+    },
+    {
+     "@id": "db:alex-pbe"
+    },
+    {
+     "@id": "db:alex-pbesol"
+    }
+   ]
+  },
+  {
+   "@id": "element:O",
+   "@type": "ttm:ChemicalElement",
+   "label": "O"
+  },
+  {
+   "@id": "sg:129",
+   "@type": "ttm:SpaceGroup",
+   "label": "P4/nmm (#129)",
+   "ttm:inCrystalSystem": [
+    {
+     "@id": "cs:tetragonal"
+    }
+   ]
+  },
+  {
+   "@id": "motif:square antiprism",
+   "@type": "ttm:CoordinationMotif",
+   "label": "Square antiprism"
+  },
+  {
+   "@id": "phase:AxionInsulator",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Axion insulator",
+   "broader": [
+    {
+     "@id": "phase:MagneticTopologicalInsulator"
+    }
+   ]
+  },
+  {
+   "@id": "phase:WeylSemimetal",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Weyl semimetal",
+   "broader": [
+    {
+     "@id": "phase:TopologicalSemimetal"
+    }
+   ]
+  },
+  {
+   "@id": "phase:BandInvertedCandidate",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Band-inverted (candidate)",
+   "broader": [
+    {
+     "@id": "phase:TopologicalPhaseRoot"
+    }
+   ]
+  },
+  {
+   "@id": "phase:HighSpillage",
+   "@type": "ttm:TopologicalPhase",
+   "label": "SOC band inversion indicated (spillage ≥ 0.5, DFT)",
+   "broader": [
+    {
+     "@id": "phase:BandInvertedCandidate"
+    }
+   ]
+  },
+  {
+   "@id": "phase:TopologicalCrystallineInsulator",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Topological crystalline insulator",
+   "broader": [
+    {
+     "@id": "phase:TopologicalInsulator"
+    }
+   ]
+  },
+  {
+   "@id": "phase:StrongTopologicalInsulator",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Strong Z2 topological insulator",
+   "broader": [
+    {
+     "@id": "phase:TopologicalInsulator"
+    }
+   ]
+  },
+  {
+   "@id": "phase:TopologicalSemimetal",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Topological semimetal",
+   "broader": [
+    {
+     "@id": "phase:TopologicalPhaseRoot"
+    }
+   ]
+  },
+  {
+   "@id": "phase:TopologicalPhaseRoot",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Topological phases",
+   "broader": [
+    {
+     "@id": "app:topological"
+    }
+   ]
+  },
+  {
+   "@id": "phase:MagneticTopologicalInsulator",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Magnetic topological insulator",
+   "broader": [
+    {
+     "@id": "phase:TopologicalInsulator"
+    }
+   ]
+  },
+  {
+   "@id": "phase:NearTopologicalTransition",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Near a topological transition",
+   "broader": [
+    {
+     "@id": "phase:TopologicalPhaseRoot"
+    }
+   ]
+  },
+  {
+   "@id": "phase:NodalLineSemimetal",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Nodal-line semimetal",
+   "broader": [
+    {
+     "@id": "phase:TopologicalSemimetal"
+    }
+   ]
+  },
+  {
+   "@id": "phase:Z2Semimetal",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Z2 non-trivial semimetal",
+   "broader": [
+    {
+     "@id": "phase:TopologicalSemimetal"
+    }
+   ]
+  },
+  {
+   "@id": "phase:DiracSemimetal",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Dirac semimetal",
+   "broader": [
+    {
+     "@id": "phase:TopologicalSemimetal"
+    }
+   ]
+  },
+  {
+   "@id": "phase:TopologicalInsulator",
+   "@type": "ttm:TopologicalPhase",
+   "label": "Topological insulator",
+   "broader": [
+    {
+     "@id": "phase:TopologicalPhaseRoot"
+    }
+   ]
+  },
+  {
+   "@id": "regime:NearRoomTemperature",
+   "@type": "ttm:OperatingRegime",
+   "label": "Near room temperature (250–500 K)",
+   "broader": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ]
+  },
+  {
+   "@id": "regime:HighTemperature",
+   "@type": "ttm:OperatingRegime",
+   "label": "High temperature (> 900 K)",
+   "broader": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ]
+  },
+  {
+   "@id": "regime:MidTemperature",
+   "@type": "ttm:OperatingRegime",
+   "label": "Mid temperature (500–900 K)",
+   "broader": [
+    {
+     "@id": "app:thermoelectric"
+    }
+   ]
+  }
+ ]
+}

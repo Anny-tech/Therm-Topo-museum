@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-1206679,YBiPt,F-43m (216),Y1,Y,,4b,-43m,4,0.5,0,0,4,Pt4,tetrahedron,True,ok,True,,,,,,,,,,Y1-Pt4
+mp:mp-1206679,YBiPt,F-43m (216),Bi1,Bi,,4a,-43m,4,0,0,0,4,Pt4,tetrahedron,True,ok,True,,,,,,,,,,Bi1-Pt4
+mp:mp-1206679,YBiPt,F-43m (216),Pt1,Pt,,4d,-43m,4,0.25,0.25,0.75,8,Bi4Y4,cube,True,ok,True,,,,,,,,,,Pt1-Bi4Y4

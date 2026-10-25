@@ -1,0 +1,105 @@
+# Exhibit halls of the atlas. Order here = order on the website.
+# `accent` is a CSS colour used for the hall's visual identity.
+
+- id: tetradymites
+  name: Tetradymites
+  subtitle: Bi2Te3 and Bi–Sb–Te–Se alloys
+  accent: "#f26b6b"
+  structure_type: Tetradymite (R-3m), quintuple-layer stacking
+  description: >
+    Layered rhombohedral chalcogenides built from Te–Bi–Te–Bi–Te quintuple
+    layers held together by van der Waals gaps. Bi2Te3-based alloys have been
+    the workhorse near-room-temperature thermoelectrics for decades, and the
+    same compounds (Bi2Se3, Bi2Te3, Sb2Te3) were among the first 3D topological
+    insulators with a single surface Dirac cone. Strong spin–orbit coupling
+    from Bi/Sb and Te drives both the band inversion and the favourable
+    multi-valley band structure.
+  refs:
+    - 10.1038/natrevmats.2017.49
+    - 10.1038/nphys1270
+
+- id: skutterudites
+  name: Skutterudites
+  subtitle: CoSb3 and filled cage compounds
+  accent: "#16a3a0"
+  structure_type: Skutterudite (Im-3), CoAs3-type with voids
+  description: >
+    Cubic MX3 pnictides of corner-sharing MX6 octahedra that leave two large
+    voids per conventional cell. Filling these voids with rare-earth, alkaline-earth
+    or alkali "rattlers" scatters heat-carrying phonons while largely preserving the
+    electronic structure — the textbook phonon-glass / electron-crystal concept.
+    Mid-temperature (500–850 K) power generation.
+  refs:
+    - 10.1126/science.272.5266.1325
+    - 10.1038/nmat4430
+
+- id: half-heuslers
+  name: Half-Heuslers
+  subtitle: 18-electron XYZ and topological XPtBi
+  accent: "#3f8fe0"
+  structure_type: MgAgAs-type (F-43m)
+  description: >
+    Three interpenetrating fcc sublattices with one vacant site. 18-valence-electron
+    compounds (ZrNiSn, NbFeSb, ZrCoSb …) are robust, high-temperature
+    thermoelectrics with large power factors. Heavy-element members such as
+    YPtBi and LuPtBi have an inverted, zinc-blende-like band ordering and were
+    proposed as a tunable family of topological insulators/semimetals.
+  refs:
+    - 10.1038/ncomms9144
+    - 10.1038/nmat2770
+    - 10.1038/nmat2771
+
+- id: zintl
+  name: Zintl phases
+  subtitle: Mg3Sb2, Yb14MnSb11, AZn2Sb2 and friends
+  accent: "#8a6cf0"
+  structure_type: Valence-precise polyanionic frameworks
+  description: >
+    Electropositive cations donate electrons to covalently bonded anionic
+    substructures, giving valence-precise semiconductors with intrinsically
+    complex unit cells and low lattice thermal conductivity. n-type Mg3(Sb,Bi)2
+    rivals Bi2Te3 near room temperature, Yb14MnSb11 operates above 1200 K, and
+    Eu-based Zintl compounds host magnetic topological phases.
+  refs:
+    - 10.1039/b702266b
+    - 10.1002/adma.201603955
+
+- id: rocksalt-chalcogenides
+  name: IV–VI chalcogenides
+  subtitle: PbTe, SnTe, SnSe, GeTe
+  accent: "#f0932b"
+  structure_type: Rocksalt and distorted rocksalt (Pnma, R3m)
+  description: >
+    Narrow-gap lead and tin chalcogenides hold most of the high-zT records
+    through band convergence, nanostructuring and strong anharmonicity.
+    SnTe and Pb1-xSnx(Se,Te) are topological crystalline insulators where
+    mirror symmetry, not time reversal, protects the surface states.
+  refs:
+    - 10.1038/nature09996
+    - 10.1038/ncomms1969
+
+- id: topological-semimetals
+  name: Topological semimetals
+  subtitle: Bi–Sb, Cd3As2, Na3Bi, TaAs, WTe2, ZrTe5
+  accent: "#e0569a"
+  structure_type: Various
+  description: >
+    Gapless topological phases with linearly dispersing bulk bands. They show
+    ultrahigh mobility, giant magnetoresistance and strong Nernst/magneto-thermoelectric
+    responses, which makes them an emerging frontier where topology and
+    thermoelectric transport meet. Elemental Bi and Sb, the parents of the
+    first 3D topological insulator Bi1−xSbx, are also exhibited here.
+  refs:
+    - 10.1103/revmodphys.90.015001
+
+- id: other-thermoelectrics
+  name: More thermoelectrics
+  subtitle: Mg2(Si,Sn), Cu2Se, BiCuSeO
+  accent: "#4aa564"
+  structure_type: Various
+  description: >
+    Other important families: earth-abundant Mg2X antifluorites with
+    converging conduction bands, liquid-like superionic Cu2Se, and layered
+    oxyselenides with intrinsically low thermal conductivity.
+  refs:
+    - 10.1038/nmat2090

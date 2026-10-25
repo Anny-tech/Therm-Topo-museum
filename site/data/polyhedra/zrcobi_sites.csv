@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-31451,ZrCoBi,F-43m (216),Zr1,Zr,,4a,-43m,4,0,0,0,6,Bi6,octahedron,True,ok,True,,,,,,,,,,Zr1-Bi6
+mp:mp-31451,ZrCoBi,F-43m (216),Co1,Co,,4c,-43m,4,0.25,0.25,0.25,4,Bi4,tetrahedron,True,ok,True,,,,,,,,,,Co1-Bi4
+mp:mp-31451,ZrCoBi,F-43m (216),Bi1,Bi,,4b,-43m,4,0.5,0,0,10,Co4Zr6,bicapped square antiprism,True,ok,True,,,,,,,,,,Bi1-Co4Zr6

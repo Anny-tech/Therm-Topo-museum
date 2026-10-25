@@ -1,0 +1,3 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-9339,NbP,I4_1md (109),Nb1,Nb,3,4a,2mm.,4,0.5,0.5,0.249881,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-9339,NbP,I4_1md (109),P1,P,-3,4a,2mm.,4,0,0,0.332748,0,,none,False,no ligands found,,,,,,,,,,,

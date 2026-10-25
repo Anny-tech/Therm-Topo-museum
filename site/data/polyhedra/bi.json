@@ -1,0 +1,222 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbesol:agm003157553",
+   "note": "bi: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Bi6",
+  "reduced_formula": "Bi",
+  "n_sites": 6,
+  "density": 10.088306,
+  "lattice": {
+   "a": 4.528601,
+   "b": 4.528602,
+   "c": 11.620608,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.000002,
+   "volume": 206.389526,
+   "matrix": [
+    [
+     4.528601,
+     0.0,
+     0.0
+    ],
+    [
+     -2.264301,
+     3.921884,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     11.620608
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "R-3m",
+   "number": 166,
+   "crystal_system": "trigonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Bi1",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.736946
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     8.563761
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Bi2",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.929721
+    ],
+    "cart": [
+     -3e-6,
+     2.614591,
+     10.803923
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "Bi3",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.070279
+    ],
+    "cart": [
+     2.264303,
+     1.307293,
+     0.816685
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 3,
+    "label": "Bi4",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.263054
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     3.056847
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 4,
+    "label": "Bi5",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.403612
+    ],
+    "cart": [
+     -3e-6,
+     2.614591,
+     4.690217
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 5,
+    "label": "Bi6",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.596388
+    ],
+    "cart": [
+     2.264303,
+     1.307293,
+     6.930391
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Bi"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Bi": 0.0
+  },
+  "notes": [
+   "Bi1: No Shannon radius for Bi (oxidation 0.0) or its ligands ['Bi']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Bi1",
+   "element": "Bi",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.736946
+   ],
+   "oxidation_state": 0.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

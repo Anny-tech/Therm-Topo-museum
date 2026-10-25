@@ -1,0 +1,288 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "mp:mp-1936",
+   "note": "taas: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Ta4 As4",
+  "reduced_formula": "TaAs",
+  "n_sites": 8,
+  "density": 12.211798,
+  "lattice": {
+   "a": 3.443627,
+   "b": 3.443627,
+   "c": 11.735883,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 139.170754,
+   "matrix": [
+    [
+     3.443627,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     3.443627,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     11.735883
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "I4_1md",
+   "number": 109,
+   "crystal_system": "tetragonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Ta1",
+    "element": "Ta",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.499967
+    ],
+    "cart": [
+     1.721814,
+     0.0,
+     5.867554
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Ta2",
+    "element": "Ta",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.249967
+    ],
+    "cart": [
+     1.721814,
+     1.721814,
+     2.933583
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "As1",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.082632
+    ],
+    "cart": [
+     1.721814,
+     0.0,
+     0.969759
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 2
+   },
+   {
+    "index": 3,
+    "label": "As2",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.332632
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     3.90373
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 2
+   },
+   {
+    "index": 4,
+    "label": "Ta3",
+    "element": "Ta",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.999967
+    ],
+    "cart": [
+     0.0,
+     1.721814,
+     11.735496
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 0
+   },
+   {
+    "index": 5,
+    "label": "Ta4",
+    "element": "Ta",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.749967
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     8.801525
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 0
+   },
+   {
+    "index": 6,
+    "label": "As3",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.582632
+    ],
+    "cart": [
+     0.0,
+     1.721814,
+     6.837701
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 2
+   },
+   {
+    "index": 7,
+    "label": "As4",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.832632
+    ],
+    "cart": [
+     1.721814,
+     1.721814,
+     9.771672
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "2mm.",
+    "orbit": 2
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "As",
+   "Ta"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Ta": 3.0,
+   "As": -3.0
+  },
+  "notes": [
+   "Ta1: No Shannon radius for Ta (oxidation 3.0) or its ligands ['As']",
+   "Ta2: No Shannon radius for Ta (oxidation 3.0) or its ligands ['As']",
+   "Ta3: No Shannon radius for Ta (oxidation 3.0) or its ligands ['As']",
+   "Ta4: No Shannon radius for Ta (oxidation 3.0) or its ligands ['As']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Ta1",
+   "element": "Ta",
+   "wyckoff": "4a",
+   "site_symmetry": "2mm.",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.5,
+    0.0,
+    0.499967
+   ],
+   "oxidation_state": 3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "As1",
+   "element": "As",
+   "wyckoff": "4a",
+   "site_symmetry": "2mm.",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.5,
+    0.0,
+    0.082632
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

@@ -1,0 +1,5 @@
+structure,formula,space_group,type_id,kind,center,element,wyckoff,site_symmetry,ligand_formula,n_in_cell,CN,shape,average_bond_length_A,min_bond_length_A,max_bond_length_A,polyhedral_volume_A3,distortion_index,effective_coordination_number,ECoN_weighted_bond_length_A,quadratic_elongation,bond_angle_variance_deg2,bond_valence_sum_vu,off_centring_A,corner_shared_per_polyhedron,edge_shared_per_polyhedron,face_shared_per_polyhedron,mean_corner_bridging_angle_deg
+mp:mp-23116,CuBiSeO,P4/nmm (129),Cu1-Se4,coordination,Cu1,Cu,2b,-4m2,Se4,2,4,tetrahedron,2.52107,2.52107,2.52107,8.14895,0,4,2.52107,1.00607,24.5525,1.07341,0,4,4,0,103.135
+mp:mp-23116,CuBiSeO,P4/nmm (129),Bi1-O4Se4,coordination,Bi1,Bi,2c,4mm,O4Se4,2,8,square antiprism,2.80788,2.3468,3.26897,38.5673,0.164212,4.02474,2.34848,,,2.86099,0.215507,4,4,4,117.377
+mp:mp-23116,CuBiSeO,P4/nmm (129),Se1-Bi4Cu4,coordination,Se1,Se,2c,4mm,Bi4Cu4,2,8,square antiprism,2.89502,2.52107,3.26897,42.4577,0.12917,4.27589,2.53821,,,1.91447,0.06588,4,4,4,117.377
+mp:mp-23116,CuBiSeO,P4/nmm (129),O1-Bi4,coordination,O1,O,2a,-4m2,Bi4,2,4,tetrahedron,2.3468,2.3468,2.3468,6.5928,0,4,2.3468,1.00406,15.5313,2.01994,0,4,4,0,114.6

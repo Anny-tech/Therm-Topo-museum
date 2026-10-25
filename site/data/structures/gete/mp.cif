@@ -1,0 +1,32 @@
+# GeTe_mp_mp-938
+# Source: Materials Project mp-938 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-938
+# Conventional standard cell from spglib; symmetry detected: R3m (No. 160) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_GeTe_mp_mp-938
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.189000
+_cell_length_b     4.189000
+_cell_length_c     11.037100
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       167.7270
+_chemical_formula_sum 'GeTe'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Ge1    Ge  0.666667 0.333333 0.325557 1.0
+  Te1    Te  0.333333 0.666667 0.195443 1.0
+  Ge2    Ge  0.333333 0.666667 0.658890 1.0
+  Te2    Te  0.000000 0.000000 0.528777 1.0
+  Ge3    Ge  0.000000 0.000000 0.992223 1.0
+  Te3    Te  0.666667 0.333333 0.862110 1.0

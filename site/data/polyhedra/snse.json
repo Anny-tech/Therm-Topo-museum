@@ -1,0 +1,288 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbesol:agm003263442",
+   "note": "snse: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Sn4 Se4",
+  "reduced_formula": "SnSe",
+  "n_sites": 8,
+  "density": 6.375196,
+  "lattice": {
+   "a": 11.408711,
+   "b": 4.150347,
+   "c": 4.34946,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 205.947407,
+   "matrix": [
+    [
+     11.408711,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     4.150347,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     4.34946
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "Pnma",
+   "number": 62,
+   "crystal_system": "orthorhombic"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Sn1",
+    "element": "Sn",
+    "occupancy": 1.0,
+    "frac": [
+     0.617563,
+     0.25,
+     0.407351
+    ],
+    "cart": [
+     7.045598,
+     1.037587,
+     1.771757
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Sn2",
+    "element": "Sn",
+    "occupancy": 1.0,
+    "frac": [
+     0.382437,
+     0.75,
+     0.592649
+    ],
+    "cart": [
+     4.363113,
+     3.11276,
+     2.577703
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "Sn3",
+    "element": "Sn",
+    "occupancy": 1.0,
+    "frac": [
+     0.882437,
+     0.75,
+     0.907351
+    ],
+    "cart": [
+     10.067469,
+     3.11276,
+     3.946487
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 0
+   },
+   {
+    "index": 3,
+    "label": "Sn4",
+    "element": "Sn",
+    "occupancy": 1.0,
+    "frac": [
+     0.117563,
+     0.25,
+     0.092649
+    ],
+    "cart": [
+     1.341242,
+     1.037587,
+     0.402973
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 0
+   },
+   {
+    "index": 4,
+    "label": "Se1",
+    "element": "Se",
+    "occupancy": 1.0,
+    "frac": [
+     0.357469,
+     0.25,
+     0.022923
+    ],
+    "cart": [
+     4.078261,
+     1.037587,
+     0.099703
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 4
+   },
+   {
+    "index": 5,
+    "label": "Se2",
+    "element": "Se",
+    "occupancy": 1.0,
+    "frac": [
+     0.642531,
+     0.75,
+     0.977077
+    ],
+    "cart": [
+     7.33045,
+     3.11276,
+     4.249757
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 4
+   },
+   {
+    "index": 6,
+    "label": "Se3",
+    "element": "Se",
+    "occupancy": 1.0,
+    "frac": [
+     0.142531,
+     0.75,
+     0.522923
+    ],
+    "cart": [
+     1.626095,
+     3.11276,
+     2.274433
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 4
+   },
+   {
+    "index": 7,
+    "label": "Se4",
+    "element": "Se",
+    "occupancy": 1.0,
+    "frac": [
+     0.857469,
+     0.25,
+     0.477077
+    ],
+    "cart": [
+     9.782616,
+     1.037587,
+     2.075027
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": ".m.",
+    "orbit": 4
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Se",
+   "Sn"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Sn": 2.0,
+   "Se": -2.0
+  },
+  "notes": [
+   "Sn1: No Shannon radius for Sn (oxidation 2.0) or its ligands ['Se']",
+   "Sn2: No Shannon radius for Sn (oxidation 2.0) or its ligands ['Se']",
+   "Sn3: No Shannon radius for Sn (oxidation 2.0) or its ligands ['Se']",
+   "Sn4: No Shannon radius for Sn (oxidation 2.0) or its ligands ['Se']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Sn1",
+   "element": "Sn",
+   "wyckoff": "4c",
+   "site_symmetry": ".m.",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.617563,
+    0.25,
+    0.407351
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Se1",
+   "element": "Se",
+   "wyckoff": "4c",
+   "site_symmetry": ".m.",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.357469,
+    0.25,
+    0.022923
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+jarvis:JVASP-18469,Na3Bi,P6_3/mmc (194),Na1,Na,,4f,3m.,4,0.666667,0.333333,0.582626,1,Bi1,single,False,only 1 ligand(s): too few to enclose a volume,True,,,,,,,,,,
+jarvis:JVASP-18469,Na3Bi,P6_3/mmc (194),Na3,Na,,2b,-6m2,2,0,0,0.25,3,Bi3,planar,False,only 3 ligand(s): too few to enclose a volume,True,,,,,,,,,,
+jarvis:JVASP-18469,Na3Bi,P6_3/mmc (194),Bi1,Bi,,2d,-6m2,2,0.333333,0.666667,0.75,11,Na11,"11-vertex polyhedron (6×3-gon, 6×4-gon)",True,ok,True,,,,,,,,,,Bi1-Na11

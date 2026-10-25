@@ -1,0 +1,4 @@
+structure,formula,space_group,type_id,kind,center,element,wyckoff,site_symmetry,ligand_formula,n_in_cell,CN,shape,average_bond_length_A,min_bond_length_A,max_bond_length_A,polyhedral_volume_A3,distortion_index,effective_coordination_number,ECoN_weighted_bond_length_A,quadratic_elongation,bond_angle_variance_deg2,bond_valence_sum_vu,off_centring_A,corner_shared_per_polyhedron,edge_shared_per_polyhedron,face_shared_per_polyhedron,mean_corner_bridging_angle_deg
+mp:mp-924129,ZrNiSn,F-43m (216),Zr1-Sn6,coordination,Zr1,Zr,4a,-43m,Sn6,4,6,octahedron,3.05762,3.05762,3.05762,38.1142,0,6,3.05762,1,0,2.8298,0,6,12,0,180
+mp:mp-924129,ZrNiSn,F-43m (216),Ni1-Sn4,coordination,Ni1,Ni,4c,-43m,Sn4,4,4,tetrahedron,2.64797,2.64797,2.64797,9.52856,0,4,2.64797,1,0,2.10225,0,12,0,0,109.471
+mp:mp-924129,ZrNiSn,F-43m (216),Sn1-Ni4Zr6,coordination,Sn1,Sn,4b,-43m,Ni4Zr6,4,10,bicapped square antiprism,2.89376,2.64797,3.05762,47.6428,0.067949,7.57163,2.76099,,,4.93204,0,6,0,12,180

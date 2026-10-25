@@ -1,0 +1,255 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "mp:mp-1068431",
+   "note": "ybzn2sb2: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Yb1 Zn2 Sb2",
+  "reduced_formula": "Yb(ZnSb)2",
+  "n_sites": 5,
+  "density": 7.286587,
+  "lattice": {
+   "a": 4.425456,
+   "b": 4.425456,
+   "c": 7.354711,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.000002,
+   "volume": 124.741873,
+   "matrix": [
+    [
+     4.425456,
+     0.0,
+     0.0
+    ],
+    [
+     -2.212728,
+     3.832557,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     7.354711
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "P-3m1",
+   "number": 164,
+   "crystal_system": "trigonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Yb1",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "1a",
+    "site_symmetry": "-3m.",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Zn1",
+    "element": "Zn",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.364618
+    ],
+    "cart": [
+     2.21273,
+     1.277518,
+     2.68166
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "3m.",
+    "orbit": 1
+   },
+   {
+    "index": 2,
+    "label": "Zn2",
+    "element": "Zn",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.635382
+    ],
+    "cart": [
+     -2e-6,
+     2.555039,
+     4.673051
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "3m.",
+    "orbit": 1
+   },
+   {
+    "index": 3,
+    "label": "Sb1",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.744588
+    ],
+    "cart": [
+     2.21273,
+     1.277518,
+     5.47623
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "3m.",
+    "orbit": 3
+   },
+   {
+    "index": 4,
+    "label": "Sb2",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.255412
+    ],
+    "cart": [
+     -2e-6,
+     2.555039,
+     1.878481
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "3m.",
+    "orbit": 3
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Sb",
+   "Yb",
+   "Zn"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Yb": 2.0,
+   "Zn": 2.0,
+   "Sb": -3.0
+  },
+  "notes": [
+   "Yb1: No Shannon radius for Yb (oxidation 2.0) or its ligands ['Sb']",
+   "Zn1: No Shannon radius for Zn (oxidation 2.0) or its ligands ['Sb']",
+   "Zn2: No Shannon radius for Zn (oxidation 2.0) or its ligands ['Sb']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Yb1",
+   "element": "Yb",
+   "wyckoff": "1a",
+   "site_symmetry": "-3m.",
+   "multiplicity_in_cell": 1,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Zn1",
+   "element": "Zn",
+   "wyckoff": "2d",
+   "site_symmetry": "3m.",
+   "multiplicity_in_cell": 2,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.364618
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Sb1",
+   "element": "Sb",
+   "wyckoff": "2d",
+   "site_symmetry": "3m.",
+   "multiplicity_in_cell": 2,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.744588
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

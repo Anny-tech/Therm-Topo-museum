@@ -1,0 +1,7 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),Te1,Te,-2,2a,m..,2,0.5,0.304755,0.905345,3,W3,planar,False,only 3 ligand(s): too few to enclose a volume,True,3,True,2.21,0.66,2.87,0.298643,4,2.21,6,
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),Te3,Te,-2,2a,m..,2,0.5,0.18917,0.361344,3,W3,planar,False,only 3 ligand(s): too few to enclose a volume,True,3,True,2.21,0.66,2.87,0.298643,4,2.21,6,
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),Te5,Te,-2,2a,m..,2,0,0.349356,0.653786,3,W3,planar,False,only 3 ligand(s): too few to enclose a volume,True,3,True,2.21,0.66,2.87,0.298643,4,2.21,6,
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),Te7,Te,-2,2a,m..,2,0,0.155524,0.109695,3,W3,planar,False,only 3 ligand(s): too few to enclose a volume,True,3,True,2.21,0.66,2.87,0.298643,4,2.21,6,
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),W1,W,4,2a,m..,2,0.5,0.446719,0.515123,6,Te6,octahedron,True,ok,True,6,True,0.66,2.21,2.87,0.298643,4,0.66,6,W1-Te6
+jarvis:JVASP-78,Te2W,Pmn2_1 (31),W3,W,4,2a,m..,2,0.5,0.907122,0.999998,6,Te6,octahedron,True,ok,True,6,True,0.66,2.21,2.87,0.298643,4,0.66,6,W3-Te6

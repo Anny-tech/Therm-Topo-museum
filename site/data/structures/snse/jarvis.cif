@@ -1,0 +1,34 @@
+# SnSe_jarvis_JVASP-109012
+# Source: JARVIS-DFT JVASP-109012 (OptB88vdW), https://www.ctcms.nist.gov/~knc6/jsmol/JVASP-109012.html
+# Conventional standard cell from spglib; symmetry detected: Pnma (No. 62) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_SnSe_jarvis_JVASP-109012
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     11.781000
+_cell_length_b     4.217900
+_cell_length_c     4.519700
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  90.0000
+_cell_volume       224.5900
+_chemical_formula_sum 'SeSn'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Sn1    Sn  0.120890 0.250000 0.887678 1.0
+  Sn2    Sn  0.379110 0.750000 0.387678 1.0
+  Sn3    Sn  0.879110 0.750000 0.112322 1.0
+  Sn4    Sn  0.620890 0.250000 0.612322 1.0
+  Se1    Se  0.644326 0.750000 0.027195 1.0
+  Se2    Se  0.144326 0.750000 0.472805 1.0
+  Se3    Se  0.855674 0.250000 0.527195 1.0
+  Se4    Se  0.355674 0.250000 0.972805 1.0

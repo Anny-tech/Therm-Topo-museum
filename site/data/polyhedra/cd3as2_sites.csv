@@ -1,0 +1,7 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),As1,As,-3,32g,1,32,0.754248,0.507914,0.501936,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),As17,As,-3,16d,2..,16,0,0.5,0.625616,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),As25,As,-3,16e,.2.,16,0.75,0.760027,0.625,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),Cd1,Cd,2,32g,1,32,0.86058,0.618707,0.572534,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),Cd17,Cd,2,32g,1,32,0.888374,0.892397,0.552505,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbe:agm005232043,Cd3As2,I4_1/acd (142),Cd33,Cd,2,32g,1,32,0.881206,0.35484,0.562442,0,,none,False,no ligands found,,,,,,,,,,,

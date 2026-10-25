@@ -1,0 +1,1431 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "jarvis:JVASP-18469",
+   "note": "na3bi: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Na6 Bi2",
+  "reduced_formula": "Na3Bi",
+  "n_sites": 8,
+  "density": 3.712708,
+  "lattice": {
+   "a": 5.444852,
+   "b": 5.444852,
+   "c": 9.683933,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.000001,
+   "volume": 248.630585,
+   "matrix": [
+    [
+     5.444852,
+     0.0,
+     0.0
+    ],
+    [
+     -2.722426,
+     4.71538,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     9.683933
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "P6_3/mmc",
+   "number": 194,
+   "crystal_system": "hexagonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Na1",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.582626
+    ],
+    "cart": [
+     2.722429,
+     1.571792,
+     5.642111
+    ],
+    "wyckoff": "4f",
+    "site_symmetry": "3m.",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Na2",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.082626
+    ],
+    "cart": [
+     -3e-6,
+     3.143588,
+     0.800145
+    ],
+    "wyckoff": "4f",
+    "site_symmetry": "3m.",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "Na3",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.25
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     2.420983
+    ],
+    "wyckoff": "2b",
+    "site_symmetry": "-6m2",
+    "orbit": 2
+   },
+   {
+    "index": 3,
+    "label": "Na4",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.75
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     7.26295
+    ],
+    "wyckoff": "2b",
+    "site_symmetry": "-6m2",
+    "orbit": 2
+   },
+   {
+    "index": 4,
+    "label": "Na5",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.917374
+    ],
+    "cart": [
+     2.722429,
+     1.571792,
+     8.883788
+    ],
+    "wyckoff": "4f",
+    "site_symmetry": "3m.",
+    "orbit": 0
+   },
+   {
+    "index": 5,
+    "label": "Na6",
+    "element": "Na",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.417374
+    ],
+    "cart": [
+     -3e-6,
+     3.143588,
+     4.041822
+    ],
+    "wyckoff": "4f",
+    "site_symmetry": "3m.",
+    "orbit": 0
+   },
+   {
+    "index": 6,
+    "label": "Bi1",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.75
+    ],
+    "cart": [
+     -3e-6,
+     3.143588,
+     7.26295
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "-6m2",
+    "orbit": 6
+   },
+   {
+    "index": 7,
+    "label": "Bi2",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.25
+    ],
+    "cart": [
+     2.722429,
+     1.571792,
+     2.420983
+    ],
+    "wyckoff": "2d",
+    "site_symmetry": "-6m2",
+    "orbit": 6
+   }
+  ]
+ },
+ "settings": {
+  "method": "crystalnn",
+  "centers": [
+   "Bi",
+   "Na"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": null,
+  "include_element_shells": false,
+  "oxidation_states": null,
+  "notes": [
+   "No charge-balanced oxidation states found, so Shannon radii cannot be assigned; used CrystalNN."
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Na1",
+   "element": "Na",
+   "wyckoff": "4f",
+   "site_symmetry": "3m.",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.582626
+   ],
+   "oxidation_state": null,
+   "coordination_number": 1,
+   "ligand_formula": "Bi1",
+   "shape": "single",
+   "forms_polyhedron": false,
+   "reason": "only 1 ligand(s): too few to enclose a volume",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Na3",
+   "element": "Na",
+   "wyckoff": "2b",
+   "site_symmetry": "-6m2",
+   "multiplicity_in_cell": 2,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.25
+   ],
+   "oxidation_state": null,
+   "coordination_number": 3,
+   "ligand_formula": "Bi3",
+   "shape": "planar",
+   "forms_polyhedron": false,
+   "reason": "only 3 ligand(s): too few to enclose a volume",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Bi1",
+   "element": "Bi",
+   "wyckoff": "2d",
+   "site_symmetry": "-6m2",
+   "multiplicity_in_cell": 2,
+   "representative_frac": [
+    0.333333,
+    0.666667,
+    0.75
+   ],
+   "oxidation_state": null,
+   "coordination_number": 11,
+   "ligand_formula": "Na11",
+   "shape": "11-vertex polyhedron (6×3-gon, 6×4-gon)",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": [
+    "Bi1-Na11"
+   ]
+  }
+ ],
+ "polyhedron_types": [
+  {
+   "type_id": "Bi1-Na11",
+   "kind": "coordination",
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "wyckoff": "2d",
+   "site_symmetry": "-6m2",
+   "ligand_formula": "Na11",
+   "n_instances": 2,
+   "metrics": {
+    "coordination_number": 11,
+    "shape": "11-vertex polyhedron (6×3-gon, 6×4-gon)",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 3.372188,
+    "min_bond_length": 3.143584,
+    "max_bond_length": 3.536848,
+    "polyhedral_volume": 83.052727,
+    "distortion_index": 0.053266,
+    "effective_coordination_number": 9.472788,
+    "weighted_average_bond_length": 3.286017,
+    "quadratic_elongation": null,
+    "bond_angle_variance": null,
+    "bond_valence_sum": 3.078827,
+    "center_offset": 4e-6
+   },
+   "connectivity": {
+    "edge": 6.0,
+    "face": 6.0
+   },
+   "mean_bridging_angle": null
+  }
+ ],
+ "polyhedra": [
+  {
+   "type_id": "Bi1-Na11",
+   "center_index": 6,
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "center_wyckoff": "2d",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.75
+   ],
+   "center_cart": [
+    -3e-6,
+    3.143588,
+    7.26295
+   ],
+   "ligands": [
+    {
+     "index": 3,
+     "label": "Na4",
+     "element": "Na",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.722426,
+      4.71538,
+      7.26295
+     ],
+     "distance": 3.143584
+    },
+    {
+     "index": 3,
+     "label": "Na4",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      7.26295
+     ],
+     "distance": 3.143588
+    },
+    {
+     "index": 3,
+     "label": "Na4",
+     "element": "Na",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.722426,
+      4.71538,
+      7.26295
+     ],
+     "distance": 3.143588
+    },
+    {
+     "index": 5,
+     "label": "Na6",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -3e-6,
+      3.143588,
+      4.041822
+     ],
+     "distance": 3.221128
+    },
+    {
+     "index": 1,
+     "label": "Na2",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      -3e-6,
+      3.143588,
+      10.484078
+     ],
+     "distance": 3.221128
+    },
+    {
+     "index": 0,
+     "label": "Na1",
+     "element": "Na",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3e-6,
+      6.287172,
+      5.642111
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 4,
+     "label": "Na5",
+     "element": "Na",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3e-6,
+      6.287172,
+      8.883788
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 4,
+     "label": "Na5",
+     "element": "Na",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.722423,
+      1.571792,
+      8.883788
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 0,
+     "label": "Na1",
+     "element": "Na",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.722423,
+      1.571792,
+      5.642111
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 4,
+     "label": "Na5",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.722429,
+      1.571792,
+      8.883788
+     ],
+     "distance": 3.536848
+    },
+    {
+     "index": 0,
+     "label": "Na1",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.722429,
+      1.571792,
+      5.642111
+     ],
+     "distance": 3.536848
+    }
+   ],
+   "metrics": {
+    "coordination_number": 11,
+    "shape": "11-vertex polyhedron (6×3-gon, 6×4-gon)",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 3.372188,
+    "min_bond_length": 3.143584,
+    "max_bond_length": 3.536848,
+    "polyhedral_volume": 83.052727,
+    "distortion_index": 0.053266,
+    "effective_coordination_number": 9.472788,
+    "weighted_average_bond_length": 3.286017,
+    "quadratic_elongation": null,
+    "bond_angle_variance": null,
+    "bond_valence_sum": 3.078827,
+    "center_offset": 4e-6
+   },
+   "faces": [
+    [
+     7,
+     1,
+     9
+    ],
+    [
+     10,
+     1,
+     9
+    ],
+    [
+     10,
+     2,
+     9
+    ],
+    [
+     5,
+     10,
+     3
+    ],
+    [
+     5,
+     10,
+     2
+    ],
+    [
+     8,
+     7,
+     1
+    ],
+    [
+     8,
+     10,
+     1
+    ],
+    [
+     8,
+     10,
+     3
+    ],
+    [
+     8,
+     7,
+     0
+    ],
+    [
+     8,
+     5,
+     0
+    ],
+    [
+     8,
+     5,
+     3
+    ],
+    [
+     6,
+     2,
+     9
+    ],
+    [
+     6,
+     7,
+     0
+    ],
+    [
+     6,
+     5,
+     0
+    ],
+    [
+     6,
+     5,
+     2
+    ],
+    [
+     4,
+     7,
+     9
+    ],
+    [
+     4,
+     6,
+     9
+    ],
+    [
+     4,
+     6,
+     7
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 5.772938,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 5.772938,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Na11",
+   "center_index": 7,
+   "center_label": "Bi2",
+   "center_element": "Bi",
+   "center_wyckoff": "2d",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.25
+   ],
+   "center_cart": [
+    2.722429,
+    1.571792,
+    2.420983
+   ],
+   "ligands": [
+    {
+     "index": 2,
+     "label": "Na3",
+     "element": "Na",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      5.444852,
+      0.0,
+      2.420983
+     ],
+     "distance": 3.143584
+    },
+    {
+     "index": 2,
+     "label": "Na3",
+     "element": "Na",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.722426,
+      4.71538,
+      2.420983
+     ],
+     "distance": 3.143588
+    },
+    {
+     "index": 2,
+     "label": "Na3",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      2.420983
+     ],
+     "distance": 3.143588
+    },
+    {
+     "index": 4,
+     "label": "Na5",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      2.722429,
+      1.571792,
+      -0.800145
+     ],
+     "distance": 3.221128
+    },
+    {
+     "index": 0,
+     "label": "Na1",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.722429,
+      1.571792,
+      5.642111
+     ],
+     "distance": 3.221128
+    },
+    {
+     "index": 5,
+     "label": "Na6",
+     "element": "Na",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.722423,
+      -1.571792,
+      4.041822
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 1,
+     "label": "Na2",
+     "element": "Na",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.722423,
+      -1.571792,
+      0.800145
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 1,
+     "label": "Na2",
+     "element": "Na",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      5.444849,
+      3.143588,
+      0.800145
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 5,
+     "label": "Na6",
+     "element": "Na",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      5.444849,
+      3.143588,
+      4.041822
+     ],
+     "distance": 3.53684
+    },
+    {
+     "index": 1,
+     "label": "Na2",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -3e-6,
+      3.143588,
+      0.800145
+     ],
+     "distance": 3.536848
+    },
+    {
+     "index": 5,
+     "label": "Na6",
+     "element": "Na",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -3e-6,
+      3.143588,
+      4.041822
+     ],
+     "distance": 3.536848
+    }
+   ],
+   "metrics": {
+    "coordination_number": 11,
+    "shape": "11-vertex polyhedron (6×3-gon, 6×4-gon)",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 3.372188,
+    "min_bond_length": 3.143584,
+    "max_bond_length": 3.536848,
+    "polyhedral_volume": 83.052727,
+    "distortion_index": 0.053266,
+    "effective_coordination_number": 9.472788,
+    "weighted_average_bond_length": 3.286017,
+    "quadratic_elongation": null,
+    "bond_angle_variance": null,
+    "bond_valence_sum": 3.078827,
+    "center_offset": 4e-6
+   },
+   "faces": [
+    [
+     6,
+     5,
+     0
+    ],
+    [
+     10,
+     4,
+     5
+    ],
+    [
+     10,
+     1,
+     9
+    ],
+    [
+     8,
+     5,
+     0
+    ],
+    [
+     8,
+     4,
+     5
+    ],
+    [
+     8,
+     10,
+     4
+    ],
+    [
+     8,
+     10,
+     1
+    ],
+    [
+     3,
+     6,
+     9
+    ],
+    [
+     2,
+     6,
+     9
+    ],
+    [
+     2,
+     6,
+     5
+    ],
+    [
+     2,
+     10,
+     5
+    ],
+    [
+     2,
+     10,
+     9
+    ],
+    [
+     7,
+     8,
+     1
+    ],
+    [
+     7,
+     1,
+     9
+    ],
+    [
+     7,
+     3,
+     9
+    ],
+    [
+     7,
+     8,
+     0
+    ],
+    [
+     7,
+     6,
+     0
+    ],
+    [
+     7,
+     3,
+     6
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 5.772938,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 5.772938,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.444852,
+     "shared_ligands": 3,
+     "sharing": "face",
+     "bridging_angles": [
+      100.66,
+      120.0,
+      100.66
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Na11",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.772933,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      117.276,
+      117.276
+     ]
+    }
+   ]
+  }
+ ],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {
+   "Bi": 1
+  },
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": null,
+  "site_symmetry_consistent": true
+ }
+}

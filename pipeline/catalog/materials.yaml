@@ -1,0 +1,967 @@
+# Curated catalogue of materials on display.
+#
+# Every DOI is resolved against Crossref by the pipeline (authors/title/journal/
+# year are taken from Crossref, never typed by hand). Any DOI that fails to
+# resolve is reported and the build fails in --strict mode.
+#
+# Fields
+#   id            URL slug
+#   formula       reduced formula, used to query databases (compounds only)
+#   kind          compound | alloy
+#   members       (alloys) ids of the end-member compounds displayed in the atlas
+#   family        id from families.yaml
+#   applications  thermoelectric and/or topological
+#   spacegroups   experimentally reported space-group number(s) of the phase of
+#                 interest; used to select the matching DFT polymorph
+#   topology      short, literature-backed classification (omit if not established)
+#   thermoelectric short note on the operating regime / carrier type
+#   highlights    headline experimental results; each must carry its DOI
+#   caveats       things an experimentalist should know before trusting DFT numbers
+#   structure_ambiguity  (optional) why no single ordered DFT cell can represent the
+#                 experimental structure; marks the compound as "ambiguous"
+
+# ───────────────────────────── Tetradymites ─────────────────────────────
+- id: bi2te3
+  formula: Bi2Te3
+  name: Bismuth telluride
+  kind: compound
+  family: tetradymites
+  applications: [thermoelectric, topological]
+  spacegroups: [166]
+  topology: 3D strong topological insulator
+  thermoelectric: n- and p-type, best near 300–450 K
+  summary: >
+    The archetypal room-temperature thermoelectric and one of the first
+    3D topological insulators observed by ARPES, with a single Dirac cone on
+    the (111) surface. Commercial Peltier coolers are built from its alloys
+    with Sb2Te3 (p-type) and Bi2Se3 (n-type).
+  highlights:
+    - property: Surface state
+      value: Single Dirac cone observed by ARPES
+      doi: 10.1126/science.1173034
+  caveats: >
+    Layers are bound by van der Waals forces; DFT functionals without a vdW
+    correction (plain PBE) overestimate the c axis. Prefer r2SCAN / optB88-vdW
+    lattice parameters when comparing with XRD.
+  refs:
+    - 10.1126/science.1173034
+    - 10.1038/nphys1270
+    - 10.1038/natrevmats.2017.49
+
+- id: sb2te3
+  formula: Sb2Te3
+  name: Antimony telluride
+  kind: compound
+  family: tetradymites
+  applications: [thermoelectric, topological]
+  spacegroups: [166]
+  topology: 3D strong topological insulator
+  thermoelectric: intrinsically p-type (antisite defects); p-leg end-member
+  summary: >
+    Isostructural with Bi2Te3. Sb_Te antisite defects make it strongly p-type,
+    and it is the end-member of the p-type (Bi,Sb)2Te3 alloys. Predicted along
+    with Bi2Se3 and Bi2Te3 to be a topological insulator.
+  caveats: >
+    Same van der Waals caveat as Bi2Te3 for the c lattice parameter.
+  refs:
+    - 10.1038/nphys1270
+
+- id: bi2se3
+  formula: Bi2Se3
+  name: Bismuth selenide
+  kind: compound
+  family: tetradymites
+  applications: [topological, thermoelectric]
+  spacegroups: [166]
+  topology: 3D strong topological insulator
+  thermoelectric: n-type end-member of Bi2(Te,Se)3 alloys
+  summary: >
+    The "hydrogen atom" of topological insulators: a single, nearly ideal
+    Dirac cone at Γ and a comparatively large bulk gap. Selenium vacancies
+    usually make as-grown crystals n-type and bulk-conducting.
+  highlights:
+    - property: Bulk band gap
+      value: ≈ 0.3 eV
+      conditions: ARPES, single crystals
+      doi: 10.1038/nphys1274
+  caveats: >
+    van der Waals layered; see Bi2Te3. Semi-local DFT band gaps are
+    systematically smaller than experiment.
+  refs:
+    - 10.1038/nphys1274
+    - 10.1038/nphys1270
+
+- id: bi2te2se
+  formula: Bi2SeTe2
+  name: Bismuth telluride selenide (tetradymite-ordered)
+  kind: compound
+  family: tetradymites
+  applications: [topological, thermoelectric]
+  spacegroups: [166]
+  topology: 3D strong topological insulator
+  summary: >
+    Ordered Te–Bi–Se–Bi–Te quintuple layers with Se in the central site. The
+    ordering suppresses defect doping, giving much higher bulk resistivity than
+    Bi2Se3 or Bi2Te3 and allowing surface transport to be resolved.
+  refs:
+    - 10.1103/physrevb.82.241306
+
+- id: mnbi2te4
+  formula: Bi2MnTe4
+  name: Manganese bismuth telluride
+  kind: compound
+  family: tetradymites
+  applications: [topological]
+  spacegroups: [166]
+  topology: Intrinsic antiferromagnetic topological insulator
+  summary: >
+    A septuple-layer (Te–Bi–Te–Mn–Te–Bi–Te) relative of Bi2Te3 with
+    ferromagnetic Mn layers coupled antiferromagnetically along c. It was the
+    first intrinsic magnetic topological insulator, and thin flakes show
+    the quantum anomalous Hall effect.
+  highlights:
+    - property: Magnetic topology
+      value: Antiferromagnetic TI predicted and observed
+      doi: 10.1038/s41586-019-1840-9
+    - property: Quantum anomalous Hall effect
+      value: Observed in five-septuple-layer flakes
+      doi: 10.1126/science.aax8156
+  caveats: >
+    Database structures are usually relaxed in a ferromagnetic or non-magnetic
+    cell; the experimental ground state is A-type antiferromagnetic.
+  structure_ambiguity: >
+    The magnetic ground state (A-type antiferromagnet) needs a cell doubled along c.
+    The database structures are R-3m cells relaxed ferromagnetic or non-magnetic, so
+    their lattice parameters and gaps refer to a different magnetic state.
+  refs:
+    - 10.1038/s41586-019-1840-9
+    - 10.1126/science.aax8156
+
+- id: bisbte-alloy
+  formula: Bi0.5Sb1.5Te3
+  name: (Bi,Sb)2Te3 p-type alloy
+  kind: alloy
+  members: [bi2te3, sb2te3]
+  family: tetradymites
+  applications: [thermoelectric, topological]
+  thermoelectric: state-of-the-art p-type near room temperature
+  summary: >
+    Solid solution between Bi2Te3 and Sb2Te3. Alloying tunes the carrier
+    concentration and scatters phonons. Composition near Bi0.5Sb1.5Te3 is the
+    standard p-type Peltier leg. In thin films, (Bi,Sb)2Te3 is also used to place
+    the Fermi level inside the bulk gap of the topological insulator.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.4 at 373 K
+      conditions: Nanostructured bulk (ball-milled + hot-pressed)
+      doi: 10.1126/science.1156446
+    - property: Peak zT
+      value: ≈ 1.86 at 320 K
+      conditions: Bi0.5Sb1.5Te3 with dense dislocation arrays (liquid-phase compaction)
+      doi: 10.1126/science.aaa4166
+  refs:
+    - 10.1126/science.1156446
+    - 10.1126/science.aaa4166
+
+- id: bitese-alloy
+  formula: Bi2Te3-xSex
+  name: Bi2(Te,Se)3 n-type alloy
+  kind: alloy
+  members: [bi2te3, bi2se3, bi2te2se]
+  family: tetradymites
+  applications: [thermoelectric, topological]
+  thermoelectric: standard n-type near room temperature (x ≈ 0.3)
+  summary: >
+    Se substitution on the Te sites gives the n-type Peltier leg. At x = 1
+    the ordered compound Bi2Te2Se forms, a bulk-insulating topological insulator.
+  refs:
+    - 10.1038/natrevmats.2017.49
+
+# ───────────────────────────── Skutterudites ─────────────────────────────
+- id: cosb3
+  formula: CoSb3
+  name: Cobalt triantimonide
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  thermoelectric: n- and p-type, 500–850 K
+  summary: >
+    Parent binary skutterudite. Its high carrier mobility but large lattice
+    thermal conductivity motivated void filling. The conduction-band
+    edge has converging multi-valley character, which favours n-type performance.
+  refs:
+    - 10.1038/nmat4430
+    - 10.1126/science.272.5266.1325
+
+- id: rhsb3
+  formula: RhSb3
+  name: Rhodium triantimonide
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  summary: >
+    Isostructural 4d analogue of CoSb3. A useful reference for how the
+    transition metal affects the band gap and band-edge character of the skutterudites.
+  refs: []
+
+- id: irsb3
+  formula: IrSb3
+  name: Iridium triantimonide
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  summary: >
+    5d skutterudite with stronger spin–orbit coupling. It is part of the
+    (Co,Rh,Ir)Sb3 series used to study band-structure trends.
+  refs: []
+
+- id: coas3
+  formula: CoAs3
+  name: Skutterudite (mineral)
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  summary: >
+    The mineral that gives the structure type its name (after Skuterud, Norway).
+  refs: []
+
+- id: cefe4sb12
+  formula: CeFe4Sb12
+  name: Ce-filled iron antimonide skutterudite
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  thermoelectric: p-type filled skutterudite
+  summary: >
+    Rare-earth-filled skutterudite. The loosely bound Ce "rattler" strongly
+    suppresses lattice thermal conductivity. Studied in Sales et al. (1996)
+    as Ce(Fe,Co)4Sb12, one of the first filled skutterudites with
+    high zT.
+  refs:
+    - 10.1126/science.272.5266.1325
+
+- id: lafe4sb12
+  formula: LaFe4Sb12
+  name: La-filled iron antimonide skutterudite
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  summary: >
+    Non-magnetic La analogue of CeFe4Sb12. It is a common model system for
+    rattler dynamics.
+  refs:
+    - 10.1126/science.272.5266.1325
+
+- id: ybfe4sb12
+  formula: Fe4Sb12Yb
+  name: Yb-filled iron antimonide skutterudite
+  kind: compound
+  family: skutterudites
+  applications: [thermoelectric]
+  spacegroups: [204]
+  summary: >
+    Yb is a common filler for n-type CoSb3 and appears in multiple-filled
+    compositions such as (Ba,La,Yb)yCo4Sb12.
+  refs:
+    - 10.1021/ja111199y
+
+- id: filled-cosb3-alloy
+  formula: (Ba,La,Yb)yCo4Sb12
+  name: Multiple-filled CoSb3
+  kind: alloy
+  members: [cosb3, ybfe4sb12, lafe4sb12]
+  family: skutterudites
+  applications: [thermoelectric]
+  thermoelectric: n-type, 600–850 K
+  summary: >
+    Filling the voids with several different atoms scatters a broad range of
+    phonon frequencies.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.7 at 850 K
+      conditions: Ba0.08La0.05Yb0.04Co4Sb12
+      doi: 10.1021/ja111199y
+  refs:
+    - 10.1021/ja111199y
+
+# ───────────────────────────── Half-Heuslers ─────────────────────────────
+- id: zrnisn
+  formula: NiSnZr
+  name: ZrNiSn
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  thermoelectric: n-type, 600–1000 K
+  summary: >
+    The prototypical n-type half-Heusler (MNiSn, M = Ti, Zr, Hf). Ni
+    interstitials on the vacant sublattice strongly affect the measured band gap
+    and transport.
+  caveats: >
+    Real samples often contain excess Ni on the nominally vacant site, which
+    DFT structures of the ideal compound do not include.
+  refs: []
+
+- id: hfnisn
+  formula: HfNiSn
+  name: HfNiSn
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  summary: >
+    Heavier MNiSn end-member. Hf/Zr mass disorder in (Zr,Hf)NiSn is a standard
+    route to lower lattice thermal conductivity.
+  refs: []
+
+- id: tinisn
+  formula: NiSnTi
+  name: TiNiSn
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  summary: >
+    Light, low-cost MNiSn end-member, often alloyed with Zr/Hf.
+  refs: []
+
+- id: nbfesb
+  formula: FeNbSb
+  name: NbFeSb
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  thermoelectric: p-type, up to ~1200 K
+  summary: >
+    Heavy-band p-type half-Heusler with a very large power factor. Heavy doping
+    on the Nb site (Hf, Zr, Ti) gives some of the highest zT values among
+    half-Heuslers.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.5 at 1200 K
+      conditions: FeNb0.88Hf0.12Sb
+      doi: 10.1038/ncomms9144
+  refs:
+    - 10.1038/ncomms9144
+
+- id: zrcosb
+  formula: CoSbZr
+  name: ZrCoSb
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  summary: >
+    17+1 electron-count MCoSb family member, studied as a p-type half-Heusler.
+  refs: []
+
+- id: zrcobi
+  formula: BiCoZr
+  name: ZrCoBi
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  thermoelectric: p-type, up to ~973 K
+  summary: >
+    A Bi-based half-Heusler whose heavy Bi lowers the phonon frequencies while
+    keeping a high band degeneracy.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.4 at 973 K
+      conditions: ZrCoBi0.65Sb0.15Sn0.20
+      doi: 10.1038/s41467-018-04958-3
+  refs:
+    - 10.1038/s41467-018-04958-3
+
+- id: ticosb
+  formula: CoSbTi
+  name: TiCoSb
+  kind: compound
+  family: half-heuslers
+  applications: [thermoelectric]
+  spacegroups: [216]
+  summary: >
+    Light MCoSb member, often alloyed with Zr/Hf.
+  refs: []
+
+- id: yptbi
+  formula: BiPtY
+  name: YPtBi
+  kind: compound
+  family: half-heuslers
+  applications: [topological]
+  spacegroups: [216]
+  topology: Band-inverted half-Heusler (topological semimetal / TI under strain)
+  summary: >
+    A heavy half-Heusler whose Γ8/Γ6 band ordering is inverted, as in HgTe.
+    It is a zero-gap semimetal that becomes a topological insulator under
+    strain that lowers the cubic symmetry.
+  refs:
+    - 10.1038/nmat2770
+    - 10.1038/nmat2771
+
+- id: luptbi
+  formula: BiLuPt
+  name: LuPtBi
+  kind: compound
+  family: half-heuslers
+  applications: [topological]
+  spacegroups: [216]
+  topology: Band-inverted half-Heusler
+  summary: >
+    One of the most strongly band-inverted members of the RPtBi family
+    (R = rare earth) identified in the 2010 high-throughput predictions.
+  refs:
+    - 10.1038/nmat2770
+    - 10.1038/nmat2771
+
+- id: scptbi
+  formula: BiPtSc
+  name: ScPtBi
+  kind: compound
+  family: half-heuslers
+  applications: [topological]
+  spacegroups: [216]
+  summary: >
+    Lighter member of the RPtBi series, near the boundary between trivial
+    and inverted band order. Useful for studying the trend across the series.
+  refs:
+    - 10.1038/nmat2770
+
+# ───────────────────────────── Zintl phases ─────────────────────────────
+- id: mg3sb2
+  formula: Mg3Sb2
+  name: Magnesium antimonide
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [164]
+  thermoelectric: n-type (Te/Se/Y-doped, Mg-rich), 300–750 K
+  summary: >
+    CaAl2Si2-type Zintl compound. When grown Mg-rich to suppress Mg vacancies,
+    it can be made n-type, and the multi-valley conduction band makes n-type
+    Mg3(Sb,Bi)2 a low-cost competitor to Bi2Te3.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.5 at 716 K
+      conditions: n-type Mg3.2Sb1.5Bi0.49Te0.01
+      doi: 10.1002/adma.201603955
+  refs:
+    - 10.1002/adma.201603955
+    - 10.1038/ncomms13901
+
+- id: mg3bi2
+  formula: Bi2Mg3
+  name: Magnesium bismuthide
+  kind: compound
+  family: zintl
+  applications: [thermoelectric, topological]
+  spacegroups: [164]
+  topology: Nodal-line semimetal (without SOC); SOC-gapped candidate
+  thermoelectric: n-type end-member for near-room-temperature cooling
+  summary: >
+    Semimetallic Bi end-member of Mg3(Sb,Bi)2. Bi-rich n-type compositions
+    are used for thermoelectric cooling near room temperature. Mg3Bi2 has
+    also been studied as a topological nodal-line semimetal.
+  refs:
+    - 10.1126/science.aax7792
+    - 10.1002/advs.201800897
+
+- id: mgsbbi-alloy
+  formula: Mg3Sb2-xBix
+  name: Mg3(Sb,Bi)2 alloy
+  kind: alloy
+  members: [mg3sb2, mg3bi2]
+  family: zintl
+  applications: [thermoelectric]
+  summary: >
+    Bi alloying narrows the gap and lowers the lattice thermal conductivity,
+    which moves the optimum toward room temperature.
+  refs:
+    - 10.1002/adma.201603955
+    - 10.1126/science.aax7792
+
+- id: cazn2sb2
+  formula: CaSb2Zn2
+  name: CaZn2Sb2
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [164]
+  summary: >
+    AZn2Sb2 (A = Ca, Sr, Eu, Yb) CaAl2Si2-type Zintl compound. The cation tunes
+    carrier concentration and mobility.
+  refs:
+    - 10.1039/b702266b
+
+- id: ybzn2sb2
+  formula: Sb2YbZn2
+  name: YbZn2Sb2
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [164]
+  summary: >
+    Yb analogue of CaZn2Sb2. Divalent Yb makes it a p-type semiconductor
+    with higher mobility.
+  refs:
+    - 10.1039/b702266b
+
+- id: euzn2sb2
+  formula: EuSb2Zn2
+  name: EuZn2Sb2
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [164]
+  summary: >
+    Eu2+ analogue in the AZn2Sb2 series with localized 4f moments.
+  caveats: >
+    Eu 4f states are poorly described by semi-local DFT; band gaps and
+    magnetic properties need DFT+U or beyond.
+  refs: []
+
+- id: yb14mnsb11
+  formula: MnSb11Yb14
+  name: Yb14MnSb11
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [142]
+  thermoelectric: p-type, up to ~1275 K (radioisotope generators)
+  summary: >
+    Ca14AlSb11-type Zintl compound with a large, complex unit cell
+    (208 atoms in the conventional cell) and very low lattice thermal conductivity.
+    It is a high-temperature p-type material developed for space power.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.0 at 1223 K
+      doi: 10.1021/cm060261t
+  caveats: >
+    Large cell with Mn 3d / Yb 4f states; database coverage is sparse and
+    DFT results depend strongly on the treatment of correlation.
+  refs:
+    - 10.1021/cm060261t
+
+- id: ca5al2sb6
+  formula: Al2Ca5Sb6
+  name: Ca5Al2Sb6
+  kind: compound
+  family: zintl
+  applications: [thermoelectric]
+  spacegroups: [55]
+  summary: >
+    Zintl compound with infinite double chains of AlSb4 tetrahedra. Its
+    complex structure gives low lattice thermal conductivity.
+  refs:
+    - 10.1039/b702266b
+
+- id: euin2as2
+  formula: As2EuIn2
+  name: EuIn2As2
+  kind: compound
+  family: zintl
+  applications: [topological]
+  spacegroups: [194]
+  topology: Axion-insulator candidate (higher-order topology)
+  summary: >
+    Hexagonal Zintl compound with Eu2+ magnetic layers. It was predicted to be an
+    axion insulator with higher-order (hinge) states in its antiferromagnetic
+    ground state.
+  caveats: >
+    Magnetic configuration and Eu 4f treatment control the predicted topology.
+  refs:
+    - 10.1103/physrevlett.122.256402
+
+# ─────────────────────────── IV–VI chalcogenides ───────────────────────────
+- id: pbte
+  formula: PbTe
+  name: Lead telluride
+  kind: compound
+  family: rocksalt-chalcogenides
+  applications: [thermoelectric]
+  spacegroups: [225]
+  thermoelectric: n- and p-type, 500–900 K
+  summary: >
+    Rocksalt narrow-gap semiconductor and the classic mid-temperature
+    thermoelectric. Converging L and Σ valence bands and endotaxial
+    nanostructuring both pushed zT above 2.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.8 at 850 K
+      conditions: Na-doped PbTe1−xSex, band convergence
+      doi: 10.1038/nature09996
+    - property: Peak zT
+      value: ≈ 2.2 at 915 K
+      conditions: Na-doped PbTe–SrTe, all-scale hierarchical architecture
+      doi: 10.1038/nature11439
+  refs:
+    - 10.1038/nature09996
+    - 10.1038/nature11439
+
+- id: pbse
+  formula: PbSe
+  name: Lead selenide
+  kind: compound
+  family: rocksalt-chalcogenides
+  applications: [thermoelectric, topological]
+  spacegroups: [225]
+  thermoelectric: lower-cost Te-free analogue of PbTe
+  summary: >
+    Te-free rocksalt analogue of PbTe. Alloying with SnSe produces
+    Pb1−xSnxSe, which becomes a topological crystalline insulator.
+  refs:
+    - 10.1038/nmat3449
+
+- id: snte
+  formula: SnTe
+  name: Tin telluride
+  kind: compound
+  family: rocksalt-chalcogenides
+  applications: [topological, thermoelectric]
+  spacegroups: [225]
+  topology: Topological crystalline insulator (mirror Chern number 2)
+  thermoelectric: p-type (Sn vacancies), Pb-free PbTe alternative
+  summary: >
+    The first topological crystalline insulator to be predicted and confirmed.
+    Its surface Dirac cones are protected by mirror symmetry. As a thermoelectric,
+    it is a lead-free analogue of PbTe whose intrinsic Sn vacancies give high hole
+    concentrations.
+  highlights:
+    - property: Topology
+      value: TCI predicted
+      doi: 10.1038/ncomms1969
+    - property: Topology
+      value: TCI surface states observed by ARPES
+      doi: 10.1038/nphys2442
+  refs:
+    - 10.1103/physrevlett.106.106802
+    - 10.1038/ncomms1969
+    - 10.1038/nphys2442
+    - 10.1073/pnas.1305735110
+
+- id: pbsnse-alloy
+  formula: Pb1-xSnxSe
+  name: Pb1−xSnxSe alloy
+  kind: alloy
+  members: [pbse, snse]
+  family: rocksalt-chalcogenides
+  applications: [topological, thermoelectric]
+  topology: Topological crystalline insulator (Sn-rich, low T)
+  summary: >
+    Band inversion at L as a function of Sn content and temperature turns this
+    alloy into a topological crystalline insulator.
+  highlights:
+    - property: Topology
+      value: TCI observed (x ≈ 0.23, low temperature)
+      doi: 10.1038/nmat3449
+  refs:
+    - 10.1038/nmat3449
+
+- id: snse
+  formula: SnSe
+  name: Tin selenide
+  kind: compound
+  family: rocksalt-chalcogenides
+  applications: [thermoelectric]
+  spacegroups: [62]
+  thermoelectric: p- and n-type, record zT above 750 K
+  summary: >
+    Layered, distorted-rocksalt (GeS-type, Pnma) semiconductor whose strong
+    lattice anharmonicity gives ultralow thermal conductivity. Above about 800 K
+    it transforms to Cmcm.
+  highlights:
+    - property: Peak zT
+      value: ≈ 2.6 at 923 K
+      conditions: Single crystal, b axis
+      doi: 10.1038/nature13184
+    - property: Peak zT
+      value: ≈ 3.1 at 783 K
+      conditions: Polycrystalline, Sn-oxide removal
+      doi: 10.1038/s41563-021-01064-6
+  caveats: >
+    The record zT values are measured on the high-temperature side; the DFT
+    structure here is the room-temperature Pnma phase.
+  refs:
+    - 10.1038/nature13184
+    - 10.1126/science.aad3749
+    - 10.1038/s41563-021-01064-6
+
+- id: gete
+  formula: GeTe
+  name: Germanium telluride
+  kind: compound
+  family: rocksalt-chalcogenides
+  applications: [thermoelectric]
+  spacegroups: [160]
+  thermoelectric: p-type, 500–800 K
+  summary: >
+    Rhombohedrally distorted rocksalt ferroelectric (R3m) with a giant bulk
+    Rashba splitting. Transforms to cubic rocksalt near 700 K. Intrinsic
+    Ge vacancies make it heavily p-type.
+  refs:
+    - 10.1002/adma.201203199
+
+# ─────────────────────────── Topological semimetals ───────────────────────────
+- id: bi
+  formula: Bi
+  name: Bismuth
+  kind: compound
+  family: topological-semimetals
+  applications: [thermoelectric, topological]
+  spacegroups: [166]
+  summary: >
+    Rhombohedral semimetal with tiny, highly anisotropic Fermi pockets and
+    huge spin–orbit coupling. It is the parent of Bi1−xSbx, the first 3D
+    topological insulator, and a classic low-temperature thermoelectric.
+  refs:
+    - 10.1103/physrevb.76.045302
+
+- id: sb
+  formula: Sb
+  name: Antimony
+  kind: compound
+  family: topological-semimetals
+  applications: [topological]
+  spacegroups: [166]
+  topology: Semimetal with non-trivial Z2 band topology
+  summary: >
+    Isostructural with Bi but with a non-trivial Z2 band ordering. Its
+    topological surface states can be seen despite the semimetallic bulk.
+  refs:
+    - 10.1103/physrevb.76.045302
+
+- id: bisb-alloy
+  formula: Bi1-xSbx
+  name: Bi1−xSbx alloy
+  kind: alloy
+  members: [bi, sb]
+  family: topological-semimetals
+  applications: [topological, thermoelectric]
+  topology: First experimentally observed 3D topological insulator (0.07 < x < 0.22)
+  summary: >
+    For intermediate Sb content the L-point bands invert and a small bulk gap
+    opens. Proposed by Fu and Kane and observed by Hsieh et al. Bi–Sb alloys
+    are also among the best n-type thermoelectrics below ~200 K.
+  highlights:
+    - property: Topology
+      value: First 3D TI observed by ARPES
+      doi: 10.1038/nature06843
+  refs:
+    - 10.1103/physrevb.76.045302
+    - 10.1038/nature06843
+
+- id: cd3as2
+  formula: As2Cd3
+  name: Cadmium arsenide
+  kind: compound
+  family: topological-semimetals
+  applications: [topological, thermoelectric]
+  spacegroups: [142, 137]
+  topology: 3D Dirac semimetal
+  summary: >
+    A stable 3D Dirac semimetal with ultrahigh mobility. Its Dirac points are
+    protected by C4 rotation symmetry.
+  highlights:
+    - property: Topology
+      value: 3D Dirac cone observed by ARPES
+      doi: 10.1038/nmat3990
+  caveats: >
+    Complex, partially ordered Cd-vacancy superstructure. Room-temperature
+    structure refined as I41/acd. Many databases contain smaller P42/nmc
+    approximants.
+  refs:
+    - 10.1103/physrevb.88.125427
+    - 10.1038/nmat3990
+    - 10.1038/ncomms4786
+    - 10.1021/ic403163d
+
+- id: na3bi
+  formula: BiNa3
+  name: Sodium bismuthide
+  kind: compound
+  family: topological-semimetals
+  applications: [topological]
+  spacegroups: [194]
+  topology: 3D Dirac semimetal
+  summary: >
+    Hexagonal 3D Dirac semimetal (predicted 2012, observed 2014). Highly
+    air-sensitive.
+  refs:
+    - 10.1103/physrevb.85.195320
+    - 10.1126/science.1245085
+
+- id: taas
+  formula: AsTa
+  name: Tantalum arsenide
+  kind: compound
+  family: topological-semimetals
+  applications: [topological]
+  spacegroups: [109]
+  topology: Weyl semimetal (type I, 24 Weyl points)
+  summary: >
+    The first experimentally confirmed Weyl semimetal. It is non-centrosymmetric
+    (I41md), and ARPES sees Fermi arcs on its surface.
+  highlights:
+    - property: Topology
+      value: Weyl fermion semimetal with Fermi arcs observed
+      doi: 10.1126/science.aaa9297
+  refs:
+    - 10.1103/physrevx.5.011029
+    - 10.1038/ncomms8373
+    - 10.1126/science.aaa9297
+    - 10.1103/physrevx.5.031013
+
+- id: nbp
+  formula: NbP
+  name: Niobium phosphide
+  kind: compound
+  family: topological-semimetals
+  applications: [topological, thermoelectric]
+  spacegroups: [109]
+  topology: Weyl semimetal (TaAs family)
+  summary: >
+    TaAs-family Weyl semimetal with extremely large magnetoresistance and
+    ultrahigh mobility, and large magneto-thermoelectric (Nernst) responses.
+  refs:
+    - 10.1038/nphys3372
+
+- id: wte2
+  formula: Te2W
+  name: Tungsten ditelluride (Td)
+  kind: compound
+  family: topological-semimetals
+  applications: [topological]
+  spacegroups: [31]
+  topology: Type-II Weyl semimetal (predicted)
+  summary: >
+    Orthorhombic layered semimetal with non-saturating, extremely large
+    magnetoresistance. Predicted to be the first type-II Weyl semimetal.
+  caveats: >
+    van der Waals layered; interlayer spacing is sensitive to the functional.
+  refs:
+    - 10.1038/nature13763
+    - 10.1038/nature15768
+
+- id: zrte5
+  formula: Te5Zr
+  name: Zirconium pentatelluride
+  kind: compound
+  family: topological-semimetals
+  applications: [topological, thermoelectric]
+  spacegroups: [63]
+  topology: Near a strong/weak TI phase boundary (Dirac semimetal-like transport)
+  summary: >
+    Layered transition-metal pentatelluride. Its topology lies close to a strong/weak TI
+    boundary and is very sensitive to lattice parameters. It shows the
+    chiral magnetic effect and a resistivity anomaly accompanied by a sign
+    change of the thermopower.
+  caveats: >
+    Predicted topology depends on the c lattice parameter, so the vdW treatment
+    in DFT matters.
+  refs:
+    - 10.1103/physrevx.4.011002
+    - 10.1038/nphys3648
+
+- id: hfte5
+  formula: HfTe5
+  name: Hafnium pentatelluride
+  kind: compound
+  family: topological-semimetals
+  applications: [topological, thermoelectric]
+  spacegroups: [63]
+  summary: >
+    Hf analogue of ZrTe5, with similar near-critical topology.
+  refs:
+    - 10.1103/physrevx.4.011002
+
+# ─────────────────────────── Other thermoelectrics ───────────────────────────
+- id: mg2si
+  formula: Mg2Si
+  name: Magnesium silicide
+  kind: compound
+  family: other-thermoelectrics
+  applications: [thermoelectric]
+  spacegroups: [225]
+  summary: >
+    Light, earth-abundant antifluorite semiconductor. It is the end-member of the
+    n-type Mg2(Si,Sn) solid solutions.
+  refs:
+    - 10.1103/physrevlett.108.166601
+
+- id: mg2sn
+  formula: Mg2Sn
+  name: Magnesium stannide
+  kind: compound
+  family: other-thermoelectrics
+  applications: [thermoelectric]
+  spacegroups: [225]
+  summary: >
+    Sn end-member. In Mg2Si1−xSnx the two lowest conduction bands cross near
+    x ≈ 0.7, giving band convergence.
+  refs:
+    - 10.1103/physrevlett.108.166601
+
+- id: mg2sisn-alloy
+  formula: Mg2Si1-xSnx
+  name: Mg2(Si,Sn) alloy
+  kind: alloy
+  members: [mg2si, mg2sn]
+  family: other-thermoelectrics
+  applications: [thermoelectric]
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.3 near 700 K
+      conditions: n-type, conduction-band convergence
+      doi: 10.1103/physrevlett.108.166601
+  summary: >
+    A textbook example of band-convergence engineering in an n-type material.
+  refs:
+    - 10.1103/physrevlett.108.166601
+
+- id: cu2se
+  formula: Cu2Se
+  name: Copper selenide
+  kind: compound
+  family: other-thermoelectrics
+  applications: [thermoelectric]
+  spacegroups: [225, 216]
+  thermoelectric: p-type, 700–1000 K
+  summary: >
+    Above ~400 K, Cu ions are liquid-like in an fcc Se framework
+    ("phonon-liquid electron-crystal"), which gives very low thermal conductivity.
+  highlights:
+    - property: Peak zT
+      value: ≈ 1.5 at 1000 K
+      doi: 10.1038/nmat3273
+  caveats: >
+    The high-temperature β phase has disordered Cu. Ordered DFT cells are
+    approximants; the low-temperature α phase is a complex superstructure.
+  structure_ambiguity: >
+    In the thermoelectric β phase, Cu is spread over partially occupied sites in an
+    fcc Se framework. Every DFT cell is an ordered approximant that picks one Cu
+    arrangement, so the structure shown is a model, not the measured structure.
+  refs:
+    - 10.1038/nmat3273
+
+- id: bicuseo
+  formula: BiCuOSe
+  name: Bismuth copper oxyselenide
+  kind: compound
+  family: other-thermoelectrics
+  applications: [thermoelectric]
+  spacegroups: [129]
+  thermoelectric: p-type oxyselenide, 600–900 K
+  summary: >
+    Layered ZrSiCuAs-type compound with alternating insulating [Bi2O2] and
+    conducting [Cu2Se2] layers. Its intrinsically low thermal conductivity makes it
+    the leading oxygen-containing thermoelectric.
+  refs: []

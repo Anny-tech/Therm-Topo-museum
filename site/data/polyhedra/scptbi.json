@@ -1,0 +1,6361 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbesol:agm002184739",
+   "note": "scptbi: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Sc4 Bi4 Pt4",
+  "reduced_formula": "ScBiPt",
+  "n_sites": 12,
+  "density": 11.139645,
+  "lattice": {
+   "a": 6.445173,
+   "b": 6.445173,
+   "c": 6.445173,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 267.73413,
+   "matrix": [
+    [
+     6.445173,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     6.445173,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     6.445173
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "F-43m",
+   "number": 216,
+   "crystal_system": "cubic"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Sc1",
+    "element": "Sc",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     3.222586,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "4b",
+    "site_symmetry": "-43m",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Bi1",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "-43m",
+    "orbit": 1
+   },
+   {
+    "index": 2,
+    "label": "Pt1",
+    "element": "Pt",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.75,
+     0.25
+    ],
+    "cart": [
+     1.611293,
+     4.83388,
+     1.611293
+    ],
+    "wyckoff": "4d",
+    "site_symmetry": "-43m",
+    "orbit": 2
+   },
+   {
+    "index": 3,
+    "label": "Sc2",
+    "element": "Sc",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "cart": [
+     3.222586,
+     3.222586,
+     3.222586
+    ],
+    "wyckoff": "4b",
+    "site_symmetry": "-43m",
+    "orbit": 0
+   },
+   {
+    "index": 4,
+    "label": "Bi2",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "cart": [
+     0.0,
+     3.222586,
+     3.222586
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "-43m",
+    "orbit": 1
+   },
+   {
+    "index": 5,
+    "label": "Pt2",
+    "element": "Pt",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.25,
+     0.75
+    ],
+    "cart": [
+     1.611293,
+     1.611293,
+     4.83388
+    ],
+    "wyckoff": "4d",
+    "site_symmetry": "-43m",
+    "orbit": 2
+   },
+   {
+    "index": 6,
+    "label": "Sc3",
+    "element": "Sc",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     3.222586
+    ],
+    "wyckoff": "4b",
+    "site_symmetry": "-43m",
+    "orbit": 0
+   },
+   {
+    "index": 7,
+    "label": "Bi3",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.5
+    ],
+    "cart": [
+     3.222586,
+     0.0,
+     3.222586
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "-43m",
+    "orbit": 1
+   },
+   {
+    "index": 8,
+    "label": "Pt3",
+    "element": "Pt",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.75,
+     0.75
+    ],
+    "cart": [
+     4.83388,
+     4.83388,
+     4.83388
+    ],
+    "wyckoff": "4d",
+    "site_symmetry": "-43m",
+    "orbit": 2
+   },
+   {
+    "index": 9,
+    "label": "Sc4",
+    "element": "Sc",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     3.222586,
+     0.0
+    ],
+    "wyckoff": "4b",
+    "site_symmetry": "-43m",
+    "orbit": 0
+   },
+   {
+    "index": 10,
+    "label": "Bi4",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "cart": [
+     3.222586,
+     3.222586,
+     0.0
+    ],
+    "wyckoff": "4a",
+    "site_symmetry": "-43m",
+    "orbit": 1
+   },
+   {
+    "index": 11,
+    "label": "Pt4",
+    "element": "Pt",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.25,
+     0.25
+    ],
+    "cart": [
+     4.83388,
+     1.611293,
+     1.611293
+    ],
+    "wyckoff": "4d",
+    "site_symmetry": "-43m",
+    "orbit": 2
+   }
+  ]
+ },
+ "settings": {
+  "method": "crystalnn",
+  "centers": [
+   "Bi",
+   "Pt",
+   "Sc"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": null,
+  "include_element_shells": false,
+  "oxidation_states": null,
+  "notes": [
+   "No charge-balanced oxidation states found, so Shannon radii cannot be assigned; used CrystalNN."
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Sc1",
+   "element": "Sc",
+   "wyckoff": "4b",
+   "site_symmetry": "-43m",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "oxidation_state": null,
+   "coordination_number": 4,
+   "ligand_formula": "Pt4",
+   "shape": "tetrahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": [
+    "Sc1-Pt4"
+   ]
+  },
+  {
+   "site_label": "Bi1",
+   "element": "Bi",
+   "wyckoff": "4a",
+   "site_symmetry": "-43m",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "oxidation_state": null,
+   "coordination_number": 4,
+   "ligand_formula": "Pt4",
+   "shape": "tetrahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": [
+    "Bi1-Pt4"
+   ]
+  },
+  {
+   "site_label": "Pt1",
+   "element": "Pt",
+   "wyckoff": "4d",
+   "site_symmetry": "-43m",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.25,
+    0.75,
+    0.25
+   ],
+   "oxidation_state": null,
+   "coordination_number": 8,
+   "ligand_formula": "Bi4Sc4",
+   "shape": "cube",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": [
+    "Pt1-Bi4Sc4"
+   ]
+  }
+ ],
+ "polyhedron_types": [
+  {
+   "type_id": "Sc1-Pt4",
+   "kind": "coordination",
+   "center_label": "Sc1",
+   "center_element": "Sc",
+   "wyckoff": "4b",
+   "site_symmetry": "-43m",
+   "ligand_formula": "Pt4",
+   "n_instances": 4,
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "connectivity": {
+    "corner": 12.0
+   },
+   "mean_bridging_angle": 109.471
+  },
+  {
+   "type_id": "Bi1-Pt4",
+   "kind": "coordination",
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "wyckoff": "4a",
+   "site_symmetry": "-43m",
+   "ligand_formula": "Pt4",
+   "n_instances": 4,
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "connectivity": {
+    "corner": 12.0
+   },
+   "mean_bridging_angle": 109.471
+  },
+  {
+   "type_id": "Pt1-Bi4Sc4",
+   "kind": "coordination",
+   "center_label": "Pt1",
+   "center_element": "Pt",
+   "wyckoff": "4d",
+   "site_symmetry": "-43m",
+   "ligand_formula": "Bi4Sc4",
+   "n_instances": 4,
+   "metrics": {
+    "coordination_number": 8,
+    "shape": "cube",
+    "face_sizes": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 33.466766,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 8.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "connectivity": {
+    "edge": 12.0
+   },
+   "mean_bridging_angle": null
+  }
+ ],
+ "polyhedra": [
+  {
+   "type_id": "Sc1-Pt4",
+   "center_index": 0,
+   "center_label": "Sc1",
+   "center_element": "Sc",
+   "center_wyckoff": "4b",
+   "center_frac": [
+    0.5,
+    0.0,
+    0.0
+   ],
+   "center_cart": [
+    3.222586,
+    0.0,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "cart": [
+      4.83388,
+      -1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      4.83388,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      1.611293,
+      -1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     3,
+     0,
+     2
+    ],
+    [
+     3,
+     1,
+     2
+    ],
+    [
+     3,
+     1,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      -1,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sc1-Pt4",
+   "center_index": 3,
+   "center_label": "Sc2",
+   "center_element": "Sc",
+   "center_wyckoff": "4b",
+   "center_frac": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "center_cart": [
+    3.222586,
+    3.222586,
+    3.222586
+   ],
+   "ligands": [
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      4.83388,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      4.83388,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      4.83388,
+      4.83388,
+      4.83388
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sc1-Pt4",
+   "center_index": 6,
+   "center_label": "Sc3",
+   "center_element": "Sc",
+   "center_wyckoff": "4b",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.5
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    3.222586
+   ],
+   "ligands": [
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      -1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      1.611293,
+      -1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     1
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sc1-Pt4",
+   "center_index": 9,
+   "center_label": "Sc4",
+   "center_element": "Sc",
+   "center_wyckoff": "4b",
+   "center_frac": [
+    0.0,
+    0.5,
+    0.0
+   ],
+   "center_cart": [
+    0.0,
+    3.222586,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "cart": [
+      -1.611293,
+      4.83388,
+      -1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      4.83388,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      1,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Pt4",
+   "center_index": 1,
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "center_wyckoff": "4a",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "cart": [
+      -1.611293,
+      -1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      1.611293,
+      -1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     1
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Pt4",
+   "center_index": 4,
+   "center_label": "Bi2",
+   "center_element": "Bi",
+   "center_wyckoff": "4a",
+   "center_frac": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "center_cart": [
+    0.0,
+    3.222586,
+    3.222586
+   ],
+   "ligands": [
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -1.611293,
+      4.83388,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      4.83388,
+      1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      1,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Pt4",
+   "center_index": 7,
+   "center_label": "Bi3",
+   "center_element": "Bi",
+   "center_wyckoff": "4a",
+   "center_frac": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "center_cart": [
+    3.222586,
+    0.0,
+    3.222586
+   ],
+   "ligands": [
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      4.83388,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      4.83388,
+      -1.611293,
+      4.83388
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      1.611293,
+      -1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     2,
+     0,
+     1
+    ],
+    [
+     3,
+     0,
+     1
+    ],
+    [
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     2,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      -1,
+      1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Pt4",
+   "center_index": 10,
+   "center_label": "Bi4",
+   "center_element": "Bi",
+   "center_wyckoff": "4a",
+   "center_frac": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "center_cart": [
+    3.222586,
+    3.222586,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 5,
+     "label": "Pt2",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      1.611293,
+      1.611293,
+      -1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 2,
+     "label": "Pt1",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      1.611293,
+      4.83388,
+      1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 8,
+     "label": "Pt3",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      4.83388,
+      4.83388,
+      -1.611293
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 11,
+     "label": "Pt4",
+     "element": "Pt",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      4.83388,
+      1.611293,
+      1.611293
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 4,
+    "shape": "tetrahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 11.155589,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 4.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sc3",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "center_distance": 5.581684,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Sc4",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sc1",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Sc2",
+     "neighbor_element": "Sc",
+     "neighbor_type_id": "Sc1-Pt4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.222586,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      70.529,
+      70.529
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Pt1-Bi4Sc4",
+   "center_index": 2,
+   "center_label": "Pt1",
+   "center_element": "Pt",
+   "center_wyckoff": "4d",
+   "center_frac": [
+    0.25,
+    0.75,
+    0.25
+   ],
+   "center_cart": [
+    1.611293,
+    4.83388,
+    1.611293
+   ],
+   "ligands": [
+    {
+     "index": 9,
+     "label": "Sc4",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      3.222586,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 3,
+     "label": "Sc2",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 4,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 10,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 6,
+     "label": "Sc3",
+     "element": "Sc",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      0.0,
+      6.445173,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 0,
+     "label": "Sc1",
+     "element": "Sc",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3.222586,
+      6.445173,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      0.0,
+      6.445173,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 7,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3.222586,
+      6.445173,
+      3.222586
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 8,
+    "shape": "cube",
+    "face_sizes": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 33.466766,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 8.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     4
+    ],
+    [
+     6,
+     3,
+     0
+    ],
+    [
+     6,
+     3,
+     5
+    ],
+    [
+     7,
+     2,
+     1
+    ],
+    [
+     7,
+     2,
+     4
+    ],
+    [
+     7,
+     3,
+     1
+    ],
+    [
+     7,
+     3,
+     5
+    ],
+    [
+     7,
+     6,
+     4
+    ],
+    [
+     7,
+     6,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Pt1-Bi4Sc4",
+   "center_index": 5,
+   "center_label": "Pt2",
+   "center_element": "Pt",
+   "center_wyckoff": "4d",
+   "center_frac": [
+    0.25,
+    0.25,
+    0.75
+   ],
+   "center_cart": [
+    1.611293,
+    1.611293,
+    4.83388
+   ],
+   "ligands": [
+    {
+     "index": 6,
+     "label": "Sc3",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 3,
+     "label": "Sc2",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 4,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 7,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      0.0,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 9,
+     "label": "Sc4",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      0.0,
+      3.222586,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 0,
+     "label": "Sc1",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      3.222586,
+      0.0,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 10,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      6.445173
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 8,
+    "shape": "cube",
+    "face_sizes": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 33.466766,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 8.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     0
+    ],
+    [
+     6,
+     2,
+     4
+    ],
+    [
+     6,
+     3,
+     0
+    ],
+    [
+     6,
+     3,
+     5
+    ],
+    [
+     7,
+     2,
+     1
+    ],
+    [
+     7,
+     2,
+     4
+    ],
+    [
+     7,
+     3,
+     1
+    ],
+    [
+     7,
+     3,
+     5
+    ],
+    [
+     7,
+     6,
+     4
+    ],
+    [
+     7,
+     6,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Pt1-Bi4Sc4",
+   "center_index": 8,
+   "center_label": "Pt3",
+   "center_element": "Pt",
+   "center_wyckoff": "4d",
+   "center_frac": [
+    0.75,
+    0.75,
+    0.75
+   ],
+   "center_cart": [
+    4.83388,
+    4.83388,
+    4.83388
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Sc1",
+     "element": "Sc",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "cart": [
+      3.222586,
+      6.445173,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 9,
+     "label": "Sc4",
+     "element": "Sc",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "cart": [
+      6.445173,
+      3.222586,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 3,
+     "label": "Sc2",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 6,
+     "label": "Sc3",
+     "element": "Sc",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      6.445173,
+      6.445173,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 4,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      6.445173,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 10,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      6.445173
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 7,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3.222586,
+      6.445173,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "cart": [
+      6.445173,
+      6.445173,
+      6.445173
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 8,
+    "shape": "cube",
+    "face_sizes": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 33.466766,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 8.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     5,
+     7,
+     1
+    ],
+    [
+     5,
+     7,
+     0
+    ],
+    [
+     6,
+     5,
+     0
+    ],
+    [
+     6,
+     5,
+     2
+    ],
+    [
+     6,
+     7,
+     0
+    ],
+    [
+     6,
+     7,
+     3
+    ],
+    [
+     4,
+     5,
+     1
+    ],
+    [
+     4,
+     5,
+     2
+    ],
+    [
+     4,
+     7,
+     1
+    ],
+    [
+     4,
+     7,
+     3
+    ],
+    [
+     4,
+     6,
+     2
+    ],
+    [
+     4,
+     6,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Pt4",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Pt1-Bi4Sc4",
+   "center_index": 11,
+   "center_label": "Pt4",
+   "center_element": "Pt",
+   "center_wyckoff": "4d",
+   "center_frac": [
+    0.75,
+    0.25,
+    0.25
+   ],
+   "center_cart": [
+    4.83388,
+    1.611293,
+    1.611293
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Sc1",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      0.0,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 3,
+     "label": "Sc2",
+     "element": "Sc",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 7,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      0.0,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 10,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      3.222586,
+      3.222586,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 9,
+     "label": "Sc4",
+     "element": "Sc",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      6.445173,
+      3.222586,
+      0.0
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 6,
+     "label": "Sc3",
+     "element": "Sc",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      6.445173,
+      0.0,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 4,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      6.445173,
+      3.222586,
+      3.222586
+     ],
+     "distance": 2.790842
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      6.445173,
+      0.0,
+      0.0
+     ],
+     "distance": 2.790842
+    }
+   ],
+   "metrics": {
+    "coordination_number": 8,
+    "shape": "cube",
+    "face_sizes": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "average_bond_length": 2.790842,
+    "min_bond_length": 2.790842,
+    "max_bond_length": 2.790842,
+    "polyhedral_volume": 33.466766,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 8.0,
+    "weighted_average_bond_length": 2.790842,
+    "quadratic_elongation": 1.0,
+    "bond_angle_variance": 0.0,
+    "bond_valence_sum": null,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     7,
+     3,
+     0
+    ],
+    [
+     7,
+     3,
+     4
+    ],
+    [
+     7,
+     2,
+     0
+    ],
+    [
+     7,
+     5,
+     2
+    ],
+    [
+     6,
+     3,
+     1
+    ],
+    [
+     6,
+     3,
+     4
+    ],
+    [
+     6,
+     7,
+     4
+    ],
+    [
+     6,
+     7,
+     5
+    ],
+    [
+     6,
+     2,
+     1
+    ],
+    [
+     6,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Pt2",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Pt1",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Pt3",
+     "neighbor_element": "Pt",
+     "neighbor_type_id": "Pt1-Bi4Sc4",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.557426,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      109.471,
+      109.471
+     ]
+    }
+   ]
+  }
+ ],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {
+   "Sc": 1,
+   "Bi": 1,
+   "Pt": 1
+  },
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": null,
+  "site_symmetry_consistent": true
+ }
+}

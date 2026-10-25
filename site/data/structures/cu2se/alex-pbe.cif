@@ -1,0 +1,38 @@
+# Cu2Se_alex-pbe_agm003197214
+# Source: Alexandria (PBE) agm003197214 (PBE), https://alexandria.icams.rub.de/pbe/v1/structures/agm003197214
+# Conventional standard cell from spglib; symmetry detected: C2/m (No. 12) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Cu2Se_alex-pbe_agm003197214
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     7.642500
+_cell_length_b     3.853900
+_cell_length_c     7.366400
+_cell_angle_alpha  90.0000
+_cell_angle_beta   98.4834
+_cell_angle_gamma  90.0000
+_cell_volume       214.5940
+_chemical_formula_sum 'Cu2Se'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Cu1    Cu  0.011692 0.000000 0.815143 1.0
+  Cu2    Cu  0.162620 0.500000 0.059879 1.0
+  Cu3    Cu  0.337380 0.000000 0.940121 1.0
+  Cu4    Cu  0.988308 0.000000 0.184857 1.0
+  Se1    Se  0.307798 0.000000 0.275574 1.0
+  Se2    Se  0.192202 0.500000 0.724426 1.0
+  Cu5    Cu  0.511692 0.500000 0.815143 1.0
+  Cu6    Cu  0.662620 0.000000 0.059879 1.0
+  Cu7    Cu  0.837380 0.500000 0.940121 1.0
+  Cu8    Cu  0.488308 0.500000 0.184857 1.0
+  Se3    Se  0.807798 0.500000 0.275574 1.0
+  Se4    Se  0.692202 0.000000 0.724426 1.0

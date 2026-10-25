@@ -1,0 +1,34 @@
+# TaAs_mp_mp-1936
+# Source: Materials Project mp-1936 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-1936
+# Conventional standard cell from spglib; symmetry detected: I4_1md (No. 109) at symprec = 0.01 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_TaAs_mp_mp-1936
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     3.443600
+_cell_length_b     3.443600
+_cell_length_c     11.735900
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  90.0000
+_cell_volume       139.1710
+_chemical_formula_sum 'AsTa'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Ta1    Ta  0.500000 0.000000 0.499967 1.0
+  Ta2    Ta  0.500000 0.500000 0.249967 1.0
+  As1    As  0.500000 0.000000 0.082632 1.0
+  As2    As  0.000000 0.000000 0.332632 1.0
+  Ta3    Ta  0.000000 0.500000 0.999967 1.0
+  Ta4    Ta  0.000000 0.000000 0.749967 1.0
+  As3    As  0.000000 0.500000 0.582632 1.0
+  As4    As  0.500000 0.500000 0.832632 1.0

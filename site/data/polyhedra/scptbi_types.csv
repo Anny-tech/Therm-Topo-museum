@@ -1,0 +1,4 @@
+structure,formula,space_group,type_id,kind,center,element,wyckoff,site_symmetry,ligand_formula,n_in_cell,CN,shape,average_bond_length_A,min_bond_length_A,max_bond_length_A,polyhedral_volume_A3,distortion_index,effective_coordination_number,ECoN_weighted_bond_length_A,quadratic_elongation,bond_angle_variance_deg2,bond_valence_sum_vu,off_centring_A,corner_shared_per_polyhedron,edge_shared_per_polyhedron,face_shared_per_polyhedron,mean_corner_bridging_angle_deg
+alex-pbesol:agm002184739,ScBiPt,F-43m (216),Sc1-Pt4,coordination,Sc1,Sc,4b,-43m,Pt4,4,4,tetrahedron,2.79084,2.79084,2.79084,11.1556,0,4,2.79084,1,0,,0,12,0,0,109.471
+alex-pbesol:agm002184739,ScBiPt,F-43m (216),Bi1-Pt4,coordination,Bi1,Bi,4a,-43m,Pt4,4,4,tetrahedron,2.79084,2.79084,2.79084,11.1556,0,4,2.79084,1,0,,0,12,0,0,109.471
+alex-pbesol:agm002184739,ScBiPt,F-43m (216),Pt1-Bi4Sc4,coordination,Pt1,Pt,4d,-43m,Bi4Sc4,4,8,cube,2.79084,2.79084,2.79084,33.4668,0,8,2.79084,1,0,,0,0,12,0,

@@ -1,0 +1,3857 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbesol:agm002183721",
+   "note": "sb2te3: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Sb6 Te9",
+  "reduced_formula": "Sb2Te3",
+  "n_sites": 15,
+  "density": 6.611768,
+  "lattice": {
+   "a": 4.274868,
+   "b": 4.274869,
+   "c": 29.817613,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 119.999995,
+   "volume": 471.898946,
+   "matrix": [
+    [
+     4.274868,
+     0.0,
+     0.0
+    ],
+    [
+     -2.137434,
+     3.702145,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     29.817613
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "R-3m",
+   "number": 166,
+   "crystal_system": "trigonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Sb1",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.267849
+    ],
+    "cart": [
+     -2e-6,
+     2.468098,
+     7.986618
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Sb2",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.065484
+    ],
+    "cart": [
+     -2e-6,
+     2.468098,
+     1.952577
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "Te1",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.122804
+    ],
+    "cart": [
+     2.137436,
+     1.234047,
+     3.661722
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 3,
+    "label": "Te2",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.21053
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     6.277502
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 4,
+    "label": "Te3",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 4
+   },
+   {
+    "index": 5,
+    "label": "Sb3",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.601182
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     17.925812
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 6,
+    "label": "Sb4",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.398818
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     11.891801
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 7,
+    "label": "Te4",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.456137
+    ],
+    "cart": [
+     -2e-6,
+     2.468098,
+     13.600917
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 8,
+    "label": "Te5",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.543863
+    ],
+    "cart": [
+     2.137436,
+     1.234047,
+     16.216696
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 9,
+    "label": "Te6",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.333333
+    ],
+    "cart": [
+     2.137436,
+     1.234047,
+     9.939194
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 4
+   },
+   {
+    "index": 10,
+    "label": "Sb5",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.934516
+    ],
+    "cart": [
+     2.137436,
+     1.234047,
+     27.865036
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 11,
+    "label": "Sb6",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.732151
+    ],
+    "cart": [
+     2.137436,
+     1.234047,
+     21.830995
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 12,
+    "label": "Te7",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.78947
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     23.540111
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 13,
+    "label": "Te8",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.877196
+    ],
+    "cart": [
+     -2e-6,
+     2.468098,
+     26.155891
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 2
+   },
+   {
+    "index": 14,
+    "label": "Te9",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.666667
+    ],
+    "cart": [
+     -2e-6,
+     2.468098,
+     19.878419
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 4
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Sb",
+   "Te"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Sb": 3.0,
+   "Te": -2.0
+  },
+  "notes": []
+ },
+ "site_environments": [
+  {
+   "site_label": "Sb1",
+   "element": "Sb",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.333333,
+    0.666667,
+    0.267849
+   ],
+   "oxidation_state": 3.0,
+   "coordination_number": 6,
+   "ligand_formula": "Te6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 0.76,
+    "ligand_radius": 2.21,
+    "expected_bond_length": 2.97,
+    "radius_ratio": 0.343891,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 0.76,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Sb1-Te6"
+   ]
+  },
+  {
+   "site_label": "Te1",
+   "element": "Te",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.122804
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 3,
+   "ligand_formula": "Sb3",
+   "shape": "planar",
+   "forms_polyhedron": false,
+   "reason": "only 3 ligand(s): too few to enclose a volume",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 3,
+    "shannon_consistent": true,
+    "center_radius": 2.21,
+    "ligand_radius": 0.76,
+    "expected_bond_length": 2.97,
+    "radius_ratio": 0.343891,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 2.21,
+   "ionic_radius_cn": 6,
+   "type_ids": []
+  },
+  {
+   "site_label": "Te3",
+   "element": "Te",
+   "wyckoff": "3a",
+   "site_symmetry": "-3m",
+   "multiplicity_in_cell": 3,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 6,
+   "ligand_formula": "Sb6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 2.21,
+    "ligand_radius": 0.76,
+    "expected_bond_length": 2.97,
+    "radius_ratio": 0.343891,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 2.21,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Te3-Sb6"
+   ]
+  }
+ ],
+ "polyhedron_types": [
+  {
+   "type_id": "Sb1-Te6",
+   "kind": "coordination",
+   "center_label": "Sb1",
+   "center_element": "Sb",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "ligand_formula": "Te6",
+   "n_instances": 6,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074583,
+    "min_bond_length": 3.002093,
+    "max_bond_length": 3.147075,
+    "polyhedral_volume": 38.633738,
+    "distortion_index": 0.023576,
+    "effective_coordination_number": 5.873567,
+    "weighted_average_bond_length": 3.062834,
+    "quadratic_elongation": 1.002602,
+    "bond_angle_variance": 7.253227,
+    "bond_valence_sum": 2.713115,
+    "center_offset": 0.12173
+   },
+   "connectivity": {
+    "corner": 3.0,
+    "edge": 9.0
+   },
+   "mean_bridging_angle": 180.0
+  },
+  {
+   "type_id": "Te3-Sb6",
+   "kind": "coordination",
+   "center_label": "Te3",
+   "center_element": "Te",
+   "wyckoff": "3a",
+   "site_symmetry": "-3m",
+   "ligand_formula": "Sb6",
+   "n_instances": 3,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.147071,
+    "min_bond_length": 3.147069,
+    "max_bond_length": 3.147072,
+    "polyhedral_volume": 41.202441,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 3.147071,
+    "quadratic_elongation": 1.00575,
+    "bond_angle_variance": 21.510355,
+    "bond_valence_sum": 2.188278,
+    "center_offset": 0.0
+   },
+   "connectivity": {
+    "edge": 6.0
+   },
+   "mean_bridging_angle": null
+  }
+ ],
+ "polyhedra": [
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 0,
+   "center_label": "Sb1",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.267849
+   ],
+   "center_cart": [
+    -2e-6,
+    2.468098,
+    7.986618
+   ],
+   "ligands": [
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.137434,
+      3.702145,
+      6.277502
+     ],
+     "distance": 3.002093
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      6.277502
+     ],
+     "distance": 3.002096
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      6.277502
+     ],
+     "distance": 3.002097
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      9.939194
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      4.936192,
+      9.939194
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      9.939194
+     ],
+     "distance": 3.147075
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074583,
+    "min_bond_length": 3.002093,
+    "max_bond_length": 3.147075,
+    "polyhedral_volume": 38.633738,
+    "distortion_index": 0.023576,
+    "effective_coordination_number": 5.873567,
+    "weighted_average_bond_length": 3.062834,
+    "quadratic_elongation": 1.002602,
+    "bond_angle_variance": 7.253227,
+    "bond_valence_sum": 2.713115,
+    "center_offset": 0.12173
+   },
+   "faces": [
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ],
+    [
+     1,
+     4,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.294159,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.619734,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.294162,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 6.29416,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 1,
+   "center_label": "Sb2",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.065484
+   ],
+   "center_cart": [
+    -2e-6,
+    2.468098,
+    1.952577
+   ],
+   "ligands": [
+    {
+     "index": 2,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      3.661722
+     ],
+     "distance": 3.00211
+    },
+    {
+     "index": 2,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      4.936192,
+      3.661722
+     ],
+     "distance": 3.002111
+    },
+    {
+     "index": 2,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      3.661722
+     ],
+     "distance": 3.002116
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.137434,
+      3.702145,
+      0.0
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      0.0
+     ],
+     "distance": 3.147072
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "distance": 3.147072
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074592,
+    "min_bond_length": 3.00211,
+    "max_bond_length": 3.147072,
+    "polyhedral_volume": 38.634052,
+    "distortion_index": 0.023574,
+    "effective_coordination_number": 5.873599,
+    "weighted_average_bond_length": 3.062845,
+    "quadratic_elongation": 1.002602,
+    "bond_angle_variance": 7.253605,
+    "bond_valence_sum": 2.71304,
+    "center_offset": 0.121715
+   },
+   "faces": [
+    [
+     0,
+     5,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     4,
+     5,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     1,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.619709,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.44,
+      94.44
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      1,
+      -1
+     ],
+     "center_distance": 6.294138,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.619713,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "center_distance": 6.294144,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "center_distance": 6.294144,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 4.619709,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.44,
+      94.44
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.792,
+      85.56
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 5,
+   "center_label": "Sb3",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.601182
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    17.925812
+   ],
+   "ligands": [
+    {
+     "index": 8,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      16.216696
+     ],
+     "distance": 3.002093
+    },
+    {
+     "index": 8,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      16.216696
+     ],
+     "distance": 3.002096
+    },
+    {
+     "index": 8,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.468098,
+      16.216696
+     ],
+     "distance": 3.002097
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      19.878419
+     ],
+     "distance": 3.147087
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.137436,
+      -1.234047,
+      19.878419
+     ],
+     "distance": 3.14709
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      19.878419
+     ],
+     "distance": 3.147091
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074592,
+    "min_bond_length": 3.002093,
+    "max_bond_length": 3.147091,
+    "polyhedral_volume": 38.634052,
+    "distortion_index": 0.023579,
+    "effective_coordination_number": 5.873534,
+    "weighted_average_bond_length": 3.06284,
+    "quadratic_elongation": 1.002603,
+    "bond_angle_variance": 7.255313,
+    "bond_valence_sum": 2.71306,
+    "center_offset": 0.121745
+   },
+   "faces": [
+    [
+     0,
+     2,
+     4
+    ],
+    [
+     0,
+     2,
+     1
+    ],
+    [
+     5,
+     0,
+     4
+    ],
+    [
+     5,
+     0,
+     1
+    ],
+    [
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     2,
+     4
+    ],
+    [
+     3,
+     5,
+     1
+    ],
+    [
+     3,
+     5,
+     4
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -2,
+      -1,
+      0
+     ],
+     "center_distance": 6.294159,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.619734,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.294162,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.29416,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 6,
+   "center_label": "Sb4",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.398818
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    11.891801
+   ],
+   "ligands": [
+    {
+     "index": 7,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      13.600917
+     ],
+     "distance": 3.002093
+    },
+    {
+     "index": 7,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.137436,
+      -1.234047,
+      13.600917
+     ],
+     "distance": 3.002096
+    },
+    {
+     "index": 7,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      13.600917
+     ],
+     "distance": 3.002097
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      9.939194
+     ],
+     "distance": 3.147087
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      9.939194
+     ],
+     "distance": 3.14709
+    },
+    {
+     "index": 9,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.468098,
+      9.939194
+     ],
+     "distance": 3.147091
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074592,
+    "min_bond_length": 3.002093,
+    "max_bond_length": 3.147091,
+    "polyhedral_volume": 38.634052,
+    "distortion_index": 0.023579,
+    "effective_coordination_number": 5.873534,
+    "weighted_average_bond_length": 3.06284,
+    "quadratic_elongation": 1.002603,
+    "bond_angle_variance": 7.255313,
+    "bond_valence_sum": 2.71306,
+    "center_offset": 0.121745
+   },
+   "faces": [
+    [
+     3,
+     5,
+     1
+    ],
+    [
+     3,
+     5,
+     4
+    ],
+    [
+     2,
+     3,
+     1
+    ],
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     0,
+     5,
+     4
+    ],
+    [
+     0,
+     5,
+     1
+    ],
+    [
+     0,
+     2,
+     4
+    ],
+    [
+     0,
+     2,
+     1
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 6.29416,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.294162,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.619734,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Sb1",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.294159,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Sb4",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 10,
+   "center_label": "Sb5",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.934516
+   ],
+   "center_cart": [
+    2.137436,
+    1.234047,
+    27.865036
+   ],
+   "ligands": [
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.274866,
+      2.468098,
+      26.155891
+     ],
+     "distance": 3.00211
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      26.155891
+     ],
+     "distance": 3.002111
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      26.155891
+     ],
+     "distance": 3.002116
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "cart": [
+      4.274868,
+      0.0,
+      29.817613
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      29.817613
+     ],
+     "distance": 3.147072
+    },
+    {
+     "index": 4,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      29.817613
+     ],
+     "distance": 3.147072
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074592,
+    "min_bond_length": 3.00211,
+    "max_bond_length": 3.147072,
+    "polyhedral_volume": 38.634052,
+    "distortion_index": 0.023574,
+    "effective_coordination_number": 5.873599,
+    "weighted_average_bond_length": 3.062845,
+    "quadratic_elongation": 1.002602,
+    "bond_angle_variance": 7.253605,
+    "bond_valence_sum": 2.71304,
+    "center_offset": 0.121715
+   },
+   "faces": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 4.619709,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.44,
+      94.44
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "center_distance": 6.294144,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      90.792
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "center_distance": 6.294144,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      90.792
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.619713,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      90.792
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      -1,
+      1
+     ],
+     "center_distance": 6.294138,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      90.792
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      90.792
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Sb2",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.619709,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.44,
+      94.44
+     ]
+    },
+    {
+     "neighbor_index": 10,
+     "neighbor_label": "Sb5",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      90.792
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Sb1-Te6",
+   "center_index": 11,
+   "center_label": "Sb6",
+   "center_element": "Sb",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.732151
+   ],
+   "center_cart": [
+    2.137436,
+    1.234047,
+    21.830995
+   ],
+   "ligands": [
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.274868,
+      0.0,
+      23.540111
+     ],
+     "distance": 3.002093
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      23.540111
+     ],
+     "distance": 3.002096
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      23.540111
+     ],
+     "distance": 3.002097
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.274866,
+      2.468098,
+      19.878419
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      19.878419
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 14,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      19.878419
+     ],
+     "distance": 3.147075
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.074583,
+    "min_bond_length": 3.002093,
+    "max_bond_length": 3.147075,
+    "polyhedral_volume": 38.633738,
+    "distortion_index": 0.023576,
+    "effective_coordination_number": 5.873567,
+    "weighted_average_bond_length": 3.062834,
+    "quadratic_elongation": 1.002602,
+    "bond_angle_variance": 7.253227,
+    "bond_valence_sum": 2.713115,
+    "center_offset": 0.12173
+   },
+   "faces": [
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     1,
+     4,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.29416,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.619736,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.294162,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.619734,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      94.441,
+      94.441
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Sb3",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      2,
+      1,
+      0
+     ],
+     "center_distance": 6.294159,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 11,
+     "neighbor_label": "Sb6",
+     "neighbor_element": "Sb",
+     "neighbor_type_id": "Sb1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.793,
+      85.559
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Sb6",
+   "center_index": 4,
+   "center_label": "Te3",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 10,
+     "label": "Sb5",
+     "element": "Sb",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      -1.952577
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 1,
+     "label": "Sb2",
+     "element": "Sb",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      1.952577
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 10,
+     "label": "Sb5",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      -1.952577
+     ],
+     "distance": 3.147072
+    },
+    {
+     "index": 1,
+     "label": "Sb2",
+     "element": "Sb",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.137436,
+      -1.234047,
+      1.952577
+     ],
+     "distance": 3.147072
+    },
+    {
+     "index": 10,
+     "label": "Sb5",
+     "element": "Sb",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "cart": [
+      2e-6,
+      -2.468098,
+      -1.952577
+     ],
+     "distance": 3.147072
+    },
+    {
+     "index": 1,
+     "label": "Sb2",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      1.952577
+     ],
+     "distance": 3.147072
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.147071,
+    "min_bond_length": 3.147069,
+    "max_bond_length": 3.147072,
+    "polyhedral_volume": 41.202441,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 3.147071,
+    "quadratic_elongation": 1.00575,
+    "bond_angle_variance": 21.510355,
+    "bond_valence_sum": 2.188278,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     0,
+     5,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     4,
+     0,
+     3
+    ],
+    [
+     4,
+     0,
+     2
+    ],
+    [
+     1,
+     5,
+     2
+    ],
+    [
+     1,
+     5,
+     3
+    ],
+    [
+     1,
+     4,
+     2
+    ],
+    [
+     1,
+     4,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.56
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Sb6",
+   "center_index": 9,
+   "center_label": "Te6",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.333333
+   ],
+   "center_cart": [
+    2.137436,
+    1.234047,
+    9.939194
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Sb1",
+     "element": "Sb",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.274866,
+      2.468098,
+      7.986618
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 0,
+     "label": "Sb1",
+     "element": "Sb",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.137432,
+      -1.234047,
+      7.986618
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 0,
+     "label": "Sb1",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.468098,
+      7.986618
+     ],
+     "distance": 3.147075
+    },
+    {
+     "index": 6,
+     "label": "Sb4",
+     "element": "Sb",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.274868,
+      0.0,
+      11.891801
+     ],
+     "distance": 3.147087
+    },
+    {
+     "index": 6,
+     "label": "Sb4",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      11.891801
+     ],
+     "distance": 3.14709
+    },
+    {
+     "index": 6,
+     "label": "Sb4",
+     "element": "Sb",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      11.891801
+     ],
+     "distance": 3.147091
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.14708,
+    "min_bond_length": 3.147069,
+    "max_bond_length": 3.147091,
+    "polyhedral_volume": 41.202755,
+    "distortion_index": 3e-6,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 3.14708,
+    "quadratic_elongation": 1.005751,
+    "bond_angle_variance": 21.513375,
+    "bond_valence_sum": 2.188223,
+    "center_offset": 0.000015
+   },
+   "faces": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     3
+    ],
+    [
+     5,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.56,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Te6",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Sb6",
+   "center_index": 14,
+   "center_label": "Te9",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.666667
+   ],
+   "center_cart": [
+    -2e-6,
+    2.468098,
+    19.878419
+   ],
+   "ligands": [
+    {
+     "index": 11,
+     "label": "Sb6",
+     "element": "Sb",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.137432,
+      1.234047,
+      21.830995
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 11,
+     "label": "Sb6",
+     "element": "Sb",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      4.936192,
+      21.830995
+     ],
+     "distance": 3.147069
+    },
+    {
+     "index": 11,
+     "label": "Sb6",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.137436,
+      1.234047,
+      21.830995
+     ],
+     "distance": 3.147075
+    },
+    {
+     "index": 5,
+     "label": "Sb3",
+     "element": "Sb",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.137434,
+      3.702145,
+      17.925812
+     ],
+     "distance": 3.147087
+    },
+    {
+     "index": 5,
+     "label": "Sb3",
+     "element": "Sb",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.137434,
+      3.702145,
+      17.925812
+     ],
+     "distance": 3.14709
+    },
+    {
+     "index": 5,
+     "label": "Sb3",
+     "element": "Sb",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      17.925812
+     ],
+     "distance": 3.147091
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.14708,
+    "min_bond_length": 3.147069,
+    "max_bond_length": 3.147091,
+    "polyhedral_volume": 41.202755,
+    "distortion_index": 3e-6,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 3.14708,
+    "quadratic_elongation": 1.005751,
+    "bond_angle_variance": 21.513375,
+    "bond_valence_sum": 2.188223,
+    "center_offset": 0.000015
+   },
+   "faces": [
+    [
+     0,
+     5,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     4,
+     5,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     1,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.274869,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.56
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Te9",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Sb6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.274868,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      85.559,
+      85.559
+     ]
+    }
+   ]
+  }
+ ],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [
+   {
+    "site": "Sb 6c",
+    "radius_ratio": 0.3439,
+    "predicted_cn": 4,
+    "observed_cn": 6,
+    "agrees": true
+   }
+  ],
+  "pauling_rule_2_electrostatic_valence": [
+   {
+    "site": "Te 6c",
+    "sum_of_electrostatic_bond_strengths": 1.5,
+    "anion_charge": 2.0,
+    "relative_deviation": -0.25,
+    "satisfied": false
+   },
+   {
+    "site": "Te 3a",
+    "sum_of_electrostatic_bond_strengths": 3.0,
+    "anion_charge": 2.0,
+    "relative_deviation": 0.5,
+    "satisfied": false
+   }
+  ],
+  "pauling_rule_3_polyhedron_sharing": {
+   "Sb-Sb": {
+    "corner": 18,
+    "edge": 54,
+    "face": 0
+   }
+  },
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {
+   "Sb": 1,
+   "Te": 1
+  },
+  "bond_valence_sums": [
+   {
+    "site": "Sb 6c",
+    "bvs": 2.7131,
+    "expected": 3.0,
+    "deviation": -0.2869
+   },
+   {
+    "site": "Te 6c",
+    "bvs": 1.6189,
+    "expected": 2.0,
+    "deviation": -0.3811
+   },
+   {
+    "site": "Te 3a",
+    "bvs": 2.1883,
+    "expected": 2.0,
+    "deviation": 0.1883
+   }
+  ],
+  "global_instability_index": 0.3132,
+  "bond_count_balance": {
+   "cation_side": 36,
+   "anion_side": 36,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

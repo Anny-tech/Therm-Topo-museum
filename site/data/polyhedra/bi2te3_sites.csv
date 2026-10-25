@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+alex-pbesol:agm003149495,Bi2Te3,R-3m (166),Te1,Te,-2,6c,3m,6,0.333333,0.666667,0.87649,3,Bi3,planar,False,only 3 ligand(s): too few to enclose a volume,True,3,True,2.21,1.03,3.24,0.466063,6,2.21,6,
+alex-pbesol:agm003149495,Bi2Te3,R-3m (166),Te2,Te,-2,3a,-3m,3,0,0,0,6,Bi6,octahedron,True,ok,True,6,True,2.21,1.03,3.24,0.466063,6,2.21,6,Te2-Bi6
+alex-pbesol:agm003149495,Bi2Te3,R-3m (166),Bi1,Bi,3,6c,3m,6,0.666667,0.333333,0.733131,6,Te6,octahedron,True,ok,True,6,True,1.03,2.21,3.24,0.466063,6,1.03,6,Bi1-Te6

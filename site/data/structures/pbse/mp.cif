@@ -1,0 +1,34 @@
+# PbSe_mp_mp-2201
+# Source: Materials Project mp-2201 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-2201
+# Conventional standard cell from spglib; symmetry detected: Fm-3m (No. 225) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_PbSe_mp_mp-2201
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     6.181600
+_cell_length_b     6.181600
+_cell_length_c     6.181600
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  90.0000
+_cell_volume       236.2180
+_chemical_formula_sum 'PbSe'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Pb1    Pb  0.000000 0.000000 0.000000 1.0
+  Se1    Se  0.500000 0.000000 0.000000 1.0
+  Pb2    Pb  0.000000 0.500000 0.500000 1.0
+  Se2    Se  0.500000 0.500000 0.500000 1.0
+  Pb3    Pb  0.500000 0.000000 0.500000 1.0
+  Se3    Se  0.000000 0.000000 0.500000 1.0
+  Pb4    Pb  0.500000 0.500000 0.000000 1.0
+  Se4    Se  0.000000 0.500000 0.000000 1.0

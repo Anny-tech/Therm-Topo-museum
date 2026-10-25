@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-924128,HfNiSn,F-43m (216),Hf1,Hf,,4a,-43m,4,0,0,0,6,Sn6,octahedron,True,ok,True,,,,,,,,,,Hf1-Sn6
+mp:mp-924128,HfNiSn,F-43m (216),Ni1,Ni,,4d,-43m,4,0.25,0.25,0.75,4,Sn4,tetrahedron,True,ok,True,,,,,,,,,,Ni1-Sn4
+mp:mp-924128,HfNiSn,F-43m (216),Sn1,Sn,,4b,-43m,4,0.5,0,0,10,Hf6Ni4,bicapped square antiprism,True,ok,True,,,,,,,,,,Sn1-Hf6Ni4

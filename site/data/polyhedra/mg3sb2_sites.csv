@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-2646,Mg3Sb2,P-3m1 (164),Mg1,Mg,2,1a,-3m.,1,0,0,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-2646,Mg3Sb2,P-3m1 (164),Mg2,Mg,2,2d,3m.,2,0.333333,0.666667,0.366616,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-2646,Mg3Sb2,P-3m1 (164),Sb1,Sb,-3,2d,3m.,2,0.333333,0.666667,0.771874,0,,none,False,no ligands found,,,,,,,,,,,

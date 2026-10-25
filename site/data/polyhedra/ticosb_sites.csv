@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-5967,TiCoSb,F-43m (216),Ti1,Ti,2,4a,-43m,4,0,0,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-5967,TiCoSb,F-43m (216),Co1,Co,1,4c,-43m,4,0.25,0.25,0.25,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-5967,TiCoSb,F-43m (216),Sb1,Sb,-3,4b,-43m,4,0,0.5,0,0,,none,False,no ligands found,,,,,,,,,,,

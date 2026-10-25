@@ -1,0 +1,41 @@
+# Bi2Se3_mp_mp-541837
+# Source: Materials Project mp-541837 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-541837
+# Conventional standard cell from spglib; symmetry detected: R-3m (No. 166) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Bi2Se3_mp_mp-541837
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.191400
+_cell_length_b     4.191400
+_cell_length_c     29.928700
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       455.3330
+_chemical_formula_sum 'Bi2Se3'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Bi1    Bi  0.666667 0.333333 0.731768 1.0
+  Bi2    Bi  0.666667 0.333333 0.934898 1.0
+  Se1    Se  0.000000 0.000000 0.000000 1.0
+  Se2    Se  0.333333 0.666667 0.882382 1.0
+  Se3    Se  0.000000 0.000000 0.784285 1.0
+  Bi3    Bi  0.333333 0.666667 0.065102 1.0
+  Bi4    Bi  0.333333 0.666667 0.268232 1.0
+  Se4    Se  0.666667 0.333333 0.333333 1.0
+  Se5    Se  0.000000 0.000000 0.215715 1.0
+  Se6    Se  0.666667 0.333333 0.117618 1.0
+  Bi5    Bi  0.000000 0.000000 0.398435 1.0
+  Bi6    Bi  0.000000 0.000000 0.601565 1.0
+  Se7    Se  0.333333 0.666667 0.666667 1.0
+  Se8    Se  0.666667 0.333333 0.549048 1.0
+  Se9    Se  0.333333 0.666667 0.450952 1.0

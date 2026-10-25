@@ -1,0 +1,8 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Ca1,Ca,2,4h,..m,4,0.092688,0.747764,0.5,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Ca3,Ca,2,4h,..m,4,0.325764,0.512856,0.5,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Ca5,Ca,2,2d,..2/m,2,0.5,0,0.5,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Al1,Al,3,4g,..m,4,0.168426,0.21116,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Sb1,Sb,-2.66667,4g,..m,4,0.842838,0.405857,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Sb5,Sb,-2.66667,4h,..m,4,0.339482,0.82046,0.5,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-8439,Ca5(AlSb3)2,Pbam (55),Sb9,Sb,-2.66667,4g,..m,4,0.523801,0.599489,0,0,,none,False,no ligands found,,,,,,,,,,,

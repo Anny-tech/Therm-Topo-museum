@@ -1,0 +1,41 @@
+# Bi2Te2Se_alex-pbesol_agm003194242
+# Source: Alexandria (PBEsol) agm003194242 (PBEsol), https://alexandria.icams.rub.de/pbesol/v1/structures/agm003194242
+# Conventional standard cell from spglib; symmetry detected: R-3m (No. 166) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Bi2Te2Se_alex-pbesol_agm003194242
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.289000
+_cell_length_b     4.289000
+_cell_length_c     29.860700
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       475.7050
+_chemical_formula_sum 'Bi2SeTe2'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Te1    Te  0.666667 0.333333 0.120302 1.0
+  Te2    Te  0.000000 0.000000 0.213032 1.0
+  Bi1    Bi  0.333333 0.666667 0.060960 1.0
+  Bi2    Bi  0.333333 0.666667 0.272373 1.0
+  Se1    Se  0.000000 0.000000 0.000000 1.0
+  Te3    Te  0.333333 0.666667 0.453635 1.0
+  Te4    Te  0.666667 0.333333 0.546365 1.0
+  Bi3    Bi  0.000000 0.000000 0.394294 1.0
+  Bi4    Bi  0.000000 0.000000 0.605706 1.0
+  Se2    Se  0.666667 0.333333 0.333333 1.0
+  Te5    Te  0.000000 0.000000 0.786968 1.0
+  Te6    Te  0.333333 0.666667 0.879698 1.0
+  Bi5    Bi  0.666667 0.333333 0.727627 1.0
+  Bi6    Bi  0.666667 0.333333 0.939040 1.0
+  Se3    Se  0.333333 0.666667 0.666667 1.0

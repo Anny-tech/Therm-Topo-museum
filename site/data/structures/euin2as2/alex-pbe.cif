@@ -1,0 +1,36 @@
+# EuIn2As2_alex-pbe_agm005256195
+# Source: Alexandria (PBE) agm005256195 (PBE), https://alexandria.icams.rub.de/pbe/v1/structures/agm005256195
+# Conventional standard cell from spglib; symmetry detected: P6_3/mmc (No. 194) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_EuIn2As2_alex-pbe_agm005256195
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.276100
+_cell_length_b     4.276100
+_cell_length_c     17.945100
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       284.1660
+_chemical_formula_sum 'As2EuIn2'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Eu1    Eu  0.000000 0.000000 0.500000 1.0
+  Eu2    Eu  0.000000 0.000000 0.000000 1.0
+  In1    In  0.333333 0.666667 0.828853 1.0
+  In2    In  0.666667 0.333333 0.328853 1.0
+  In3    In  0.666667 0.333333 0.171147 1.0
+  In4    In  0.333333 0.666667 0.671147 1.0
+  As1    As  0.666667 0.333333 0.604121 1.0
+  As2    As  0.666667 0.333333 0.895879 1.0
+  As3    As  0.333333 0.666667 0.104121 1.0
+  As4    As  0.333333 0.666667 0.395879 1.0

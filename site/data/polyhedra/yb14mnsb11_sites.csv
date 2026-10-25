@@ -1,0 +1,10 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Yb1,Yb,2.21429,16e,.2.,16,0.75,0.64417,0.625,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Yb2,Yb,2.21429,32g,1,32,0.819996,0.659521,0.782213,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Yb5,Yb,2.21429,32g,1,32,0.95709,0.176145,0.297048,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Yb7,Yb,2.21429,32g,1,32,0.125753,0.47823,0.376904,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Mn1,Mn,2,8a,-4..,8,0,0.5,0.25,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Sb1,Sb,-3,32g,1,32,0.639205,0.995386,0.187428,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Sb4,Sb,-3,16f,..2,16,0.63545,0.63545,0.75,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Sb5,Sb,-3,32g,1,32,0.224018,0.869396,0.328109,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-568088,Yb14MnSb11,I4_1/acd (142),Sb18,Sb,-3,8b,2.22,8,0,0,0.75,0,,none,False,no ligands found,,,,,,,,,,,

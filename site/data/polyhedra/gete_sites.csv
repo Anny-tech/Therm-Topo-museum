@@ -1,0 +1,3 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-938,GeTe,R3m (160),Ge1,Ge,2,3a,3m,3,0.666667,0.333333,0.325557,6,Te6,octahedron,True,ok,True,6,True,0.73,2.21,2.94,0.330317,4,0.73,6,Ge1-Te6
+mp:mp-938,GeTe,R3m (160),Te1,Te,-2,3a,3m,3,0.333333,0.666667,0.195443,6,Ge6,octahedron,True,ok,True,6,True,2.21,0.73,2.94,0.330317,4,2.21,6,Te1-Ge6

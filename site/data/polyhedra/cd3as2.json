@@ -1,0 +1,3360 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbe:agm005232043",
+   "note": "cd3as2: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Cd96 As64",
+  "reduced_formula": "Cd3As2",
+  "n_sites": 160,
+  "density": 6.031487,
+  "lattice": {
+   "a": 12.856997,
+   "b": 12.856997,
+   "c": 25.959271,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 4291.129068,
+   "matrix": [
+    [
+     12.856997,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     12.856997,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     25.959271
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "I4_1/acd",
+   "number": 142,
+   "crystal_system": "tetragonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "As1",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.754248,
+     0.507914,
+     0.501936
+    ],
+    "cart": [
+     9.697364,
+     6.530249,
+     13.029893
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "As2",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.254248,
+     0.992086,
+     0.501936
+    ],
+    "cart": [
+     3.268866,
+     12.755247,
+     13.029893
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "As3",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.492086,
+     0.745752,
+     0.251936
+    ],
+    "cart": [
+     6.326748,
+     9.588131,
+     6.540075
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 3,
+    "label": "As4",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.992086,
+     0.754248,
+     0.251936
+    ],
+    "cart": [
+     12.755247,
+     9.697364,
+     6.540075
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 4,
+    "label": "As5",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.245752,
+     0.992086,
+     0.748064
+    ],
+    "cart": [
+     3.159633,
+     12.755247,
+     19.419196
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 5,
+    "label": "As6",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.745752,
+     0.507914,
+     0.748064
+    ],
+    "cart": [
+     9.588131,
+     6.530249,
+     19.419196
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 6,
+    "label": "As7",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.007914,
+     0.254248,
+     0.498064
+    ],
+    "cart": [
+     0.10175,
+     3.268866,
+     12.929378
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 7,
+    "label": "As8",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.507914,
+     0.245752,
+     0.498064
+    ],
+    "cart": [
+     6.530249,
+     3.159633,
+     12.929378
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 8,
+    "label": "As9",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.745752,
+     0.007914,
+     0.501936
+    ],
+    "cart": [
+     9.588131,
+     0.10175,
+     13.029893
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 9,
+    "label": "As10",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.245752,
+     0.492086,
+     0.501936
+    ],
+    "cart": [
+     3.159633,
+     6.326748,
+     13.029893
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 10,
+    "label": "As11",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.007914,
+     0.245752,
+     0.251936
+    ],
+    "cart": [
+     0.10175,
+     3.159633,
+     6.540075
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 11,
+    "label": "As12",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.507914,
+     0.254248,
+     0.251936
+    ],
+    "cart": [
+     6.530249,
+     3.268866,
+     6.540075
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 12,
+    "label": "As13",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.254248,
+     0.492086,
+     0.748064
+    ],
+    "cart": [
+     3.268866,
+     6.326748,
+     19.419196
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 13,
+    "label": "As14",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.754248,
+     0.007914,
+     0.748064
+    ],
+    "cart": [
+     9.697364,
+     0.10175,
+     19.419196
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 14,
+    "label": "As15",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.492086,
+     0.754248,
+     0.498064
+    ],
+    "cart": [
+     6.326748,
+     9.697364,
+     12.929378
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 15,
+    "label": "As16",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.992086,
+     0.745752,
+     0.498064
+    ],
+    "cart": [
+     12.755247,
+     9.588131,
+     12.929378
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 16,
+    "label": "As17",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.625616
+    ],
+    "cart": [
+     0.0,
+     6.428498,
+     16.240535
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 17,
+    "label": "As18",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.625616
+    ],
+    "cart": [
+     6.428498,
+     0.0,
+     16.240535
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 18,
+    "label": "As19",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.375616
+    ],
+    "cart": [
+     6.428498,
+     6.428498,
+     9.750718
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 19,
+    "label": "As20",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.375616
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     9.750718
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 20,
+    "label": "As21",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.624384
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     16.208553
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 21,
+    "label": "As22",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.624384
+    ],
+    "cart": [
+     6.428498,
+     6.428498,
+     16.208553
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 22,
+    "label": "As23",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.374384
+    ],
+    "cart": [
+     0.0,
+     6.428498,
+     9.718736
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 23,
+    "label": "As24",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.374384
+    ],
+    "cart": [
+     6.428498,
+     0.0,
+     9.718736
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 24,
+    "label": "As25",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.760027,
+     0.625
+    ],
+    "cart": [
+     9.642748,
+     9.771665,
+     16.224544
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 25,
+    "label": "As26",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.739973,
+     0.625
+    ],
+    "cart": [
+     3.214249,
+     9.513831,
+     16.224544
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 26,
+    "label": "As27",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.239973,
+     0.75,
+     0.375
+    ],
+    "cart": [
+     3.085332,
+     9.642748,
+     9.734727
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 27,
+    "label": "As28",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.739973,
+     0.75,
+     0.375
+    ],
+    "cart": [
+     9.513831,
+     9.642748,
+     9.734727
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 28,
+    "label": "As29",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.260027,
+     0.25,
+     0.375
+    ],
+    "cart": [
+     3.343166,
+     3.214249,
+     9.734727
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 29,
+    "label": "As30",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.760027,
+     0.25,
+     0.375
+    ],
+    "cart": [
+     9.771665,
+     3.214249,
+     9.734727
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 30,
+    "label": "As31",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.260027,
+     0.625
+    ],
+    "cart": [
+     9.642748,
+     3.343166,
+     16.224544
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 31,
+    "label": "As32",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.239973,
+     0.625
+    ],
+    "cart": [
+     3.214249,
+     3.085332,
+     16.224544
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 32,
+    "label": "Cd1",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.86058,
+     0.618707,
+     0.572534
+    ],
+    "cart": [
+     11.064474,
+     7.954714,
+     14.862565
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 33,
+    "label": "Cd2",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.36058,
+     0.881293,
+     0.572534
+    ],
+    "cart": [
+     4.635976,
+     11.330781,
+     14.862565
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 34,
+    "label": "Cd3",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381293,
+     0.63942,
+     0.322534
+    ],
+    "cart": [
+     4.902283,
+     8.221021,
+     8.372748
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 35,
+    "label": "Cd4",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881293,
+     0.86058,
+     0.322534
+    ],
+    "cart": [
+     11.330781,
+     11.064474,
+     8.372748
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 36,
+    "label": "Cd5",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.13942,
+     0.881293,
+     0.677466
+    ],
+    "cart": [
+     1.792523,
+     11.330781,
+     17.586523
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 37,
+    "label": "Cd6",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.63942,
+     0.618707,
+     0.677466
+    ],
+    "cart": [
+     8.221021,
+     7.954714,
+     17.586523
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 38,
+    "label": "Cd7",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118707,
+     0.36058,
+     0.427466
+    ],
+    "cart": [
+     1.526216,
+     4.635976,
+     11.096706
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 39,
+    "label": "Cd8",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618707,
+     0.13942,
+     0.427466
+    ],
+    "cart": [
+     7.954714,
+     1.792523,
+     11.096706
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 40,
+    "label": "Cd9",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.63942,
+     0.118707,
+     0.572534
+    ],
+    "cart": [
+     8.221021,
+     1.526216,
+     14.862565
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 41,
+    "label": "Cd10",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.13942,
+     0.381293,
+     0.572534
+    ],
+    "cart": [
+     1.792523,
+     4.902283,
+     14.862565
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 42,
+    "label": "Cd11",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118707,
+     0.13942,
+     0.322534
+    ],
+    "cart": [
+     1.526216,
+     1.792523,
+     8.372748
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 43,
+    "label": "Cd12",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618707,
+     0.36058,
+     0.322534
+    ],
+    "cart": [
+     7.954714,
+     4.635976,
+     8.372748
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 44,
+    "label": "Cd13",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.36058,
+     0.381293,
+     0.677466
+    ],
+    "cart": [
+     4.635976,
+     4.902283,
+     17.586523
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 45,
+    "label": "Cd14",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.86058,
+     0.118707,
+     0.677466
+    ],
+    "cart": [
+     11.064474,
+     1.526216,
+     17.586523
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 46,
+    "label": "Cd15",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381293,
+     0.86058,
+     0.427466
+    ],
+    "cart": [
+     4.902283,
+     11.064474,
+     11.096706
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 47,
+    "label": "Cd16",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881293,
+     0.63942,
+     0.427466
+    ],
+    "cart": [
+     11.330781,
+     8.221021,
+     11.096706
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 48,
+    "label": "Cd17",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.888374,
+     0.892397,
+     0.552505
+    ],
+    "cart": [
+     11.421822,
+     11.473546,
+     14.342627
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 49,
+    "label": "Cd18",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.388374,
+     0.607603,
+     0.552505
+    ],
+    "cart": [
+     4.993323,
+     7.81195,
+     14.342627
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 50,
+    "label": "Cd19",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.107603,
+     0.611626,
+     0.302505
+    ],
+    "cart": [
+     1.383451,
+     7.863674,
+     7.852809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 51,
+    "label": "Cd20",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.607603,
+     0.888374,
+     0.302505
+    ],
+    "cart": [
+     7.81195,
+     11.421822,
+     7.852809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 52,
+    "label": "Cd21",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.111626,
+     0.607603,
+     0.697495
+    ],
+    "cart": [
+     1.435175,
+     7.81195,
+     18.106462
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 53,
+    "label": "Cd22",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.611626,
+     0.892397,
+     0.697495
+    ],
+    "cart": [
+     7.863674,
+     11.473546,
+     18.106462
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 54,
+    "label": "Cd23",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.392397,
+     0.388374,
+     0.447495
+    ],
+    "cart": [
+     5.045047,
+     4.993323,
+     11.616644
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 55,
+    "label": "Cd24",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.892397,
+     0.111626,
+     0.447495
+    ],
+    "cart": [
+     11.473546,
+     1.435175,
+     11.616644
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 56,
+    "label": "Cd25",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.611626,
+     0.392397,
+     0.552505
+    ],
+    "cart": [
+     7.863674,
+     5.045047,
+     14.342627
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 57,
+    "label": "Cd26",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.111626,
+     0.107603,
+     0.552505
+    ],
+    "cart": [
+     1.435175,
+     1.383451,
+     14.342627
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 58,
+    "label": "Cd27",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.392397,
+     0.111626,
+     0.302505
+    ],
+    "cart": [
+     5.045047,
+     1.435175,
+     7.852809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 59,
+    "label": "Cd28",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.892397,
+     0.388374,
+     0.302505
+    ],
+    "cart": [
+     11.473546,
+     4.993323,
+     7.852809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 60,
+    "label": "Cd29",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.388374,
+     0.107603,
+     0.697495
+    ],
+    "cart": [
+     4.993323,
+     1.383451,
+     18.106462
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 61,
+    "label": "Cd30",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.888374,
+     0.392397,
+     0.697495
+    ],
+    "cart": [
+     11.421822,
+     5.045047,
+     18.106462
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 62,
+    "label": "Cd31",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.107603,
+     0.888374,
+     0.447495
+    ],
+    "cart": [
+     1.383451,
+     11.421822,
+     11.616644
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 63,
+    "label": "Cd32",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.607603,
+     0.611626,
+     0.447495
+    ],
+    "cart": [
+     7.81195,
+     7.863674,
+     11.616644
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 64,
+    "label": "Cd33",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881206,
+     0.35484,
+     0.562442
+    ],
+    "cart": [
+     11.329663,
+     4.562177,
+     14.600584
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 65,
+    "label": "Cd34",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381206,
+     0.14516,
+     0.562442
+    ],
+    "cart": [
+     4.901164,
+     1.866322,
+     14.600584
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 66,
+    "label": "Cd35",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.64516,
+     0.618794,
+     0.312442
+    ],
+    "cart": [
+     8.29482,
+     7.955833,
+     8.110767
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 67,
+    "label": "Cd36",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.14516,
+     0.881206,
+     0.312442
+    ],
+    "cart": [
+     1.866322,
+     11.329663,
+     8.110767
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 68,
+    "label": "Cd37",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118794,
+     0.14516,
+     0.687558
+    ],
+    "cart": [
+     1.527334,
+     1.866322,
+     17.848504
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 69,
+    "label": "Cd38",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618794,
+     0.35484,
+     0.687558
+    ],
+    "cart": [
+     7.955833,
+     4.562177,
+     17.848504
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 70,
+    "label": "Cd39",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.85484,
+     0.381206,
+     0.437558
+    ],
+    "cart": [
+     10.990675,
+     4.901164,
+     11.358687
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 71,
+    "label": "Cd40",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.35484,
+     0.118794,
+     0.437558
+    ],
+    "cart": [
+     4.562177,
+     1.527334,
+     11.358687
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 72,
+    "label": "Cd41",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618794,
+     0.85484,
+     0.562442
+    ],
+    "cart": [
+     7.955833,
+     10.990675,
+     14.600584
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 73,
+    "label": "Cd42",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118794,
+     0.64516,
+     0.562442
+    ],
+    "cart": [
+     1.527334,
+     8.29482,
+     14.600584
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 74,
+    "label": "Cd43",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.85484,
+     0.118794,
+     0.312442
+    ],
+    "cart": [
+     10.990675,
+     1.527334,
+     8.110767
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 75,
+    "label": "Cd44",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.35484,
+     0.381206,
+     0.312442
+    ],
+    "cart": [
+     4.562177,
+     4.901164,
+     8.110767
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 76,
+    "label": "Cd45",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381206,
+     0.64516,
+     0.687558
+    ],
+    "cart": [
+     4.901164,
+     8.29482,
+     17.848504
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 77,
+    "label": "Cd46",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881206,
+     0.85484,
+     0.687558
+    ],
+    "cart": [
+     11.329663,
+     10.990675,
+     17.848504
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 78,
+    "label": "Cd47",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.64516,
+     0.881206,
+     0.437558
+    ],
+    "cart": [
+     8.29482,
+     11.329663,
+     11.358687
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 79,
+    "label": "Cd48",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.14516,
+     0.618794,
+     0.437558
+    ],
+    "cart": [
+     1.866322,
+     7.955833,
+     11.358687
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 80,
+    "label": "As33",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.254248,
+     0.007914,
+     0.001936
+    ],
+    "cart": [
+     3.268866,
+     0.10175,
+     0.050257
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 81,
+    "label": "As34",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.754248,
+     0.492086,
+     0.001936
+    ],
+    "cart": [
+     9.697364,
+     6.326748,
+     0.050257
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 82,
+    "label": "As35",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.992086,
+     0.245752,
+     0.751936
+    ],
+    "cart": [
+     12.755247,
+     3.159633,
+     19.51971
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 83,
+    "label": "As36",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.492086,
+     0.254248,
+     0.751936
+    ],
+    "cart": [
+     6.326748,
+     3.268866,
+     19.51971
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 84,
+    "label": "As37",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.745752,
+     0.492086,
+     0.248064
+    ],
+    "cart": [
+     9.588131,
+     6.326748,
+     6.439561
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 85,
+    "label": "As38",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.245752,
+     0.007914,
+     0.248064
+    ],
+    "cart": [
+     3.159633,
+     0.10175,
+     6.439561
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 86,
+    "label": "As39",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.507914,
+     0.754248,
+     0.998064
+    ],
+    "cart": [
+     6.530249,
+     9.697364,
+     25.909014
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 87,
+    "label": "As40",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.007914,
+     0.745752,
+     0.998064
+    ],
+    "cart": [
+     0.10175,
+     9.588131,
+     25.909014
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 88,
+    "label": "As41",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.245752,
+     0.507914,
+     0.001936
+    ],
+    "cart": [
+     3.159633,
+     6.530249,
+     0.050257
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 89,
+    "label": "As42",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.745752,
+     0.992086,
+     0.001936
+    ],
+    "cart": [
+     9.588131,
+     12.755247,
+     0.050257
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 90,
+    "label": "As43",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.507914,
+     0.745752,
+     0.751936
+    ],
+    "cart": [
+     6.530249,
+     9.588131,
+     19.51971
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 91,
+    "label": "As44",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.007914,
+     0.754248,
+     0.751936
+    ],
+    "cart": [
+     0.10175,
+     9.697364,
+     19.51971
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 92,
+    "label": "As45",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.754248,
+     0.992086,
+     0.248064
+    ],
+    "cart": [
+     9.697364,
+     12.755247,
+     6.439561
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 93,
+    "label": "As46",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.254248,
+     0.507914,
+     0.248064
+    ],
+    "cart": [
+     3.268866,
+     6.530249,
+     6.439561
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 94,
+    "label": "As47",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.992086,
+     0.254248,
+     0.998064
+    ],
+    "cart": [
+     12.755247,
+     3.268866,
+     25.909014
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 95,
+    "label": "As48",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.492086,
+     0.245752,
+     0.998064
+    ],
+    "cart": [
+     6.326748,
+     3.159633,
+     25.909014
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 0
+   },
+   {
+    "index": 96,
+    "label": "As49",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.125616
+    ],
+    "cart": [
+     6.428498,
+     0.0,
+     3.2609
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 97,
+    "label": "As50",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.125616
+    ],
+    "cart": [
+     0.0,
+     6.428498,
+     3.2609
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 98,
+    "label": "As51",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.875616
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     22.730353
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 99,
+    "label": "As52",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.875616
+    ],
+    "cart": [
+     6.428498,
+     6.428498,
+     22.730353
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 100,
+    "label": "As53",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.124384
+    ],
+    "cart": [
+     6.428498,
+     6.428498,
+     3.228918
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 101,
+    "label": "As54",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.124384
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     3.228918
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 102,
+    "label": "As55",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.874384
+    ],
+    "cart": [
+     6.428498,
+     0.0,
+     22.698371
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 103,
+    "label": "As56",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.874384
+    ],
+    "cart": [
+     0.0,
+     6.428498,
+     22.698371
+    ],
+    "wyckoff": "16d",
+    "site_symmetry": "2..",
+    "orbit": 16
+   },
+   {
+    "index": 104,
+    "label": "As57",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.260027,
+     0.125
+    ],
+    "cart": [
+     3.214249,
+     3.343166,
+     3.244909
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 105,
+    "label": "As58",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.239973,
+     0.125
+    ],
+    "cart": [
+     9.642748,
+     3.085332,
+     3.244909
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 106,
+    "label": "As59",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.739973,
+     0.25,
+     0.875
+    ],
+    "cart": [
+     9.513831,
+     3.214249,
+     22.714362
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 107,
+    "label": "As60",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.239973,
+     0.25,
+     0.875
+    ],
+    "cart": [
+     3.085332,
+     3.214249,
+     22.714362
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 108,
+    "label": "As61",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.760027,
+     0.75,
+     0.875
+    ],
+    "cart": [
+     9.771665,
+     9.642748,
+     22.714362
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 109,
+    "label": "As62",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.260027,
+     0.75,
+     0.875
+    ],
+    "cart": [
+     3.343166,
+     9.642748,
+     22.714362
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 110,
+    "label": "As63",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.760027,
+     0.125
+    ],
+    "cart": [
+     3.214249,
+     9.771665,
+     3.244909
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 111,
+    "label": "As64",
+    "element": "As",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.739973,
+     0.125
+    ],
+    "cart": [
+     9.642748,
+     9.513831,
+     3.244909
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 24
+   },
+   {
+    "index": 112,
+    "label": "Cd49",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.36058,
+     0.118707,
+     0.072534
+    ],
+    "cart": [
+     4.635976,
+     1.526216,
+     1.88293
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 113,
+    "label": "Cd50",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.86058,
+     0.381293,
+     0.072534
+    ],
+    "cart": [
+     11.064474,
+     4.902283,
+     1.88293
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 114,
+    "label": "Cd51",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881293,
+     0.13942,
+     0.822534
+    ],
+    "cart": [
+     11.330781,
+     1.792523,
+     21.352383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 115,
+    "label": "Cd52",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381293,
+     0.36058,
+     0.822534
+    ],
+    "cart": [
+     4.902283,
+     4.635976,
+     21.352383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 116,
+    "label": "Cd53",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.63942,
+     0.381293,
+     0.177466
+    ],
+    "cart": [
+     8.221021,
+     4.902283,
+     4.606888
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 117,
+    "label": "Cd54",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.13942,
+     0.118707,
+     0.177466
+    ],
+    "cart": [
+     1.792523,
+     1.526216,
+     4.606888
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 118,
+    "label": "Cd55",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618707,
+     0.86058,
+     0.927466
+    ],
+    "cart": [
+     7.954714,
+     11.064474,
+     24.076341
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 119,
+    "label": "Cd56",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118707,
+     0.63942,
+     0.927466
+    ],
+    "cart": [
+     1.526216,
+     8.221021,
+     24.076341
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 120,
+    "label": "Cd57",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.13942,
+     0.618707,
+     0.072534
+    ],
+    "cart": [
+     1.792523,
+     7.954714,
+     1.88293
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 121,
+    "label": "Cd58",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.63942,
+     0.881293,
+     0.072534
+    ],
+    "cart": [
+     8.221021,
+     11.330781,
+     1.88293
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 122,
+    "label": "Cd59",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618707,
+     0.63942,
+     0.822534
+    ],
+    "cart": [
+     7.954714,
+     8.221021,
+     21.352383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 123,
+    "label": "Cd60",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118707,
+     0.86058,
+     0.822534
+    ],
+    "cart": [
+     1.526216,
+     11.064474,
+     21.352383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 124,
+    "label": "Cd61",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.86058,
+     0.881293,
+     0.177466
+    ],
+    "cart": [
+     11.064474,
+     11.330781,
+     4.606888
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 125,
+    "label": "Cd62",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.36058,
+     0.618707,
+     0.177466
+    ],
+    "cart": [
+     4.635976,
+     7.954714,
+     4.606888
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 126,
+    "label": "Cd63",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881293,
+     0.36058,
+     0.927466
+    ],
+    "cart": [
+     11.330781,
+     4.635976,
+     24.076341
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 127,
+    "label": "Cd64",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381293,
+     0.13942,
+     0.927466
+    ],
+    "cart": [
+     4.902283,
+     1.792523,
+     24.076341
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 32
+   },
+   {
+    "index": 128,
+    "label": "Cd65",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.388374,
+     0.392397,
+     0.052505
+    ],
+    "cart": [
+     4.993323,
+     5.045047,
+     1.362992
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 129,
+    "label": "Cd66",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.888374,
+     0.107603,
+     0.052505
+    ],
+    "cart": [
+     11.421822,
+     1.383451,
+     1.362992
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 130,
+    "label": "Cd67",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.607603,
+     0.111626,
+     0.802505
+    ],
+    "cart": [
+     7.81195,
+     1.435175,
+     20.832445
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 131,
+    "label": "Cd68",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.107603,
+     0.388374,
+     0.802505
+    ],
+    "cart": [
+     1.383451,
+     4.993323,
+     20.832445
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 132,
+    "label": "Cd69",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.611626,
+     0.107603,
+     0.197495
+    ],
+    "cart": [
+     7.863674,
+     1.383451,
+     5.126826
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 133,
+    "label": "Cd70",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.111626,
+     0.392397,
+     0.197495
+    ],
+    "cart": [
+     1.435175,
+     5.045047,
+     5.126826
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 134,
+    "label": "Cd71",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.892397,
+     0.888374,
+     0.947495
+    ],
+    "cart": [
+     11.473546,
+     11.421822,
+     24.596279
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 135,
+    "label": "Cd72",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.392397,
+     0.611626,
+     0.947495
+    ],
+    "cart": [
+     5.045047,
+     7.863674,
+     24.596279
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 136,
+    "label": "Cd73",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.111626,
+     0.892397,
+     0.052505
+    ],
+    "cart": [
+     1.435175,
+     11.473546,
+     1.362992
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 137,
+    "label": "Cd74",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.611626,
+     0.607603,
+     0.052505
+    ],
+    "cart": [
+     7.863674,
+     7.81195,
+     1.362992
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 138,
+    "label": "Cd75",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.892397,
+     0.611626,
+     0.802505
+    ],
+    "cart": [
+     11.473546,
+     7.863674,
+     20.832445
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 139,
+    "label": "Cd76",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.392397,
+     0.888374,
+     0.802505
+    ],
+    "cart": [
+     5.045047,
+     11.421822,
+     20.832445
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 140,
+    "label": "Cd77",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.888374,
+     0.607603,
+     0.197495
+    ],
+    "cart": [
+     11.421822,
+     7.81195,
+     5.126826
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 141,
+    "label": "Cd78",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.388374,
+     0.892397,
+     0.197495
+    ],
+    "cart": [
+     4.993323,
+     11.473546,
+     5.126826
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 142,
+    "label": "Cd79",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.607603,
+     0.388374,
+     0.947495
+    ],
+    "cart": [
+     7.81195,
+     4.993323,
+     24.596279
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 143,
+    "label": "Cd80",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.107603,
+     0.111626,
+     0.947495
+    ],
+    "cart": [
+     1.383451,
+     1.435175,
+     24.596279
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 48
+   },
+   {
+    "index": 144,
+    "label": "Cd81",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381206,
+     0.85484,
+     0.062442
+    ],
+    "cart": [
+     4.901164,
+     10.990675,
+     1.620949
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 145,
+    "label": "Cd82",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881206,
+     0.64516,
+     0.062442
+    ],
+    "cart": [
+     11.329663,
+     8.29482,
+     1.620949
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 146,
+    "label": "Cd83",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.14516,
+     0.118794,
+     0.812442
+    ],
+    "cart": [
+     1.866322,
+     1.527334,
+     21.090402
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 147,
+    "label": "Cd84",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.64516,
+     0.381206,
+     0.812442
+    ],
+    "cart": [
+     8.29482,
+     4.901164,
+     21.090402
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 148,
+    "label": "Cd85",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618794,
+     0.64516,
+     0.187558
+    ],
+    "cart": [
+     7.955833,
+     8.29482,
+     4.868869
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 149,
+    "label": "Cd86",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118794,
+     0.85484,
+     0.187558
+    ],
+    "cart": [
+     1.527334,
+     10.990675,
+     4.868869
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 150,
+    "label": "Cd87",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.35484,
+     0.881206,
+     0.937558
+    ],
+    "cart": [
+     4.562177,
+     11.329663,
+     24.338322
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 151,
+    "label": "Cd88",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.85484,
+     0.618794,
+     0.937558
+    ],
+    "cart": [
+     10.990675,
+     7.955833,
+     24.338322
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 152,
+    "label": "Cd89",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.118794,
+     0.35484,
+     0.062442
+    ],
+    "cart": [
+     1.527334,
+     4.562177,
+     1.620949
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 153,
+    "label": "Cd90",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.618794,
+     0.14516,
+     0.062442
+    ],
+    "cart": [
+     7.955833,
+     1.866322,
+     1.620949
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 154,
+    "label": "Cd91",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.35484,
+     0.618794,
+     0.812442
+    ],
+    "cart": [
+     4.562177,
+     7.955833,
+     21.090402
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 155,
+    "label": "Cd92",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.85484,
+     0.881206,
+     0.812442
+    ],
+    "cart": [
+     10.990675,
+     11.329663,
+     21.090402
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 156,
+    "label": "Cd93",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.881206,
+     0.14516,
+     0.187558
+    ],
+    "cart": [
+     11.329663,
+     1.866322,
+     4.868869
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 157,
+    "label": "Cd94",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.381206,
+     0.35484,
+     0.187558
+    ],
+    "cart": [
+     4.901164,
+     4.562177,
+     4.868869
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 158,
+    "label": "Cd95",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.14516,
+     0.381206,
+     0.937558
+    ],
+    "cart": [
+     1.866322,
+     4.901164,
+     24.338322
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 159,
+    "label": "Cd96",
+    "element": "Cd",
+    "occupancy": 1.0,
+    "frac": [
+     0.64516,
+     0.118794,
+     0.937558
+    ],
+    "cart": [
+     8.29482,
+     1.527334,
+     24.338322
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "As",
+   "Cd"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "As": -3.0,
+   "Cd": 2.0
+  },
+  "notes": [
+   "Cd1: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd2: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd3: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd4: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd5: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd6: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd7: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd8: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd9: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd10: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd11: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd12: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd13: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd14: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd15: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd16: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd17: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd18: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd19: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd20: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd21: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd22: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd23: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd24: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd25: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd26: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd27: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd28: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd29: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd30: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd31: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd32: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd33: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd34: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd35: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd36: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd37: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd38: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd39: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd40: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd41: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd42: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd43: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd44: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd45: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd46: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd47: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd48: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd49: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd50: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd51: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd52: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd53: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd54: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd55: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd56: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd57: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd58: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd59: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd60: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd61: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd62: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd63: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd64: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd65: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd66: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd67: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd68: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd69: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd70: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd71: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd72: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd73: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd74: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd75: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd76: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd77: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd78: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd79: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd80: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd81: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd82: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd83: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd84: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd85: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd86: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd87: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd88: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd89: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd90: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd91: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd92: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd93: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd94: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd95: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']",
+   "Cd96: No Shannon radius for Cd (oxidation 2.0) or its ligands ['As']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "As1",
+   "element": "As",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.754248,
+    0.507914,
+    0.501936
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "As17",
+   "element": "As",
+   "wyckoff": "16d",
+   "site_symmetry": "2..",
+   "multiplicity_in_cell": 16,
+   "representative_frac": [
+    0.0,
+    0.5,
+    0.625616
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "As25",
+   "element": "As",
+   "wyckoff": "16e",
+   "site_symmetry": ".2.",
+   "multiplicity_in_cell": 16,
+   "representative_frac": [
+    0.75,
+    0.760027,
+    0.625
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Cd1",
+   "element": "Cd",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.86058,
+    0.618707,
+    0.572534
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Cd17",
+   "element": "Cd",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.888374,
+    0.892397,
+    0.552505
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Cd33",
+   "element": "Cd",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.881206,
+    0.35484,
+    0.562442
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

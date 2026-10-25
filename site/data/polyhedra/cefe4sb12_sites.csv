@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-1181682,Ce(FeSb3)4,Im-3 (204),Ce1,Ce,3,2a,m-3.,2,0,0,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-1181682,Ce(FeSb3)4,Im-3 (204),Fe1,Fe,3,8c,.-3.,8,0.75,0.25,0.25,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-1181682,Ce(FeSb3)4,Im-3 (204),Sb1,Sb,-1.25,24g,m..,24,0.666318,0,0.163081,0,,none,False,no ligands found,,,,,,,,,,,

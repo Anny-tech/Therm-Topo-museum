@@ -1,0 +1,7081 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "mp:mp-1077840",
+   "note": "mnbi2te4: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Mn3 Bi6 Te12",
+  "reduced_formula": "Mn(BiTe2)2",
+  "n_sites": 21,
+  "density": 7.266323,
+  "lattice": {
+   "a": 4.361376,
+   "b": 4.361376,
+   "c": 40.922631,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 120.000003,
+   "volume": 674.126176,
+   "matrix": [
+    [
+     4.361376,
+     0.0,
+     0.0
+    ],
+    [
+     -2.180688,
+     3.777062,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     40.922631
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "R-3m",
+   "number": 166,
+   "crystal_system": "trigonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Mn1",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Bi1",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.243358
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     9.95885
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 2,
+    "label": "Bi2",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.089976
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     3.682055
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 3,
+    "label": "Te1",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.200378
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     8.199995
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 4,
+    "label": "Te2",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.132955
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     5.440868
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 5,
+    "label": "Te3",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.037313
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     1.526946
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   },
+   {
+    "index": 6,
+    "label": "Te4",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.29602
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     12.113917
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   },
+   {
+    "index": 7,
+    "label": "Mn2",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.333333
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     13.640863
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 0
+   },
+   {
+    "index": 8,
+    "label": "Bi3",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.576691
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     23.599713
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 9,
+    "label": "Bi4",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.423309
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     17.322918
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 10,
+    "label": "Te5",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.533712
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     21.840899
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 11,
+    "label": "Te6",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.466288
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     19.081732
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 12,
+    "label": "Te7",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.370647
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     15.16785
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   },
+   {
+    "index": 13,
+    "label": "Te8",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.629353
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     25.754781
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   },
+   {
+    "index": 14,
+    "label": "Mn3",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.666667
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     27.281768
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "-3m",
+    "orbit": 0
+   },
+   {
+    "index": 15,
+    "label": "Bi5",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.910024
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     37.240576
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 16,
+    "label": "Bi6",
+    "element": "Bi",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.756642
+    ],
+    "cart": [
+     2.18069,
+     1.259019,
+     30.963781
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 17,
+    "label": "Te9",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.867045
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     35.481763
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 18,
+    "label": "Te10",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.799622
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     32.722636
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 3
+   },
+   {
+    "index": 19,
+    "label": "Te11",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.70398
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     28.808714
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   },
+   {
+    "index": 20,
+    "label": "Te12",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.962687
+    ],
+    "cart": [
+     -2e-6,
+     2.518043,
+     39.395685
+    ],
+    "wyckoff": "6c",
+    "site_symmetry": "3m",
+    "orbit": 5
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Bi",
+   "Mn",
+   "Te"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Mn": 2.0,
+   "Bi": 3.0,
+   "Te": -2.0
+  },
+  "notes": []
+ },
+ "site_environments": [
+  {
+   "site_label": "Mn1",
+   "element": "Mn",
+   "wyckoff": "3a",
+   "site_symmetry": "-3m",
+   "multiplicity_in_cell": 3,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 6,
+   "ligand_formula": "Te6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 0.83,
+    "ligand_radius": 2.21,
+    "expected_bond_length": 3.04,
+    "radius_ratio": 0.375566,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 0.83,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Mn1-Te6"
+   ]
+  },
+  {
+   "site_label": "Bi1",
+   "element": "Bi",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.333333,
+    0.666667,
+    0.243358
+   ],
+   "oxidation_state": 3.0,
+   "coordination_number": 6,
+   "ligand_formula": "Te6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 1.03,
+    "ligand_radius": 2.21,
+    "expected_bond_length": 3.24,
+    "radius_ratio": 0.466063,
+    "pauling_cn": 6
+   },
+   "ionic_radius": 1.03,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Bi1-Te6"
+   ]
+  },
+  {
+   "site_label": "Te1",
+   "element": "Te",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.200378
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 3,
+   "ligand_formula": "Bi3",
+   "shape": "planar",
+   "forms_polyhedron": false,
+   "reason": "only 3 ligand(s): too few to enclose a volume",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 3,
+    "shannon_consistent": true,
+    "center_radius": 2.21,
+    "ligand_radius": 1.03,
+    "expected_bond_length": 3.24,
+    "radius_ratio": 0.466063,
+    "pauling_cn": 6
+   },
+   "ionic_radius": 2.21,
+   "ionic_radius_cn": 6,
+   "type_ids": []
+  },
+  {
+   "site_label": "Te3",
+   "element": "Te",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 6,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.037313
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 6,
+   "ligand_formula": "Bi3Mn3",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 2.21,
+    "ligand_radius": 0.93,
+    "expected_bond_length": 3.14,
+    "radius_ratio": 0.420814,
+    "pauling_cn": 6
+   },
+   "ionic_radius": 2.21,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Te3-Bi3Mn3"
+   ]
+  }
+ ],
+ "polyhedron_types": [
+  {
+   "type_id": "Mn1-Te6",
+   "kind": "coordination",
+   "center_label": "Mn1",
+   "center_element": "Mn",
+   "wyckoff": "3a",
+   "site_symmetry": "-3m",
+   "ligand_formula": "Te6",
+   "n_instances": 3,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.944842,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 2.944844,
+    "polyhedral_volume": 33.538227,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 2.944842,
+    "quadratic_elongation": 1.010159,
+    "bond_angle_variance": 33.601567,
+    "bond_valence_sum": 1.941664,
+    "center_offset": 0.0
+   },
+   "connectivity": {
+    "edge": 6.0
+   },
+   "mean_bridging_angle": null
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "kind": "coordination",
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "ligand_formula": "Te6",
+   "n_instances": 6,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192919,
+    "min_bond_length": 3.071496,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 42.983184,
+    "distortion_index": 0.038028,
+    "effective_coordination_number": 5.649072,
+    "weighted_average_bond_length": 3.158739,
+    "quadratic_elongation": 1.00793,
+    "bond_angle_variance": 22.932641,
+    "bond_valence_sum": 2.842608,
+    "center_offset": 0.198106
+   },
+   "connectivity": {
+    "edge": 6.0
+   },
+   "mean_bridging_angle": null
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "kind": "coordination",
+   "center_label": "Te3",
+   "center_element": "Te",
+   "wyckoff": "6c",
+   "site_symmetry": "3m",
+   "ligand_formula": "Bi3Mn3",
+   "n_instances": 6,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129605,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 3.31437,
+    "polyhedral_volume": 40.436785,
+    "distortion_index": 0.059037,
+    "effective_coordination_number": 5.110271,
+    "weighted_average_bond_length": 3.041879,
+    "quadratic_elongation": 1.010644,
+    "bond_angle_variance": 24.89595,
+    "bond_valence_sum": 1.941697,
+    "center_offset": 0.314081
+   },
+   "connectivity": {
+    "edge": 9.0,
+    "corner": 3.0
+   },
+   "mean_bridging_angle": 179.999
+  }
+ ],
+ "polyhedra": [
+  {
+   "type_id": "Mn1-Te6",
+   "center_index": 0,
+   "center_label": "Mn1",
+   "center_element": "Mn",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ligands": [
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      -1.526946
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      1.526946
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      -1.526946
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.518043,
+      1.526946
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "cart": [
+      -2.18069,
+      -1.259019,
+      -1.526946
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      1.526946
+     ],
+     "distance": 2.944844
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.944842,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 2.944844,
+    "polyhedral_volume": 33.538227,
+    "distortion_index": 0.0,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 2.944842,
+    "quadratic_elongation": 1.010159,
+    "bond_angle_variance": 33.601567,
+    "bond_valence_sum": 1.941664,
+    "center_offset": 0.0
+   },
+   "faces": [
+    [
+     0,
+     3,
+     4
+    ],
+    [
+     0,
+     3,
+     5
+    ],
+    [
+     2,
+     0,
+     4
+    ],
+    [
+     2,
+     0,
+     5
+    ],
+    [
+     1,
+     3,
+     5
+    ],
+    [
+     1,
+     3,
+     4
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     2,
+     4
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -2,
+      -1,
+      -1
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.55
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Mn1-Te6",
+   "center_index": 7,
+   "center_label": "Mn2",
+   "center_element": "Mn",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.333333
+   ],
+   "center_cart": [
+    2.18069,
+    1.259019,
+    13.640863
+   ],
+   "ligands": [
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361376,
+      0.0,
+      12.113917
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      12.113917
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      12.113917
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      15.16785
+     ],
+     "distance": 2.944861
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361374,
+      2.518043,
+      15.16785
+     ],
+     "distance": 2.944862
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      15.16785
+     ],
+     "distance": 2.944868
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.944853,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 2.944868,
+    "polyhedral_volume": 33.538676,
+    "distortion_index": 4e-6,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 2.944853,
+    "quadratic_elongation": 1.010158,
+    "bond_angle_variance": 33.596059,
+    "bond_valence_sum": 1.941608,
+    "center_offset": 0.000021
+   },
+   "faces": [
+    [
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     4,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460693,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 6.238534,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      2,
+      1,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      95.549
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Mn1-Te6",
+   "center_index": 14,
+   "center_label": "Mn3",
+   "center_element": "Mn",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.666667
+   ],
+   "center_cart": [
+    -2e-6,
+    2.518043,
+    27.281768
+   ],
+   "ligands": [
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.180688,
+      3.777062,
+      28.808714
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      28.808714
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      28.808714
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      5.036081,
+      25.754781
+     ],
+     "distance": 2.944861
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      25.754781
+     ],
+     "distance": 2.944862
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      25.754781
+     ],
+     "distance": 2.944868
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 2.944853,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 2.944868,
+    "polyhedral_volume": 33.538676,
+    "distortion_index": 4e-6,
+    "effective_coordination_number": 6.0,
+    "weighted_average_bond_length": 2.944853,
+    "quadratic_elongation": 1.010158,
+    "bond_angle_variance": 33.596059,
+    "bond_valence_sum": 1.941608,
+    "center_offset": 0.000021
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     5
+    ],
+    [
+     4,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     5
+    ],
+    [
+     3,
+     2,
+     5
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 6.238534,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460693,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 1,
+   "center_label": "Bi1",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.243358
+   ],
+   "center_cart": [
+    -2e-6,
+    2.518043,
+    9.95885
+   ],
+   "ligands": [
+    {
+     "index": 3,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      5.036081,
+      8.199995
+     ],
+     "distance": 3.071496
+    },
+    {
+     "index": 3,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      8.199995
+     ],
+     "distance": 3.071496
+    },
+    {
+     "index": 3,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      8.199995
+     ],
+     "distance": 3.071503
+    },
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.180688,
+      3.777062,
+      12.113917
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      12.113917
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 6,
+     "label": "Te4",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      12.113917
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192919,
+    "min_bond_length": 3.071496,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 42.983184,
+    "distortion_index": 0.038028,
+    "effective_coordination_number": 5.649072,
+    "weighted_average_bond_length": 3.158739,
+    "quadratic_elongation": 1.00793,
+    "bond_angle_variance": 22.932641,
+    "bond_valence_sum": 2.842608,
+    "center_offset": 0.198106
+   },
+   "faces": [
+    [
+     1,
+     4,
+     3
+    ],
+    [
+     1,
+     4,
+     2
+    ],
+    [
+     5,
+     4,
+     3
+    ],
+    [
+     5,
+     4,
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     0,
+     5,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 6.238534,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460693,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Bi1",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 2,
+   "center_label": "Bi2",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.089976
+   ],
+   "center_cart": [
+    -2e-6,
+    2.518043,
+    3.682055
+   ],
+   "ligands": [
+    {
+     "index": 4,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.180688,
+      3.777062,
+      5.440868
+     ],
+     "distance": 3.071473
+    },
+    {
+     "index": 4,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      5.440868
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 4,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      5.440868
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      5.036081,
+      1.526946
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      1.526946
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      1.526946
+     ],
+     "distance": 3.31437
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192921,
+    "min_bond_length": 3.071473,
+    "max_bond_length": 3.31437,
+    "polyhedral_volume": 42.983184,
+    "distortion_index": 0.038036,
+    "effective_coordination_number": 5.648917,
+    "weighted_average_bond_length": 3.158725,
+    "quadratic_elongation": 1.007931,
+    "bond_angle_variance": 22.935893,
+    "bond_valence_sum": 2.842656,
+    "center_offset": 0.198147
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     5
+    ],
+    [
+     4,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     5
+    ],
+    [
+     3,
+     2,
+     5
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Bi2",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 8,
+   "center_label": "Bi3",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.576691
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    23.599713
+   ],
+   "ligands": [
+    {
+     "index": 10,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      21.840899
+     ],
+     "distance": 3.071473
+    },
+    {
+     "index": 10,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      21.840899
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 10,
+     "label": "Te5",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.18069,
+      -1.259019,
+      21.840899
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      25.754781
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.518043,
+      25.754781
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 13,
+     "label": "Te8",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      25.754781
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192907,
+    "min_bond_length": 3.071473,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 42.982734,
+    "distortion_index": 0.038032,
+    "effective_coordination_number": 5.648997,
+    "weighted_average_bond_length": 3.15872,
+    "quadratic_elongation": 1.00793,
+    "bond_angle_variance": 22.931072,
+    "bond_valence_sum": 2.842726,
+    "center_offset": 0.198127
+   },
+   "faces": [
+    [
+     0,
+     4,
+     2
+    ],
+    [
+     0,
+     4,
+     5
+    ],
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     5
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     1,
+     5
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 8,
+     "neighbor_label": "Bi3",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 9,
+   "center_label": "Bi4",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.423309
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    17.322918
+   ],
+   "ligands": [
+    {
+     "index": 11,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      19.081732
+     ],
+     "distance": 3.071473
+    },
+    {
+     "index": 11,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.518043,
+      19.081732
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 11,
+     "label": "Te6",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      19.081732
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      15.16785
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      15.16785
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 12,
+     "label": "Te7",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.18069,
+      -1.259019,
+      15.16785
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192907,
+    "min_bond_length": 3.071473,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 42.982734,
+    "distortion_index": 0.038032,
+    "effective_coordination_number": 5.648997,
+    "weighted_average_bond_length": 3.15872,
+    "quadratic_elongation": 1.00793,
+    "bond_angle_variance": 22.931072,
+    "bond_valence_sum": 2.842726,
+    "center_offset": 0.198127
+   },
+   "faces": [
+    [
+     3,
+     1,
+     5
+    ],
+    [
+     3,
+     1,
+     2
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     5
+    ],
+    [
+     0,
+     4,
+     2
+    ],
+    [
+     0,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -2,
+      -1,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.675
+     ]
+    },
+    {
+     "neighbor_index": 7,
+     "neighbor_label": "Mn2",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 9,
+     "neighbor_label": "Bi4",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 15,
+   "center_label": "Bi5",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.910024
+   ],
+   "center_cart": [
+    2.18069,
+    1.259019,
+    37.240576
+   ],
+   "ligands": [
+    {
+     "index": 17,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361376,
+      0.0,
+      35.481763
+     ],
+     "distance": 3.071473
+    },
+    {
+     "index": 17,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      35.481763
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 17,
+     "label": "Te9",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      35.481763
+     ],
+     "distance": 3.071476
+    },
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      39.395685
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361374,
+      2.518043,
+      39.395685
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 20,
+     "label": "Te12",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      39.395685
+     ],
+     "distance": 3.31437
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192921,
+    "min_bond_length": 3.071473,
+    "max_bond_length": 3.31437,
+    "polyhedral_volume": 42.983184,
+    "distortion_index": 0.038036,
+    "effective_coordination_number": 5.648917,
+    "weighted_average_bond_length": 3.158725,
+    "quadratic_elongation": 1.007931,
+    "bond_angle_variance": 22.935893,
+    "bond_valence_sum": 2.842656,
+    "center_offset": 0.198147
+   },
+   "faces": [
+    [
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     4,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "center_distance": 4.460725,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 6.238564,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.460723,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Mn1",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      2,
+      1,
+      1
+     ],
+     "center_distance": 6.238561,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 15,
+     "neighbor_label": "Bi5",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.467,
+      82.287
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Bi1-Te6",
+   "center_index": 16,
+   "center_label": "Bi6",
+   "center_element": "Bi",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.756642
+   ],
+   "center_cart": [
+    2.18069,
+    1.259019,
+    30.963781
+   ],
+   "ligands": [
+    {
+     "index": 18,
+     "label": "Te10",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      32.722636
+     ],
+     "distance": 3.071496
+    },
+    {
+     "index": 18,
+     "label": "Te10",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361374,
+      2.518043,
+      32.722636
+     ],
+     "distance": 3.071496
+    },
+    {
+     "index": 18,
+     "label": "Te10",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      32.722636
+     ],
+     "distance": 3.071503
+    },
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361376,
+      0.0,
+      28.808714
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      28.808714
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 19,
+     "label": "Te11",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      28.808714
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.192919,
+    "min_bond_length": 3.071496,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 42.983184,
+    "distortion_index": 0.038028,
+    "effective_coordination_number": 5.649072,
+    "weighted_average_bond_length": 3.158739,
+    "quadratic_elongation": 1.00793,
+    "bond_angle_variance": 22.932641,
+    "bond_valence_sum": 2.842608,
+    "center_offset": 0.198106
+   },
+   "faces": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.23854,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.460693,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 6.238534,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      170.674
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 14,
+     "neighbor_label": "Mn3",
+     "neighbor_element": "Mn",
+     "neighbor_type_id": "Mn1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.460689,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.707,
+      90.707
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 16,
+     "neighbor_label": "Bi6",
+     "neighbor_element": "Bi",
+     "neighbor_type_id": "Bi1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      90.466,
+      82.288
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 5,
+   "center_label": "Te3",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.037313
+   ],
+   "center_cart": [
+    2.18069,
+    1.259019,
+    1.526946
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361376,
+      0.0,
+      0.0
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      0.0
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 2,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      3.682055
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 2,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361374,
+      2.518043,
+      3.682055
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 2,
+     "label": "Bi2",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      3.682055
+     ],
+     "distance": 3.31437
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129605,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 3.31437,
+    "polyhedral_volume": 40.436785,
+    "distortion_index": 0.059037,
+    "effective_coordination_number": 5.110271,
+    "weighted_average_bond_length": 3.041879,
+    "quadratic_elongation": 1.010644,
+    "bond_angle_variance": 24.89595,
+    "bond_valence_sum": 1.941697,
+    "center_offset": 0.314081
+   },
+   "faces": [
+    [
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     4,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 3.958128,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "center_distance": 5.889687,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "center_distance": 5.889687,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 3.958133,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      -1,
+      -1
+     ],
+     "center_distance": 5.889681,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 3.958128,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 6,
+   "center_label": "Te4",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.29602
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    12.113917
+   ],
+   "ligands": [
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      13.640863
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.518043,
+      13.640863
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      13.640863
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      9.95885
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      9.95885
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 1,
+     "label": "Bi1",
+     "element": "Bi",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.18069,
+      -1.259019,
+      9.95885
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129591,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 40.436335,
+    "distortion_index": 0.059033,
+    "effective_coordination_number": 5.110395,
+    "weighted_average_bond_length": 3.041879,
+    "quadratic_elongation": 1.010642,
+    "bond_angle_variance": 24.89229,
+    "bond_valence_sum": 1.941767,
+    "center_offset": 0.314061
+   },
+   "faces": [
+    [
+     3,
+     1,
+     5
+    ],
+    [
+     3,
+     1,
+     2
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     5
+    ],
+    [
+     0,
+     4,
+     2
+    ],
+    [
+     0,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.889708,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 3.95816,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.55
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 12,
+   "center_label": "Te7",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.370647
+   ],
+   "center_cart": [
+    -2e-6,
+    2.518043,
+    15.16785
+   ],
+   "ligands": [
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      5.036081,
+      13.640863
+     ],
+     "distance": 2.944861
+    },
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      13.640863
+     ],
+     "distance": 2.944862
+    },
+    {
+     "index": 7,
+     "label": "Mn2",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      13.640863
+     ],
+     "distance": 2.944868
+    },
+    {
+     "index": 9,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.180688,
+      3.777062,
+      17.322918
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 9,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      17.322918
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 9,
+     "label": "Bi4",
+     "element": "Bi",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      17.322918
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129602,
+    "min_bond_length": 2.944861,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 40.436785,
+    "distortion_index": 0.059029,
+    "effective_coordination_number": 5.110506,
+    "weighted_average_bond_length": 3.041901,
+    "quadratic_elongation": 1.010641,
+    "bond_angle_variance": 24.889932,
+    "bond_valence_sum": 1.941711,
+    "center_offset": 0.31404
+   },
+   "faces": [
+    [
+     1,
+     4,
+     3
+    ],
+    [
+     1,
+     4,
+     2
+    ],
+    [
+     5,
+     4,
+     3
+    ],
+    [
+     5,
+     4,
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     0,
+     5,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 3.95816,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 5.889708,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 6,
+     "neighbor_label": "Te4",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 12,
+     "neighbor_label": "Te7",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.549,
+      82.288
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 13,
+   "center_label": "Te8",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.629353
+   ],
+   "center_cart": [
+    2.18069,
+    1.259019,
+    25.754781
+   ],
+   "ligands": [
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      27.281768
+     ],
+     "distance": 2.944861
+    },
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361374,
+      2.518043,
+      27.281768
+     ],
+     "distance": 2.944862
+    },
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      27.281768
+     ],
+     "distance": 2.944868
+    },
+    {
+     "index": 8,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.361376,
+      0.0,
+      23.599713
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 8,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      23.599713
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 8,
+     "label": "Bi3",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      23.599713
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129602,
+    "min_bond_length": 2.944861,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 40.436785,
+    "distortion_index": 0.059029,
+    "effective_coordination_number": 5.110506,
+    "weighted_average_bond_length": 3.041901,
+    "quadratic_elongation": 1.010641,
+    "bond_angle_variance": 24.889932,
+    "bond_valence_sum": 1.941711,
+    "center_offset": 0.31404
+   },
+   "faces": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.889708,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 3.95816,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      2,
+      1,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      82.288,
+      95.549
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 19,
+   "center_label": "Te11",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.70398
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    28.808714
+   ],
+   "ligands": [
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.180686,
+      -1.259019,
+      27.281768
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.518043,
+      27.281768
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 14,
+     "label": "Mn3",
+     "element": "Mn",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.18069,
+      -1.259019,
+      27.281768
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 16,
+     "label": "Bi6",
+     "element": "Bi",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      30.963781
+     ],
+     "distance": 3.314338
+    },
+    {
+     "index": 16,
+     "label": "Bi6",
+     "element": "Bi",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.518043,
+      30.963781
+     ],
+     "distance": 3.314341
+    },
+    {
+     "index": 16,
+     "label": "Bi6",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      30.963781
+     ],
+     "distance": 3.314341
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129591,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 3.314341,
+    "polyhedral_volume": 40.436335,
+    "distortion_index": 0.059033,
+    "effective_coordination_number": 5.110395,
+    "weighted_average_bond_length": 3.041879,
+    "quadratic_elongation": 1.010642,
+    "bond_angle_variance": 24.89229,
+    "bond_valence_sum": 1.941767,
+    "center_offset": 0.314061
+   },
+   "faces": [
+    [
+     0,
+     4,
+     2
+    ],
+    [
+     0,
+     4,
+     5
+    ],
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     5
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     1,
+     5
+    ],
+    [
+     3,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -2,
+      -1,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 3.95816,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 5.889708,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.451
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 5.889705,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      179.999
+     ]
+    },
+    {
+     "neighbor_index": 13,
+     "neighbor_label": "Te8",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 3.958162,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.451,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 19,
+     "neighbor_label": "Te11",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te3-Bi3Mn3",
+   "center_index": 20,
+   "center_label": "Te12",
+   "center_element": "Te",
+   "center_wyckoff": "6c",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.962687
+   ],
+   "center_cart": [
+    -2e-6,
+    2.518043,
+    39.395685
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "cart": [
+      -2.180688,
+      3.777062,
+      40.922631
+     ],
+     "distance": 2.94484
+    },
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      40.922631
+     ],
+     "distance": 2.944843
+    },
+    {
+     "index": 0,
+     "label": "Mn1",
+     "element": "Mn",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "cart": [
+      2.180688,
+      3.777062,
+      40.922631
+     ],
+     "distance": 2.944844
+    },
+    {
+     "index": 15,
+     "label": "Bi5",
+     "element": "Bi",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      5.036081,
+      37.240576
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 15,
+     "label": "Bi5",
+     "element": "Bi",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.180686,
+      1.259019,
+      37.240576
+     ],
+     "distance": 3.314365
+    },
+    {
+     "index": 15,
+     "label": "Bi5",
+     "element": "Bi",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.18069,
+      1.259019,
+      37.240576
+     ],
+     "distance": 3.31437
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.129605,
+    "min_bond_length": 2.94484,
+    "max_bond_length": 3.31437,
+    "polyhedral_volume": 40.436785,
+    "distortion_index": 0.059037,
+    "effective_coordination_number": 5.110271,
+    "weighted_average_bond_length": 3.041879,
+    "quadratic_elongation": 1.010644,
+    "bond_angle_variance": 24.89595,
+    "bond_valence_sum": 1.941697,
+    "center_offset": 0.314081
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     5
+    ],
+    [
+     4,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     5
+    ],
+    [
+     3,
+     2,
+     5
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 3.958128,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      1,
+      1
+     ],
+     "center_distance": 5.889681,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 3.958133,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "center_distance": 5.889687,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "center_distance": 5.889687,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      180.0
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.288
+     ]
+    },
+    {
+     "neighbor_index": 20,
+     "neighbor_label": "Te12",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.361376,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      95.55,
+      82.287
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te3-Bi3Mn3",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 3.958128,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      84.45,
+      84.45
+     ]
+    }
+   ]
+  }
+ ],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [
+   {
+    "site": "Mn 3a",
+    "radius_ratio": 0.3756,
+    "predicted_cn": 4,
+    "observed_cn": 6,
+    "agrees": true
+   },
+   {
+    "site": "Bi 6c",
+    "radius_ratio": 0.4661,
+    "predicted_cn": 6,
+    "observed_cn": 6,
+    "agrees": true
+   }
+  ],
+  "pauling_rule_2_electrostatic_valence": [
+   {
+    "site": "Te 6c",
+    "sum_of_electrostatic_bond_strengths": 1.5,
+    "anion_charge": 2.0,
+    "relative_deviation": -0.25,
+    "satisfied": false
+   },
+   {
+    "site": "Te 6c",
+    "sum_of_electrostatic_bond_strengths": 2.5,
+    "anion_charge": 2.0,
+    "relative_deviation": 0.25,
+    "satisfied": false
+   }
+  ],
+  "pauling_rule_3_polyhedron_sharing": {
+   "Bi-Mn": {
+    "corner": 36,
+    "edge": 36,
+    "face": 0
+   },
+   "Mn-Mn": {
+    "corner": 0,
+    "edge": 18,
+    "face": 0
+   },
+   "Bi-Bi": {
+    "corner": 0,
+    "edge": 36,
+    "face": 0
+   }
+  },
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {
+   "Mn": 1,
+   "Bi": 1,
+   "Te": 1
+  },
+  "bond_valence_sums": [
+   {
+    "site": "Mn 3a",
+    "bvs": 1.9417,
+    "expected": 2.0,
+    "deviation": -0.0583
+   },
+   {
+    "site": "Bi 6c",
+    "bvs": 2.8426,
+    "expected": 3.0,
+    "deviation": -0.1574
+   },
+   {
+    "site": "Te 6c",
+    "bvs": 1.8717,
+    "expected": 2.0,
+    "deviation": -0.1283
+   },
+   {
+    "site": "Te 6c",
+    "bvs": 1.9417,
+    "expected": 2.0,
+    "deviation": -0.0583
+   }
+  ],
+  "global_instability_index": 0.1151,
+  "bond_count_balance": {
+   "cation_side": 54,
+   "anion_side": 54,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

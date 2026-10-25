@@ -1,0 +1,3 @@
+structure,formula,space_group,type_id,kind,center,element,wyckoff,site_symmetry,ligand_formula,n_in_cell,CN,shape,average_bond_length_A,min_bond_length_A,max_bond_length_A,polyhedral_volume_A3,distortion_index,effective_coordination_number,ECoN_weighted_bond_length_A,quadratic_elongation,bond_angle_variance_deg2,bond_valence_sum_vu,off_centring_A,corner_shared_per_polyhedron,edge_shared_per_polyhedron,face_shared_per_polyhedron,mean_corner_bridging_angle_deg
+jarvis:JVASP-1124,Cu2Se,Fm-3m (225),Cu1-Se4,coordination,Cu1,Cu,8c,-43m,Se4,8,4,tetrahedron,2.5283,2.5283,2.5283,8.2942,0,4,2.5283,1,0,1.05264,0,16,6,0,127.103
+jarvis:JVASP-1124,Cu2Se,Fm-3m (225),Se1-Cu8,coordination,Se1,Se,4a,m-3m,Cu8,4,8,cube,2.5283,2.5283,2.5283,24.8826,0,8,2.5283,1,0,2.10527,0,0,12,0,

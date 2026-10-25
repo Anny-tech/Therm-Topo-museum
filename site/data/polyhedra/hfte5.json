@@ -1,0 +1,638 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "alex-pbesol:agm003211431",
+   "note": "hfte5: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Hf4 Te20",
+  "reduced_formula": "HfTe5",
+  "n_sites": 24,
+  "density": 6.936231,
+  "lattice": {
+   "a": 3.946859,
+   "b": 14.574961,
+   "c": 13.591813,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 781.873338,
+   "matrix": [
+    [
+     3.946859,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     14.574961,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     13.591813
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "Cmcm",
+   "number": 63,
+   "crystal_system": "orthorhombic"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Te1",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.208327,
+     0.565916
+    ],
+    "cart": [
+     0.0,
+     3.036358,
+     7.691824
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Te2",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.291673,
+     0.434084
+    ],
+    "cart": [
+     1.973429,
+     4.251123,
+     5.899989
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 2,
+    "label": "Te3",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.161685,
+     0.75
+    ],
+    "cart": [
+     1.973429,
+     2.356553,
+     10.19386
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 2
+   },
+   {
+    "index": 3,
+    "label": "Te4",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.338315,
+     0.25
+    ],
+    "cart": [
+     0.0,
+     4.930928,
+     3.397953
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 2
+   },
+   {
+    "index": 4,
+    "label": "Te5",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.425282,
+     0.647875
+    ],
+    "cart": [
+     1.973429,
+     6.198469,
+     8.805796
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 5,
+    "label": "Te6",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.074718,
+     0.352125
+    ],
+    "cart": [
+     0.0,
+     1.089012,
+     4.786017
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 6,
+    "label": "Te7",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.074718,
+     0.147875
+    ],
+    "cart": [
+     0.0,
+     1.089012,
+     2.009889
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 7,
+    "label": "Te8",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.425282,
+     0.852125
+    ],
+    "cart": [
+     1.973429,
+     6.198469,
+     11.581924
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 8,
+    "label": "Te9",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.208327,
+     0.934084
+    ],
+    "cart": [
+     0.0,
+     3.036358,
+     12.695895
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 9,
+    "label": "Te10",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.291673,
+     0.065916
+    ],
+    "cart": [
+     1.973429,
+     4.251123,
+     0.895918
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 10,
+    "label": "Hf1",
+    "element": "Hf",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.187032,
+     0.25
+    ],
+    "cart": [
+     1.973429,
+     2.725984,
+     3.397953
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 10
+   },
+   {
+    "index": 11,
+    "label": "Hf2",
+    "element": "Hf",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.312968,
+     0.75
+    ],
+    "cart": [
+     0.0,
+     4.561496,
+     10.19386
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 10
+   },
+   {
+    "index": 12,
+    "label": "Te11",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.708327,
+     0.565916
+    ],
+    "cart": [
+     1.973429,
+     10.323838,
+     7.691824
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 13,
+    "label": "Te12",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.791673,
+     0.434084
+    ],
+    "cart": [
+     0.0,
+     11.538603,
+     5.899989
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 14,
+    "label": "Te13",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.661685,
+     0.75
+    ],
+    "cart": [
+     0.0,
+     9.644033,
+     10.19386
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 2
+   },
+   {
+    "index": 15,
+    "label": "Te14",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.838315,
+     0.25
+    ],
+    "cart": [
+     1.973429,
+     12.218408,
+     3.397953
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 2
+   },
+   {
+    "index": 16,
+    "label": "Te15",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.925282,
+     0.647875
+    ],
+    "cart": [
+     0.0,
+     13.485949,
+     8.805796
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 17,
+    "label": "Te16",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.574718,
+     0.352125
+    ],
+    "cart": [
+     1.973429,
+     8.376492,
+     4.786017
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 18,
+    "label": "Te17",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.574718,
+     0.147875
+    ],
+    "cart": [
+     1.973429,
+     8.376492,
+     2.009889
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 19,
+    "label": "Te18",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.925282,
+     0.852125
+    ],
+    "cart": [
+     0.0,
+     13.485949,
+     11.581924
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 4
+   },
+   {
+    "index": 20,
+    "label": "Te19",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.708327,
+     0.934084
+    ],
+    "cart": [
+     1.973429,
+     10.323838,
+     12.695895
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 21,
+    "label": "Te20",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.791673,
+     0.065916
+    ],
+    "cart": [
+     0.0,
+     11.538603,
+     0.895918
+    ],
+    "wyckoff": "8f",
+    "site_symmetry": "m..",
+    "orbit": 0
+   },
+   {
+    "index": 22,
+    "label": "Hf3",
+    "element": "Hf",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.687032,
+     0.25
+    ],
+    "cart": [
+     0.0,
+     10.013465,
+     3.397953
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 10
+   },
+   {
+    "index": 23,
+    "label": "Hf4",
+    "element": "Hf",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.812968,
+     0.75
+    ],
+    "cart": [
+     1.973429,
+     11.848977,
+     10.19386
+    ],
+    "wyckoff": "4c",
+    "site_symmetry": "m2m",
+    "orbit": 10
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Hf",
+   "Te"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Te": -0.8,
+   "Hf": 4.0
+  },
+  "notes": [
+   "Hf1: No Shannon radius for Hf (oxidation 4.0) or its ligands ['Te']",
+   "Hf2: No Shannon radius for Hf (oxidation 4.0) or its ligands ['Te']",
+   "Hf3: No Shannon radius for Hf (oxidation 4.0) or its ligands ['Te']",
+   "Hf4: No Shannon radius for Hf (oxidation 4.0) or its ligands ['Te']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Te1",
+   "element": "Te",
+   "wyckoff": "8f",
+   "site_symmetry": "m..",
+   "multiplicity_in_cell": 8,
+   "representative_frac": [
+    0.0,
+    0.208327,
+    0.565916
+   ],
+   "oxidation_state": -0.8,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Te3",
+   "element": "Te",
+   "wyckoff": "4c",
+   "site_symmetry": "m2m",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.5,
+    0.161685,
+    0.75
+   ],
+   "oxidation_state": -0.8,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Te5",
+   "element": "Te",
+   "wyckoff": "8f",
+   "site_symmetry": "m..",
+   "multiplicity_in_cell": 8,
+   "representative_frac": [
+    0.5,
+    0.425282,
+    0.647875
+   ],
+   "oxidation_state": -0.8,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Hf1",
+   "element": "Hf",
+   "wyckoff": "4c",
+   "site_symmetry": "m2m",
+   "multiplicity_in_cell": 4,
+   "representative_frac": [
+    0.5,
+    0.187032,
+    0.25
+   ],
+   "oxidation_state": 4.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

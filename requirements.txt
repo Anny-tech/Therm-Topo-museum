@@ -1,0 +1,6 @@
+requests>=2.31
+numpy>=1.26
+spglib>=2.5
+PyYAML>=6.0
+robocrys>=0.2.13
+crystal-genui @ git+https://github.com/Anny-tech/Crystal-GENUI.git

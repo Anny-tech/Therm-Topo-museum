@@ -1,0 +1,5 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-23116,CuBiSeO,P4/nmm (129),Cu1,Cu,1,2b,-4m2,2,0,0,0.5,4,Se4,tetrahedron,True,ok,True,4,True,0.6,1.98,2.58,0.30303,4,0.6,4,Cu1-Se4
+mp:mp-23116,CuBiSeO,P4/nmm (129),Bi1,Bi,3,2c,4mm,2,0,0.5,0.860179,8,O4Se4,square antiprism,True,ok,True,8,True,1.17,1.69,2.86,0.692308,6,1.17,8,Bi1-O4Se4
+mp:mp-23116,CuBiSeO,P4/nmm (129),Se1,Se,-2,2c,4mm,2,0.5,0,0.672824,8,Bi4Cu4,square antiprism,True,ok,True,8,True,1.98,0.9,2.88,0.454545,6,1.98,6,Se1-Bi4Cu4
+mp:mp-23116,CuBiSeO,P4/nmm (129),O1,O,-2,2a,-4m2,2,0.5,0.5,0,4,Bi4,tetrahedron,True,ok,True,4,True,1.38,1.03,2.41,0.746377,8,1.38,4,O1-Bi4

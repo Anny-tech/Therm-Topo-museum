@@ -1,0 +1,4367 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "mp:mp-568088",
+   "note": "yb14mnsb11: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Yb112 Mn8 Sb88",
+  "reduced_formula": "Yb14MnSb11",
+  "n_sites": 208,
+  "density": 8.239477,
+  "lattice": {
+   "a": 16.734632,
+   "b": 16.734632,
+   "c": 21.974202,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0,
+   "volume": 6153.829304,
+   "matrix": [
+    [
+     16.734632,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     16.734632,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     21.974202
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "I4_1/acd",
+   "number": 142,
+   "crystal_system": "tetragonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Yb1",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.64417,
+     0.625
+    ],
+    "cart": [
+     12.550974,
+     10.779948,
+     13.733876
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Yb2",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.819996,
+     0.659521,
+     0.782213
+    ],
+    "cart": [
+     13.722331,
+     11.036841,
+     17.188506
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 2,
+    "label": "Yb3",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.840479,
+     0.680004,
+     0.217787
+    ],
+    "cart": [
+     14.065107,
+     11.379617,
+     4.785696
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 3,
+    "label": "Yb4",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.64417,
+     0.25,
+     0.375
+    ],
+    "cart": [
+     10.779948,
+     4.183658,
+     8.240326
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 4,
+    "label": "Yb5",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.95709,
+     0.176145,
+     0.297048
+    ],
+    "cart": [
+     16.016549,
+     2.947722,
+     6.527393
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 5,
+    "label": "Yb6",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.180004,
+     0.659521,
+     0.282213
+    ],
+    "cart": [
+     3.012301,
+     11.036841,
+     6.201405
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 6,
+    "label": "Yb7",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.125753,
+     0.47823,
+     0.376904
+    ],
+    "cart": [
+     2.10443,
+     8.003003,
+     8.282165
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 7,
+    "label": "Yb8",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.819996,
+     0.159521,
+     0.467787
+    ],
+    "cart": [
+     13.722331,
+     2.669525,
+     10.279246
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 8,
+    "label": "Yb9",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.52177,
+     0.125753,
+     0.623096
+    ],
+    "cart": [
+     8.731629,
+     2.10443,
+     13.692037
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 9,
+    "label": "Yb10",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.125753,
+     0.02177,
+     0.373096
+    ],
+    "cart": [
+     2.10443,
+     0.364313,
+     8.198487
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 10,
+    "label": "Yb11",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.97823,
+     0.374247,
+     0.123096
+    ],
+    "cart": [
+     16.370319,
+     6.262886,
+     2.704936
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 11,
+    "label": "Yb12",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.840479,
+     0.180004,
+     0.032213
+    ],
+    "cart": [
+     14.065107,
+     3.012301,
+     0.707855
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 12,
+    "label": "Yb13",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.676145,
+     0.45709,
+     0.702952
+    ],
+    "cart": [
+     11.315038,
+     7.649233,
+     15.446809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 13,
+    "label": "Yb14",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.680004,
+     0.340479,
+     0.967787
+    ],
+    "cart": [
+     11.379617,
+     5.697791,
+     21.266347
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 14,
+    "label": "Yb15",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.874247,
+     0.97823,
+     0.373096
+    ],
+    "cart": [
+     14.630202,
+     16.370319,
+     8.198487
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 15,
+    "label": "Yb16",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.85583,
+     0.75,
+     0.375
+    ],
+    "cart": [
+     14.322,
+     12.550974,
+     8.240326
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 16,
+    "label": "Yb17",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.319996,
+     0.340479,
+     0.467787
+    ],
+    "cart": [
+     5.355015,
+     5.697791,
+     10.279246
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 17,
+    "label": "Yb18",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.819996,
+     0.340479,
+     0.282213
+    ],
+    "cart": [
+     13.722331,
+     5.697791,
+     6.201405
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 18,
+    "label": "Yb19",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.35583,
+     0.75,
+     0.375
+    ],
+    "cart": [
+     5.954684,
+     12.550974,
+     8.240326
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 19,
+    "label": "Yb20",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.659521,
+     0.180004,
+     0.217787
+    ],
+    "cart": [
+     11.036841,
+     3.012301,
+     4.785696
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 20,
+    "label": "Yb21",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.625753,
+     0.02177,
+     0.376904
+    ],
+    "cart": [
+     10.471746,
+     0.364313,
+     8.282165
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 21,
+    "label": "Yb22",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.95709,
+     0.823855,
+     0.797048
+    ],
+    "cart": [
+     16.016549,
+     13.78691,
+     17.514494
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 22,
+    "label": "Yb23",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.374247,
+     0.52177,
+     0.373096
+    ],
+    "cart": [
+     6.262886,
+     8.731629,
+     8.198487
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 23,
+    "label": "Yb24",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.374247,
+     0.02177,
+     0.876904
+    ],
+    "cart": [
+     6.262886,
+     0.364313,
+     19.269266
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 24,
+    "label": "Yb25",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.14417,
+     0.625
+    ],
+    "cart": [
+     12.550974,
+     2.412632,
+     13.733876
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 25,
+    "label": "Yb26",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.680004,
+     0.659521,
+     0.467787
+    ],
+    "cart": [
+     11.379617,
+     11.036841,
+     10.279246
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 26,
+    "label": "Yb27",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.676145,
+     0.95709,
+     0.547048
+    ],
+    "cart": [
+     11.315038,
+     16.016549,
+     12.020943
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 27,
+    "label": "Yb28",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.680004,
+     0.840479,
+     0.282213
+    ],
+    "cart": [
+     11.379617,
+     14.065107,
+     6.201405
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 28,
+    "label": "Yb29",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.340479,
+     0.819996,
+     0.217787
+    ],
+    "cart": [
+     5.697791,
+     13.722331,
+     4.785696
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 29,
+    "label": "Yb30",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.52177,
+     0.625753,
+     0.626904
+    ],
+    "cart": [
+     8.731629,
+     10.471746,
+     13.775715
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 30,
+    "label": "Yb31",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.823855,
+     0.95709,
+     0.702952
+    ],
+    "cart": [
+     13.78691,
+     16.016549,
+     15.446809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 31,
+    "label": "Yb32",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.02177,
+     0.874247,
+     0.626904
+    ],
+    "cart": [
+     0.364313,
+     14.630202,
+     13.775715
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 32,
+    "label": "Yb33",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.159521,
+     0.180004,
+     0.532213
+    ],
+    "cart": [
+     2.669525,
+     3.012301,
+     11.694956
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 33,
+    "label": "Yb34",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.47823,
+     0.125753,
+     0.123096
+    ],
+    "cart": [
+     8.003003,
+     2.10443,
+     2.704936
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 34,
+    "label": "Yb35",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.14417,
+     0.25,
+     0.375
+    ],
+    "cart": [
+     2.412632,
+     4.183658,
+     8.240326
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 35,
+    "label": "Yb36",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.374247,
+     0.97823,
+     0.376904
+    ],
+    "cart": [
+     6.262886,
+     16.370319,
+     8.282165
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 36,
+    "label": "Yb37",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.95709,
+     0.323855,
+     0.452952
+    ],
+    "cart": [
+     16.016549,
+     5.419594,
+     9.953259
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 37,
+    "label": "Yb38",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.85583,
+     0.125
+    ],
+    "cart": [
+     12.550974,
+     14.322,
+     2.746775
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 38,
+    "label": "Yb39",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.97823,
+     0.874247,
+     0.126904
+    ],
+    "cart": [
+     16.370319,
+     14.630202,
+     2.788614
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 39,
+    "label": "Yb40",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.04291,
+     0.823855,
+     0.297048
+    ],
+    "cart": [
+     0.718083,
+     13.78691,
+     6.527393
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 40,
+    "label": "Yb41",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.54291,
+     0.176145,
+     0.952952
+    ],
+    "cart": [
+     9.085399,
+     2.947722,
+     20.94036
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 41,
+    "label": "Yb42",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.659521,
+     0.819996,
+     0.717787
+    ],
+    "cart": [
+     11.036841,
+     13.722331,
+     15.772797
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 42,
+    "label": "Yb43",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.840479,
+     0.819996,
+     0.532213
+    ],
+    "cart": [
+     14.065107,
+     13.722331,
+     11.694956
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 43,
+    "label": "Yb44",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.323855,
+     0.95709,
+     0.047048
+    ],
+    "cart": [
+     5.419594,
+     16.016549,
+     1.033842
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 44,
+    "label": "Yb45",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.125753,
+     0.97823,
+     0.873096
+    ],
+    "cart": [
+     2.10443,
+     16.370319,
+     19.185588
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 45,
+    "label": "Yb46",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.676145,
+     0.04291,
+     0.047048
+    ],
+    "cart": [
+     11.315038,
+     0.718083,
+     1.033842
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 46,
+    "label": "Yb47",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.659521,
+     0.319996,
+     0.532213
+    ],
+    "cart": [
+     11.036841,
+     5.355015,
+     11.694956
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 47,
+    "label": "Yb48",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.176145,
+     0.04291,
+     0.702952
+    ],
+    "cart": [
+     2.947722,
+     0.718083,
+     15.446809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 48,
+    "label": "Yb49",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.823855,
+     0.54291,
+     0.047048
+    ],
+    "cart": [
+     13.78691,
+     9.085399,
+     1.033842
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 49,
+    "label": "Yb50",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.54291,
+     0.823855,
+     0.452952
+    ],
+    "cart": [
+     9.085399,
+     13.78691,
+     9.953259
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 50,
+    "label": "Yb51",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.54291,
+     0.676145,
+     0.297048
+    ],
+    "cart": [
+     9.085399,
+     11.315038,
+     6.527393
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 51,
+    "label": "Yb52",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.75,
+     0.35583,
+     0.125
+    ],
+    "cart": [
+     12.550974,
+     5.954684,
+     2.746775
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 52,
+    "label": "Yb53",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.52177,
+     0.874247,
+     0.123096
+    ],
+    "cart": [
+     8.731629,
+     14.630202,
+     2.704936
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 53,
+    "label": "Yb54",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.97823,
+     0.125753,
+     0.626904
+    ],
+    "cart": [
+     16.370319,
+     2.10443,
+     13.775715
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 54,
+    "label": "Yb55",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.45709,
+     0.176145,
+     0.452952
+    ],
+    "cart": [
+     7.649233,
+     2.947722,
+     9.953259
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 55,
+    "label": "Yb56",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.823855,
+     0.04291,
+     0.202952
+    ],
+    "cart": [
+     13.78691,
+     0.718083,
+     4.459708
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 56,
+    "label": "Mn1",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.25
+    ],
+    "cart": [
+     0.0,
+     8.367316,
+     5.49355
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 57,
+    "label": "Mn2",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "cart": [
+     8.367316,
+     8.367316,
+     10.987101
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 58,
+    "label": "Mn3",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.25
+    ],
+    "cart": [
+     8.367316,
+     0.0,
+     5.49355
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 59,
+    "label": "Mn4",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.5
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     10.987101
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 60,
+    "label": "Sb1",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.639205,
+     0.995386,
+     0.187428
+    ],
+    "cart": [
+     10.69686,
+     16.657418,
+     4.118581
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 61,
+    "label": "Sb2",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.995386,
+     0.860795,
+     0.437428
+    ],
+    "cart": [
+     16.657418,
+     14.405088,
+     9.612131
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 62,
+    "label": "Sb3",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.860795,
+     0.495386,
+     0.187428
+    ],
+    "cart": [
+     14.405088,
+     8.290102,
+     4.118581
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 63,
+    "label": "Sb4",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.63545,
+     0.63545,
+     0.75
+    ],
+    "cart": [
+     10.634022,
+     10.634022,
+     16.480652
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 64,
+    "label": "Sb5",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.224018,
+     0.869396,
+     0.328109
+    ],
+    "cart": [
+     3.748859,
+     14.549022,
+     7.209933
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 65,
+    "label": "Sb6",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.13545,
+     0.36455,
+     0.5
+    ],
+    "cart": [
+     2.266706,
+     6.10061,
+     10.987101
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 66,
+    "label": "Sb7",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.36455,
+     0.63545,
+     0.25
+    ],
+    "cart": [
+     6.10061,
+     10.634022,
+     5.49355
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 67,
+    "label": "Sb8",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.724018,
+     0.630604,
+     0.328109
+    ],
+    "cart": [
+     12.116175,
+     10.552926,
+     7.209933
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 68,
+    "label": "Sb9",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.630604,
+     0.775982,
+     0.578109
+    ],
+    "cart": [
+     10.552926,
+     12.985773,
+     12.703484
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 69,
+    "label": "Sb10",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.139205,
+     0.995386,
+     0.562572
+    ],
+    "cart": [
+     2.329544,
+     16.657418,
+     12.362071
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 70,
+    "label": "Sb11",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.495386,
+     0.860795,
+     0.312572
+    ],
+    "cart": [
+     8.290102,
+     14.405088,
+     6.86852
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 71,
+    "label": "Sb12",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.630604,
+     0.224018,
+     0.078109
+    ],
+    "cart": [
+     10.552926,
+     3.748859,
+     1.716383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 72,
+    "label": "Sb13",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.86455,
+     0.36455,
+     0.0
+    ],
+    "cart": [
+     14.467926,
+     6.10061,
+     0.0
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 73,
+    "label": "Sb14",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.495386,
+     0.139205,
+     0.812572
+    ],
+    "cart": [
+     8.290102,
+     2.329544,
+     17.855621
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 74,
+    "label": "Sb15",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.639205,
+     0.004614,
+     0.687428
+    ],
+    "cart": [
+     10.69686,
+     0.077214,
+     15.105682
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 75,
+    "label": "Sb16",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.369396,
+     0.224018,
+     0.578109
+    ],
+    "cart": [
+     6.181706,
+     3.748859,
+     12.703484
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 76,
+    "label": "Sb17",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.775982,
+     0.369396,
+     0.421891
+    ],
+    "cart": [
+     12.985773,
+     6.181706,
+     9.270718
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 77,
+    "label": "Sb18",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.75
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     16.480652
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 78,
+    "label": "Sb19",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.869396,
+     0.275982,
+     0.578109
+    ],
+    "cart": [
+     14.549022,
+     4.618457,
+     12.703484
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 79,
+    "label": "Sb20",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.630604,
+     0.724018,
+     0.171891
+    ],
+    "cart": [
+     10.552926,
+     12.116175,
+     3.777168
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 80,
+    "label": "Sb21",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.860795,
+     0.995386,
+     0.062572
+    ],
+    "cart": [
+     14.405088,
+     16.657418,
+     1.37497
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 81,
+    "label": "Sb22",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.004614,
+     0.860795,
+     0.937428
+    ],
+    "cart": [
+     0.077214,
+     14.405088,
+     20.599232
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 82,
+    "label": "Sb23",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.495386,
+     0.639205,
+     0.437428
+    ],
+    "cart": [
+     8.290102,
+     10.69686,
+     9.612131
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 83,
+    "label": "Sb24",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.360795,
+     0.004614,
+     0.187428
+    ],
+    "cart": [
+     6.037772,
+     0.077214,
+     4.118581
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 84,
+    "label": "Sb25",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.004614,
+     0.139205,
+     0.437428
+    ],
+    "cart": [
+     0.077214,
+     2.329544,
+     9.612131
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 85,
+    "label": "Sb26",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.004614,
+     0.360795,
+     0.312572
+    ],
+    "cart": [
+     0.077214,
+     6.037772,
+     6.86852
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 86,
+    "label": "Sb27",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.63545,
+     0.36455,
+     0.25
+    ],
+    "cart": [
+     10.634022,
+     6.10061,
+     5.49355
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 87,
+    "label": "Sb28",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.5
+    ],
+    "cart": [
+     8.367316,
+     0.0,
+     10.987101
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 88,
+    "label": "Sb29",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.275982,
+     0.130604,
+     0.421891
+    ],
+    "cart": [
+     4.618457,
+     2.18561,
+     9.270718
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 89,
+    "label": "Sb30",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     8.367316,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 90,
+    "label": "Sb31",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.504614,
+     0.139205,
+     0.312572
+    ],
+    "cart": [
+     8.44453,
+     2.329544,
+     6.86852
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 91,
+    "label": "Sb32",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.86455,
+     0.63545,
+     0.5
+    ],
+    "cart": [
+     14.467926,
+     10.634022,
+     10.987101
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 92,
+    "label": "Sb33",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.775982,
+     0.869396,
+     0.828109
+    ],
+    "cart": [
+     12.985773,
+     14.549022,
+     18.197034
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 93,
+    "label": "Sb34",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.130604,
+     0.775982,
+     0.171891
+    ],
+    "cart": [
+     2.18561,
+     12.985773,
+     3.777168
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 94,
+    "label": "Sb35",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.639205,
+     0.504614,
+     0.562572
+    ],
+    "cart": [
+     10.69686,
+     8.44453,
+     12.362071
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 95,
+    "label": "Sb36",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.724018,
+     0.130604,
+     0.921891
+    ],
+    "cart": [
+     12.116175,
+     2.18561,
+     20.257819
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 96,
+    "label": "Sb37",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.775982,
+     0.130604,
+     0.328109
+    ],
+    "cart": [
+     12.985773,
+     2.18561,
+     7.209933
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 97,
+    "label": "Sb38",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.724018,
+     0.869396,
+     0.421891
+    ],
+    "cart": [
+     12.116175,
+     14.549022,
+     9.270718
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 98,
+    "label": "Sb39",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.869396,
+     0.775982,
+     0.671891
+    ],
+    "cart": [
+     14.549022,
+     12.985773,
+     14.764269
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 99,
+    "label": "Sb40",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.25
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     5.49355
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 100,
+    "label": "Sb41",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.860795,
+     0.004614,
+     0.562572
+    ],
+    "cart": [
+     14.405088,
+     0.077214,
+     12.362071
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 101,
+    "label": "Sb42",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.63545,
+     0.13545,
+     0.5
+    ],
+    "cart": [
+     10.634022,
+     2.266706,
+     10.987101
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 102,
+    "label": "Sb43",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.86455,
+     0.86455,
+     0.25
+    ],
+    "cart": [
+     14.467926,
+     14.467926,
+     5.49355
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 103,
+    "label": "Sb44",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.869396,
+     0.224018,
+     0.171891
+    ],
+    "cart": [
+     14.549022,
+     3.748859,
+     3.777168
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 104,
+    "label": "Yb57",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.14417,
+     0.125
+    ],
+    "cart": [
+     4.183658,
+     2.412632,
+     2.746775
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 105,
+    "label": "Yb58",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.319996,
+     0.159521,
+     0.282213
+    ],
+    "cart": [
+     5.355015,
+     2.669525,
+     6.201405
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 106,
+    "label": "Yb59",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.340479,
+     0.180004,
+     0.717787
+    ],
+    "cart": [
+     5.697791,
+     3.012301,
+     15.772797
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 107,
+    "label": "Yb60",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.14417,
+     0.75,
+     0.875
+    ],
+    "cart": [
+     2.412632,
+     12.550974,
+     19.227427
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 108,
+    "label": "Yb61",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.45709,
+     0.676145,
+     0.797048
+    ],
+    "cart": [
+     7.649233,
+     11.315038,
+     17.514494
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 109,
+    "label": "Yb62",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.680004,
+     0.159521,
+     0.782213
+    ],
+    "cart": [
+     11.379617,
+     2.669525,
+     17.188506
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 110,
+    "label": "Yb63",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.625753,
+     0.97823,
+     0.876904
+    ],
+    "cart": [
+     10.471746,
+     16.370319,
+     19.269266
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 111,
+    "label": "Yb64",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.319996,
+     0.659521,
+     0.967787
+    ],
+    "cart": [
+     5.355015,
+     11.036841,
+     21.266347
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 112,
+    "label": "Yb65",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.02177,
+     0.625753,
+     0.123096
+    ],
+    "cart": [
+     0.364313,
+     10.471746,
+     2.704936
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 113,
+    "label": "Yb66",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.625753,
+     0.52177,
+     0.873096
+    ],
+    "cart": [
+     10.471746,
+     8.731629,
+     19.185588
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 114,
+    "label": "Yb67",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.47823,
+     0.874247,
+     0.623096
+    ],
+    "cart": [
+     8.003003,
+     14.630202,
+     13.692037
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 115,
+    "label": "Yb68",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.340479,
+     0.680004,
+     0.532213
+    ],
+    "cart": [
+     5.697791,
+     11.379617,
+     11.694956
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 116,
+    "label": "Yb69",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.176145,
+     0.95709,
+     0.202952
+    ],
+    "cart": [
+     2.947722,
+     16.016549,
+     4.459708
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 117,
+    "label": "Yb70",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.180004,
+     0.840479,
+     0.467787
+    ],
+    "cart": [
+     3.012301,
+     14.065107,
+     10.279246
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 118,
+    "label": "Yb71",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.374247,
+     0.47823,
+     0.873096
+    ],
+    "cart": [
+     6.262886,
+     8.003003,
+     19.185588
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 119,
+    "label": "Yb72",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.35583,
+     0.25,
+     0.875
+    ],
+    "cart": [
+     5.954684,
+     4.183658,
+     19.227427
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 120,
+    "label": "Yb73",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.819996,
+     0.840479,
+     0.967787
+    ],
+    "cart": [
+     13.722331,
+     14.065107,
+     21.266347
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 121,
+    "label": "Yb74",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.319996,
+     0.840479,
+     0.782213
+    ],
+    "cart": [
+     5.355015,
+     14.065107,
+     17.188506
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 122,
+    "label": "Yb75",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.85583,
+     0.25,
+     0.875
+    ],
+    "cart": [
+     14.322,
+     4.183658,
+     19.227427
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 123,
+    "label": "Yb76",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.159521,
+     0.680004,
+     0.717787
+    ],
+    "cart": [
+     2.669525,
+     11.379617,
+     15.772797
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 124,
+    "label": "Yb77",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.125753,
+     0.52177,
+     0.876904
+    ],
+    "cart": [
+     2.10443,
+     8.731629,
+     19.269266
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 125,
+    "label": "Yb78",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.45709,
+     0.323855,
+     0.297048
+    ],
+    "cart": [
+     7.649233,
+     5.419594,
+     6.527393
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 126,
+    "label": "Yb79",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.874247,
+     0.02177,
+     0.873096
+    ],
+    "cart": [
+     14.630202,
+     0.364313,
+     19.185588
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 127,
+    "label": "Yb80",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.874247,
+     0.52177,
+     0.376904
+    ],
+    "cart": [
+     14.630202,
+     8.731629,
+     8.282165
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 128,
+    "label": "Yb81",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.64417,
+     0.125
+    ],
+    "cart": [
+     4.183658,
+     10.779948,
+     2.746775
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 129,
+    "label": "Yb82",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.180004,
+     0.159521,
+     0.967787
+    ],
+    "cart": [
+     3.012301,
+     2.669525,
+     21.266347
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 130,
+    "label": "Yb83",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.176145,
+     0.45709,
+     0.047048
+    ],
+    "cart": [
+     2.947722,
+     7.649233,
+     1.033842
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 131,
+    "label": "Yb84",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.180004,
+     0.340479,
+     0.782213
+    ],
+    "cart": [
+     3.012301,
+     5.697791,
+     17.188506
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 132,
+    "label": "Yb85",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.840479,
+     0.319996,
+     0.717787
+    ],
+    "cart": [
+     14.065107,
+     5.355015,
+     15.772797
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 133,
+    "label": "Yb86",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.02177,
+     0.125753,
+     0.126904
+    ],
+    "cart": [
+     0.364313,
+     2.10443,
+     2.788614
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 134,
+    "label": "Yb87",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.323855,
+     0.45709,
+     0.202952
+    ],
+    "cart": [
+     5.419594,
+     7.649233,
+     4.459708
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 135,
+    "label": "Yb88",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.52177,
+     0.374247,
+     0.126904
+    ],
+    "cart": [
+     8.731629,
+     6.262886,
+     2.788614
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 136,
+    "label": "Yb89",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.659521,
+     0.680004,
+     0.032213
+    ],
+    "cart": [
+     11.036841,
+     11.379617,
+     0.707855
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 137,
+    "label": "Yb90",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.97823,
+     0.625753,
+     0.623096
+    ],
+    "cart": [
+     16.370319,
+     10.471746,
+     13.692037
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 138,
+    "label": "Yb91",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.64417,
+     0.75,
+     0.875
+    ],
+    "cart": [
+     10.779948,
+     12.550974,
+     19.227427
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 139,
+    "label": "Yb92",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.874247,
+     0.47823,
+     0.876904
+    ],
+    "cart": [
+     14.630202,
+     8.003003,
+     19.269266
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 140,
+    "label": "Yb93",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.45709,
+     0.823855,
+     0.952952
+    ],
+    "cart": [
+     7.649233,
+     13.78691,
+     20.94036
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 141,
+    "label": "Yb94",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.35583,
+     0.625
+    ],
+    "cart": [
+     4.183658,
+     5.954684,
+     13.733876
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 142,
+    "label": "Yb95",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.47823,
+     0.374247,
+     0.626904
+    ],
+    "cart": [
+     8.003003,
+     6.262886,
+     13.775715
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 143,
+    "label": "Yb96",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.54291,
+     0.323855,
+     0.797048
+    ],
+    "cart": [
+     9.085399,
+     5.419594,
+     17.514494
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 144,
+    "label": "Yb97",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.04291,
+     0.676145,
+     0.452952
+    ],
+    "cart": [
+     0.718083,
+     11.315038,
+     9.953259
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 145,
+    "label": "Yb98",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.159521,
+     0.319996,
+     0.217787
+    ],
+    "cart": [
+     2.669525,
+     5.355015,
+     4.785696
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 146,
+    "label": "Yb99",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.340479,
+     0.319996,
+     0.032213
+    ],
+    "cart": [
+     5.697791,
+     5.355015,
+     0.707855
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 147,
+    "label": "Yb100",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.823855,
+     0.45709,
+     0.547048
+    ],
+    "cart": [
+     13.78691,
+     7.649233,
+     12.020943
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 148,
+    "label": "Yb101",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.625753,
+     0.47823,
+     0.373096
+    ],
+    "cart": [
+     10.471746,
+     8.003003,
+     8.198487
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 149,
+    "label": "Yb102",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.176145,
+     0.54291,
+     0.547048
+    ],
+    "cart": [
+     2.947722,
+     9.085399,
+     12.020943
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 150,
+    "label": "Yb103",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.159521,
+     0.819996,
+     0.032213
+    ],
+    "cart": [
+     2.669525,
+     13.722331,
+     0.707855
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 1
+   },
+   {
+    "index": 151,
+    "label": "Yb104",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.676145,
+     0.54291,
+     0.202952
+    ],
+    "cart": [
+     11.315038,
+     9.085399,
+     4.459708
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 152,
+    "label": "Yb105",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.323855,
+     0.04291,
+     0.547048
+    ],
+    "cart": [
+     5.419594,
+     0.718083,
+     12.020943
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 153,
+    "label": "Yb106",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.04291,
+     0.323855,
+     0.952952
+    ],
+    "cart": [
+     0.718083,
+     5.419594,
+     20.94036
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 154,
+    "label": "Yb107",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.04291,
+     0.176145,
+     0.797048
+    ],
+    "cart": [
+     0.718083,
+     2.947722,
+     17.514494
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 155,
+    "label": "Yb108",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.25,
+     0.85583,
+     0.625
+    ],
+    "cart": [
+     4.183658,
+     14.322,
+     13.733876
+    ],
+    "wyckoff": "16e",
+    "site_symmetry": ".2.",
+    "orbit": 0
+   },
+   {
+    "index": 156,
+    "label": "Yb109",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.02177,
+     0.374247,
+     0.623096
+    ],
+    "cart": [
+     0.364313,
+     6.262886,
+     13.692037
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 157,
+    "label": "Yb110",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.47823,
+     0.625753,
+     0.126904
+    ],
+    "cart": [
+     8.003003,
+     10.471746,
+     2.788614
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 6
+   },
+   {
+    "index": 158,
+    "label": "Yb111",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.95709,
+     0.676145,
+     0.952952
+    ],
+    "cart": [
+     16.016549,
+     11.315038,
+     20.94036
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 159,
+    "label": "Yb112",
+    "element": "Yb",
+    "occupancy": 1.0,
+    "frac": [
+     0.323855,
+     0.54291,
+     0.702952
+    ],
+    "cart": [
+     5.419594,
+     9.085399,
+     15.446809
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 4
+   },
+   {
+    "index": 160,
+    "label": "Mn5",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.0,
+     0.75
+    ],
+    "cart": [
+     8.367316,
+     0.0,
+     16.480652
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 161,
+    "label": "Mn6",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 162,
+    "label": "Mn7",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.75
+    ],
+    "cart": [
+     0.0,
+     8.367316,
+     16.480652
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 163,
+    "label": "Mn8",
+    "element": "Mn",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.0
+    ],
+    "cart": [
+     8.367316,
+     8.367316,
+     0.0
+    ],
+    "wyckoff": "8a",
+    "site_symmetry": "-4..",
+    "orbit": 56
+   },
+   {
+    "index": 164,
+    "label": "Sb45",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.139205,
+     0.495386,
+     0.687428
+    ],
+    "cart": [
+     2.329544,
+     8.290102,
+     15.105682
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 165,
+    "label": "Sb46",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.495386,
+     0.360795,
+     0.937428
+    ],
+    "cart": [
+     8.290102,
+     6.037772,
+     20.599232
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 166,
+    "label": "Sb47",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.360795,
+     0.995386,
+     0.687428
+    ],
+    "cart": [
+     6.037772,
+     16.657418,
+     15.105682
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 167,
+    "label": "Sb48",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.13545,
+     0.13545,
+     0.25
+    ],
+    "cart": [
+     2.266706,
+     2.266706,
+     5.49355
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 168,
+    "label": "Sb49",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.724018,
+     0.369396,
+     0.828109
+    ],
+    "cart": [
+     12.116175,
+     6.181706,
+     18.197034
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 169,
+    "label": "Sb50",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.63545,
+     0.86455,
+     0.0
+    ],
+    "cart": [
+     10.634022,
+     14.467926,
+     0.0
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 170,
+    "label": "Sb51",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.86455,
+     0.13545,
+     0.75
+    ],
+    "cart": [
+     14.467926,
+     2.266706,
+     16.480652
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 171,
+    "label": "Sb52",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.224018,
+     0.130604,
+     0.828109
+    ],
+    "cart": [
+     3.748859,
+     2.18561,
+     18.197034
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 172,
+    "label": "Sb53",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.130604,
+     0.275982,
+     0.078109
+    ],
+    "cart": [
+     2.18561,
+     4.618457,
+     1.716383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 173,
+    "label": "Sb54",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.639205,
+     0.495386,
+     0.062572
+    ],
+    "cart": [
+     10.69686,
+     8.290102,
+     1.37497
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 174,
+    "label": "Sb55",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.995386,
+     0.360795,
+     0.812572
+    ],
+    "cart": [
+     16.657418,
+     6.037772,
+     17.855621
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 175,
+    "label": "Sb56",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.130604,
+     0.724018,
+     0.578109
+    ],
+    "cart": [
+     2.18561,
+     12.116175,
+     12.703484
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 176,
+    "label": "Sb57",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.36455,
+     0.86455,
+     0.5
+    ],
+    "cart": [
+     6.10061,
+     14.467926,
+     10.987101
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 177,
+    "label": "Sb58",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.995386,
+     0.639205,
+     0.312572
+    ],
+    "cart": [
+     16.657418,
+     10.69686,
+     6.86852
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 178,
+    "label": "Sb59",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.139205,
+     0.504614,
+     0.187428
+    ],
+    "cart": [
+     2.329544,
+     8.44453,
+     4.118581
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 179,
+    "label": "Sb60",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.869396,
+     0.724018,
+     0.078109
+    ],
+    "cart": [
+     14.549022,
+     12.116175,
+     1.716383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 180,
+    "label": "Sb61",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.275982,
+     0.869396,
+     0.921891
+    ],
+    "cart": [
+     4.618457,
+     14.549022,
+     20.257819
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 181,
+    "label": "Sb62",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.25
+    ],
+    "cart": [
+     8.367316,
+     8.367316,
+     5.49355
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 182,
+    "label": "Sb63",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.369396,
+     0.775982,
+     0.078109
+    ],
+    "cart": [
+     6.181706,
+     12.985773,
+     1.716383
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 183,
+    "label": "Sb64",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.130604,
+     0.224018,
+     0.671891
+    ],
+    "cart": [
+     2.18561,
+     3.748859,
+     14.764269
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 184,
+    "label": "Sb65",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.360795,
+     0.495386,
+     0.562572
+    ],
+    "cart": [
+     6.037772,
+     8.290102,
+     12.362071
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 185,
+    "label": "Sb66",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.504614,
+     0.360795,
+     0.437428
+    ],
+    "cart": [
+     8.44453,
+     6.037772,
+     9.612131
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 186,
+    "label": "Sb67",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.995386,
+     0.139205,
+     0.937428
+    ],
+    "cart": [
+     16.657418,
+     2.329544,
+     20.599232
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 187,
+    "label": "Sb68",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.860795,
+     0.504614,
+     0.687428
+    ],
+    "cart": [
+     14.405088,
+     8.44453,
+     15.105682
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 188,
+    "label": "Sb69",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.504614,
+     0.639205,
+     0.937428
+    ],
+    "cart": [
+     8.44453,
+     10.69686,
+     20.599232
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 189,
+    "label": "Sb70",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.504614,
+     0.860795,
+     0.812572
+    ],
+    "cart": [
+     8.44453,
+     14.405088,
+     17.855621
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 190,
+    "label": "Sb71",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.13545,
+     0.86455,
+     0.75
+    ],
+    "cart": [
+     2.266706,
+     14.467926,
+     16.480652
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 191,
+    "label": "Sb72",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "cart": [
+     0.0,
+     8.367316,
+     0.0
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 192,
+    "label": "Sb73",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.775982,
+     0.630604,
+     0.921891
+    ],
+    "cart": [
+     12.985773,
+     10.552926,
+     20.257819
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 193,
+    "label": "Sb74",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.5,
+     0.5
+    ],
+    "cart": [
+     0.0,
+     8.367316,
+     10.987101
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 194,
+    "label": "Sb75",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.004614,
+     0.639205,
+     0.812572
+    ],
+    "cart": [
+     0.077214,
+     10.69686,
+     17.855621
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 195,
+    "label": "Sb76",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.36455,
+     0.13545,
+     0.0
+    ],
+    "cart": [
+     6.10061,
+     2.266706,
+     0.0
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 196,
+    "label": "Sb77",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.275982,
+     0.369396,
+     0.328109
+    ],
+    "cart": [
+     4.618457,
+     6.181706,
+     7.209933
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 197,
+    "label": "Sb78",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.630604,
+     0.275982,
+     0.671891
+    ],
+    "cart": [
+     10.552926,
+     4.618457,
+     14.764269
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 198,
+    "label": "Sb79",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.139205,
+     0.004614,
+     0.062572
+    ],
+    "cart": [
+     2.329544,
+     0.077214,
+     1.37497
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 199,
+    "label": "Sb80",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.224018,
+     0.630604,
+     0.421891
+    ],
+    "cart": [
+     3.748859,
+     10.552926,
+     9.270718
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 200,
+    "label": "Sb81",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.275982,
+     0.630604,
+     0.828109
+    ],
+    "cart": [
+     4.618457,
+     10.552926,
+     18.197034
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 201,
+    "label": "Sb82",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.224018,
+     0.369396,
+     0.921891
+    ],
+    "cart": [
+     3.748859,
+     6.181706,
+     20.257819
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 202,
+    "label": "Sb83",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.369396,
+     0.275982,
+     0.171891
+    ],
+    "cart": [
+     6.181706,
+     4.618457,
+     3.777168
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   },
+   {
+    "index": 203,
+    "label": "Sb84",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.5,
+     0.5,
+     0.75
+    ],
+    "cart": [
+     8.367316,
+     8.367316,
+     16.480652
+    ],
+    "wyckoff": "8b",
+    "site_symmetry": "2.22",
+    "orbit": 77
+   },
+   {
+    "index": 204,
+    "label": "Sb85",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.360795,
+     0.504614,
+     0.062572
+    ],
+    "cart": [
+     6.037772,
+     8.44453,
+     1.37497
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 60
+   },
+   {
+    "index": 205,
+    "label": "Sb86",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.13545,
+     0.63545,
+     0.0
+    ],
+    "cart": [
+     2.266706,
+     10.634022,
+     0.0
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 206,
+    "label": "Sb87",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.36455,
+     0.36455,
+     0.75
+    ],
+    "cart": [
+     6.10061,
+     6.10061,
+     16.480652
+    ],
+    "wyckoff": "16f",
+    "site_symmetry": "..2",
+    "orbit": 63
+   },
+   {
+    "index": 207,
+    "label": "Sb88",
+    "element": "Sb",
+    "occupancy": 1.0,
+    "frac": [
+     0.369396,
+     0.724018,
+     0.671891
+    ],
+    "cart": [
+     6.181706,
+     12.116175,
+     14.764269
+    ],
+    "wyckoff": "32g",
+    "site_symmetry": "1",
+    "orbit": 64
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Mn",
+   "Sb",
+   "Yb"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Yb": 2.2142857142857144,
+   "Mn": 2.0,
+   "Sb": -3.0
+  },
+  "notes": [
+   "Yb1: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb2: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb3: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb4: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb5: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb6: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb7: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb8: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb9: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb10: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb11: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb12: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb13: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb14: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb15: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb16: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb17: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb18: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb19: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb20: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb21: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb22: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb23: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb24: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb25: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb26: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb27: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb28: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb29: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb30: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb31: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb32: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb33: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb34: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb35: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb36: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb37: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb38: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb39: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb40: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb41: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb42: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb43: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb44: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb45: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb46: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb47: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb48: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb49: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb50: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb51: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb52: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb53: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb54: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb55: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb56: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Mn1: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn2: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn3: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn4: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Yb57: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb58: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb59: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb60: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb61: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb62: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb63: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb64: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb65: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb66: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb67: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb68: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb69: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb70: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb71: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb72: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb73: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb74: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb75: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb76: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb77: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb78: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb79: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb80: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb81: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb82: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb83: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb84: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb85: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb86: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb87: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb88: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb89: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb90: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb91: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb92: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb93: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb94: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb95: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb96: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb97: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb98: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb99: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb100: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb101: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb102: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb103: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb104: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb105: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb106: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb107: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb108: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb109: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb110: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb111: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Yb112: No Shannon radius for Yb (oxidation 2.2142857142857144) or its ligands ['Sb']",
+   "Mn5: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn6: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn7: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']",
+   "Mn8: No Shannon radius for Mn (oxidation 2.0) or its ligands ['Sb']"
+  ]
+ },
+ "site_environments": [
+  {
+   "site_label": "Yb1",
+   "element": "Yb",
+   "wyckoff": "16e",
+   "site_symmetry": ".2.",
+   "multiplicity_in_cell": 16,
+   "representative_frac": [
+    0.75,
+    0.64417,
+    0.625
+   ],
+   "oxidation_state": 2.2142857142857144,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Yb2",
+   "element": "Yb",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.819996,
+    0.659521,
+    0.782213
+   ],
+   "oxidation_state": 2.2142857142857144,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Yb5",
+   "element": "Yb",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.95709,
+    0.176145,
+    0.297048
+   ],
+   "oxidation_state": 2.2142857142857144,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Yb7",
+   "element": "Yb",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.125753,
+    0.47823,
+    0.376904
+   ],
+   "oxidation_state": 2.2142857142857144,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Mn1",
+   "element": "Mn",
+   "wyckoff": "8a",
+   "site_symmetry": "-4..",
+   "multiplicity_in_cell": 8,
+   "representative_frac": [
+    0.0,
+    0.5,
+    0.25
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Sb1",
+   "element": "Sb",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.639205,
+    0.995386,
+    0.187428
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Sb4",
+   "element": "Sb",
+   "wyckoff": "16f",
+   "site_symmetry": "..2",
+   "multiplicity_in_cell": 16,
+   "representative_frac": [
+    0.63545,
+    0.63545,
+    0.75
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Sb5",
+   "element": "Sb",
+   "wyckoff": "32g",
+   "site_symmetry": "1",
+   "multiplicity_in_cell": 32,
+   "representative_frac": [
+    0.224018,
+    0.869396,
+    0.328109
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  },
+  {
+   "site_label": "Sb18",
+   "element": "Sb",
+   "wyckoff": "8b",
+   "site_symmetry": "2.22",
+   "multiplicity_in_cell": 8,
+   "representative_frac": [
+    0.0,
+    0.0,
+    0.75
+   ],
+   "oxidation_state": -3.0,
+   "coordination_number": 0,
+   "ligand_formula": "",
+   "shape": "none",
+   "forms_polyhedron": false,
+   "reason": "no ligands found",
+   "symmetry_consistent": null,
+   "shannon": null,
+   "ionic_radius": null,
+   "ionic_radius_cn": null,
+   "type_ids": []
+  }
+ ],
+ "polyhedron_types": [],
+ "polyhedra": [],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [],
+  "pauling_rule_2_electrostatic_valence": [],
+  "pauling_rule_3_polyhedron_sharing": {},
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {},
+  "bond_valence_sums": [],
+  "global_instability_index": null,
+  "bond_count_balance": {
+   "cation_side": 0,
+   "anion_side": 0,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

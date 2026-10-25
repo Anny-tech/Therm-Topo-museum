@@ -1,0 +1,11 @@
+Bi_mp_mp-567597 | Source: Materials Project mp-567597 (GGA/GGA+U/r2SCAN (MP mixing scheme)), https://next-gen.materialsproject.org/materials/mp-567597 | conventional cell
+1.0
+      4.51361200     0.00000000     0.00000000
+     -2.25680600     3.90890300     0.00000000
+      0.00000000     0.00000000     5.82612900
+  Bi
+  3
+Direct
+  0.33333300 0.66666700 0.16666700
+  -0.00000000 -0.00000000 0.50000000
+  0.66666700 0.33333300 0.83333300

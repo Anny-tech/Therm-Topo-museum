@@ -1,0 +1,410 @@
+# Tutorials plugin: curated, high-quality learning resources.
+# URLs are checked by `pipeline/check_links.py`; DOIs are resolved via Crossref.
+#
+#   kind      review | course | book | docs | software | database | notebook
+#   level     intro | intermediate | advanced
+#   audience  experimental | computational | both
+#   topics    thermoelectric | topological | crystallography | dft | measurement | transport | arpes
+
+# ── Foundations: reviews every experimentalist should read ──
+- id: snyder-toberer-2008
+  title: Complex thermoelectric materials
+  doi: 10.1038/nmat2090
+  kind: review
+  level: intro
+  audience: both
+  topics: [thermoelectric]
+  why: >
+    The most-cited modern introduction to zT, phonon-glass/electron-crystal and
+    the design strategies (complex cells, nanostructuring) behind every family in this atlas.
+
+- id: zevalkink-field-guide-2018
+  title: A practical field guide to thermoelectrics
+  doi: 10.1063/1.5021094
+  kind: review
+  level: intro
+  audience: experimental
+  topics: [thermoelectric, measurement]
+  why: >
+    Written for experimentalists entering the field. Covers synthesis,
+    densification, characterization and the common measurement pitfalls.
+
+- id: borup-measuring-2015
+  title: Measuring thermoelectric transport properties of materials
+  doi: 10.1039/c4ee01320d
+  kind: review
+  level: intermediate
+  audience: experimental
+  topics: [thermoelectric, measurement]
+  why: >
+    Rigorous reference on measuring Seebeck coefficient, resistivity, thermal
+    diffusivity and Hall effect, with error budgets. Read it before you report a zT.
+
+- id: hasan-kane-2010
+  title: "Colloquium: Topological insulators"
+  doi: 10.1103/revmodphys.82.3045
+  kind: review
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: The standard entry point to Z2 topological insulators, from theory to ARPES.
+
+- id: qi-zhang-2011
+  title: Topological insulators and superconductors
+  doi: 10.1103/revmodphys.83.1057
+  kind: review
+  level: advanced
+  audience: both
+  topics: [topological]
+  why: Field-theoretical companion to Hasan & Kane, including the axion response.
+
+- id: ando-2013
+  title: Topological insulator materials
+  doi: 10.7566/jpsj.82.102001
+  kind: review
+  level: intermediate
+  audience: experimental
+  topics: [topological, transport]
+  why: >
+    A materials- and transport-oriented review: defect chemistry, bulk-insulating
+    compositions and how to identify surface transport.
+
+- id: heremans-tetradymites-2017
+  title: Tetradymites as thermoelectrics and topological insulators
+  doi: 10.1038/natrevmats.2017.49
+  kind: review
+  level: intermediate
+  audience: both
+  topics: [thermoelectric, topological]
+  why: >
+    The one review that covers both applications of this atlas for the
+    same material family. Highly recommended.
+
+- id: armitage-weyl-2018
+  title: Weyl and Dirac semimetals in three-dimensional solids
+  doi: 10.1103/revmodphys.90.015001
+  kind: review
+  level: advanced
+  audience: both
+  topics: [topological, transport]
+  why: Comprehensive review of topological semimetals, including magneto-transport signatures.
+
+- id: lv-arpes-2019
+  title: Angle-resolved photoemission spectroscopy and its application to topological materials
+  doi: 10.1038/s42254-019-0088-5
+  kind: review
+  level: intermediate
+  audience: experimental
+  topics: [topological, arpes]
+  why: How ARPES is used to identify Dirac cones, Fermi arcs and band inversions.
+
+- id: sobota-arpes-2021
+  title: Angle-resolved photoemission studies of quantum materials
+  doi: 10.1103/revmodphys.93.025006
+  kind: review
+  level: advanced
+  audience: experimental
+  topics: [arpes]
+  why: In-depth modern treatment of the ARPES technique, its matrix elements and its limits.
+
+- id: bradlyn-tqc-2017
+  title: Topological quantum chemistry
+  doi: 10.1038/nature23268
+  kind: review
+  level: advanced
+  audience: both
+  topics: [topological, crystallography]
+  why: >
+    Connects crystal symmetry (space groups, Wyckoff positions) to band topology.
+    It is the basis of today's topological materials catalogues.
+
+- id: vergniory-catalogue-2019
+  title: A complete catalogue of high-quality topological materials
+  doi: 10.1038/s41586-019-0954-4
+  kind: review
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: High-throughput symmetry-indicator screening of the ICSD; useful for finding candidates.
+
+- id: choudhary-spillage-2019
+  title: High-throughput discovery of topologically non-trivial materials using spin-orbit spillage
+  doi: 10.1038/s41598-019-45028-y
+  kind: review
+  level: intermediate
+  audience: computational
+  topics: [topological, dft]
+  why: Explains the spillage indicator shown on every material page in this atlas.
+
+- id: choudhary-te-2020
+  title: Data-driven discovery of 3D and 2D thermoelectric materials
+  doi: 10.1088/1361-648x/aba06b
+  kind: review
+  level: intermediate
+  audience: computational
+  topics: [thermoelectric, dft]
+  why: Methodology behind the BoltzTraP Seebeck/power-factor values displayed here.
+
+# ── Courses ──
+- id: topocondmat
+  title: Topology in Condensed Matter (online course, TU Delft)
+  url: https://topocondmat.org/
+  kind: course
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: >
+    A free, interactive course with runnable notebooks, from Berry phases to
+    TIs, Weyl semimetals and Majoranas. The best structured self-study path.
+
+- id: northwestern-te
+  title: Thermoelectrics at Northwestern (Snyder group)
+  url: https://thermoelectrics.matsci.northwestern.edu/
+  kind: course
+  level: intro
+  audience: experimental
+  topics: [thermoelectric, measurement]
+  why: >
+    Educational pages on transport theory, the effective-mass model, the
+    weighted mobility and measurement practice from a leading experimental group.
+
+- id: nanohub-thermoelectricity
+  title: nanoHUB — Thermoelectricity resources
+  url: https://nanohub.org/groups/thermoelectricity
+  kind: course
+  level: intro
+  audience: both
+  topics: [thermoelectric, transport]
+  why: Lectures and online simulation tools on thermoelectric transport.
+
+# ── Books ──
+- id: vanderbilt-berry
+  title: Berry Phases in Electronic Structure Theory (Vanderbilt)
+  doi: 10.1017/9781316662205
+  kind: book
+  level: advanced
+  audience: computational
+  topics: [topological, dft]
+  why: The definitive textbook on polarization, Berry phases and topological invariants from first principles.
+
+- id: goldsmid-intro
+  title: Introduction to Thermoelectricity (Goldsmid)
+  doi: 10.1007/978-3-662-49256-7
+  kind: book
+  level: intro
+  audience: experimental
+  topics: [thermoelectric]
+  why: A classic, accessible textbook by a pioneer of Bi2Te3 thermoelectrics.
+
+# ── Software & tools ──
+- id: vesta
+  title: VESTA — 3D visualization of crystal structures
+  url: https://jp-minerals.org/vesta/en/
+  kind: software
+  level: intro
+  audience: experimental
+  topics: [crystallography]
+  why: Opens the CIF files you download here and simulates powder XRD patterns to compare with your own.
+
+- id: pymatgen
+  title: pymatgen — Python Materials Genomics
+  url: https://pymatgen.org/
+  kind: software
+  level: intermediate
+  audience: both
+  topics: [crystallography, dft]
+  why: Read, analyse and transform the structures from this atlas in Python.
+
+- id: robocrystallographer
+  title: Robocrystallographer — automatic text descriptions of crystal structures
+  url: https://github.com/hackingmaterials/robocrystallographer
+  doi: 10.1557/mrc.2019.94
+  kind: software
+  level: intro
+  audience: both
+  topics: [crystallography]
+  why: >
+    Generates the "Structure in words" paragraph on every exhibit: coordination
+    environments, polyhedral connectivity, bond lengths and dimensionality. Run it
+    on your own refined CIFs to get a consistent first description.
+
+- id: crystal-genui
+  title: Crystal-GENUI — coordination polyhedra and crystal-chemistry analysis
+  url: https://github.com/Anny-tech/Crystal-GENUI
+  kind: software
+  level: intro
+  audience: experimental
+  topics: [crystallography]
+  why: >
+    Powers the coordination-polyhedra panel: polyhedron types, distortion indices,
+    bond-valence sums, Pauling-rule checks and an interactive polyhedral viewer,
+    with CSV export for your own refinements.
+
+- id: ase
+  title: ASE — Atomic Simulation Environment
+  url: https://ase-lib.org/
+  kind: software
+  level: intermediate
+  audience: computational
+  topics: [dft, crystallography]
+  why: Build supercells, surfaces and defect models and drive most DFT codes.
+
+- id: boltztrap2
+  title: BoltzTraP2 — Boltzmann transport from band structures
+  url: https://gitlab.com/sousaw/BoltzTraP2
+  doi: 10.1016/j.cpc.2018.05.010
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [thermoelectric, dft, transport]
+  why: Standard tool for computing Seebeck coefficients and σ/τ from DFT bands.
+
+- id: amset
+  title: AMSET — ab initio carrier scattering and transport
+  url: https://hackingmaterials.lbl.gov/amset/
+  doi: 10.1038/s41467-021-22440-5
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [thermoelectric, dft, transport]
+  why: Goes beyond the constant relaxation-time approximation, which matters for quantitative mobility and zT.
+
+- id: phono3py
+  title: phono3py — lattice thermal conductivity
+  url: https://phonopy.github.io/phono3py/
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [thermoelectric, dft]
+  why: Computes κ_L from third-order force constants, the missing ingredient for predicting zT.
+
+- id: wannier90
+  title: Wannier90 — maximally-localized Wannier functions
+  url: https://wannier.org/
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [topological, dft]
+  why: Builds tight-binding models from DFT, the first step for surface states and Wilson loops.
+
+- id: wanniertools
+  title: WannierTools — topological analysis of Wannier models
+  url: http://www.wanniertools.com/
+  doi: 10.1016/j.cpc.2017.09.033
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [topological]
+  why: Computes Z2 indices, Weyl points, surface spectra and Fermi arcs to compare with ARPES.
+
+- id: z2pack
+  title: Z2Pack — topological invariants from Wannier charge centers
+  url: https://z2pack.greschd.ch/
+  doi: 10.1103/physrevb.95.075146
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [topological]
+  why: Automated, robust calculation of Z2 and Chern numbers.
+
+- id: irrep
+  title: IrRep — irreducible representations of DFT bands
+  url: https://github.com/stepan-tsirkin/irrep
+  kind: software
+  level: advanced
+  audience: computational
+  topics: [topological, crystallography]
+  why: Extracts the symmetry data that symmetry-indicator / TQC classifications need.
+
+- id: pythtb
+  title: PythTB — Python tight binding
+  url: https://www.physics.rutgers.edu/pythtb/
+  kind: notebook
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: Small, readable tight-binding package for learning Berry phases and Chern numbers hands-on.
+
+- id: seekpath
+  title: SeeK-path — band-structure k-paths
+  url: https://www.materialscloud.org/work/tools/seekpath
+  kind: software
+  level: intro
+  audience: both
+  topics: [crystallography, dft]
+  why: Gives the standard Brillouin-zone path and labels for any structure, useful for reading band plots and ARPES cuts.
+
+# ── Databases & notebooks ──
+- id: mp-docs
+  title: Materials Project documentation
+  url: https://docs.materialsproject.org/
+  kind: database
+  level: intro
+  audience: both
+  topics: [dft]
+  why: Explains how MP structures, energies above hull and band gaps are calculated.
+
+- id: mp-workshop
+  title: Materials Project workshop notebooks
+  url: https://workshop.materialsproject.org/
+  kind: notebook
+  level: intro
+  audience: both
+  topics: [dft, crystallography]
+  why: Hands-on notebooks for querying and analysing MP data with pymatgen.
+
+- id: jarvis-notebooks
+  title: JARVIS-Tools example notebooks
+  url: https://github.com/JARVIS-Materials-Design/jarvis-tools-notebooks
+  kind: notebook
+  level: intermediate
+  audience: computational
+  topics: [dft, thermoelectric, topological]
+  why: Notebooks on the JARVIS-DFT data used here, including spillage and transport.
+
+- id: optimade
+  title: OPTIMADE — one API for many materials databases
+  url: https://www.optimade.org/
+  doi: 10.1038/s41597-021-00974-z
+  kind: database
+  level: intermediate
+  audience: computational
+  topics: [dft]
+  why: The open standard this atlas uses to query Materials Project, Alexandria, OQMD and COD.
+
+- id: tqc-db
+  title: Topological Materials Database (Topological Quantum Chemistry)
+  url: https://www.topologicalquantumchemistry.org/
+  kind: database
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: Look up the symmetry-indicator topological classification of any ICSD compound.
+
+- id: materiae
+  title: Materiae — topological materials database
+  url: http://materiae.iphy.ac.cn/
+  kind: database
+  level: intermediate
+  audience: both
+  topics: [topological]
+  why: Independent high-throughput topological classification (IOP-CAS), useful to cross-check TQC.
+
+- id: bilbao
+  title: Bilbao Crystallographic Server
+  url: https://www.cryst.ehu.es/
+  kind: database
+  level: intermediate
+  audience: both
+  topics: [crystallography, topological]
+  why: Space-group tables, Wyckoff positions, k-vector types and band representations.
+
+- id: cod
+  title: Crystallography Open Database
+  url: https://www.crystallography.net/cod/
+  doi: 10.1107/s0021889809016690
+  kind: database
+  level: intro
+  audience: experimental
+  topics: [crystallography]
+  why: Open experimental crystal structures. It is the source of the "experiment" column on every material page.

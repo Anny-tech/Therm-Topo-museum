@@ -1,0 +1,3397 @@
+{
+ "schema": "crystal-genui/polyhedra@1",
+ "structure": {
+  "schema": "crystal-genui/structure@1",
+  "source": {
+   "kind": "optimade",
+   "id": "mp:mp-938",
+   "note": "gete: recommended DFT structure (TeTI Atlas)",
+   "retrieved_at": null
+  },
+  "formula": "Ge3 Te3",
+  "reduced_formula": "GeTe",
+  "n_sites": 6,
+  "density": 5.947281,
+  "lattice": {
+   "a": 4.188987,
+   "b": 4.188987,
+   "c": 11.037077,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 119.999995,
+   "volume": 167.726896,
+   "matrix": [
+    [
+     4.188987,
+     0.0,
+     0.0
+    ],
+    [
+     -2.094493,
+     3.627769,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     11.037077
+    ]
+   ]
+  },
+  "space_group": {
+   "symbol": "R3m",
+   "number": 160,
+   "crystal_system": "trigonal"
+  },
+  "sites": [
+   {
+    "index": 0,
+    "label": "Ge1",
+    "element": "Ge",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.325557
+    ],
+    "cart": [
+     2.094496,
+     1.209255,
+     3.593198
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 1,
+    "label": "Te1",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.195443
+    ],
+    "cart": [
+     -2e-6,
+     2.418514,
+     2.157119
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 2,
+    "label": "Ge2",
+    "element": "Ge",
+    "occupancy": 1.0,
+    "frac": [
+     0.333333,
+     0.666667,
+     0.65889
+    ],
+    "cart": [
+     -2e-6,
+     2.418514,
+     7.27222
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 3,
+    "label": "Te2",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.528777
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     5.836152
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 1
+   },
+   {
+    "index": 4,
+    "label": "Ge3",
+    "element": "Ge",
+    "occupancy": 1.0,
+    "frac": [
+     0.0,
+     0.0,
+     0.992223
+    ],
+    "cart": [
+     0.0,
+     0.0,
+     10.951242
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 0
+   },
+   {
+    "index": 5,
+    "label": "Te3",
+    "element": "Te",
+    "occupancy": 1.0,
+    "frac": [
+     0.666667,
+     0.333333,
+     0.86211
+    ],
+    "cart": [
+     2.094496,
+     1.209255,
+     9.515174
+    ],
+    "wyckoff": "3a",
+    "site_symmetry": "3m",
+    "orbit": 1
+   }
+  ]
+ },
+ "settings": {
+  "method": "shannon",
+  "centers": [
+   "Ge",
+   "Te"
+  ],
+  "ligands": null,
+  "max_bond": null,
+  "min_bond": 0.0,
+  "radius_tolerance": 0.15,
+  "include_element_shells": false,
+  "oxidation_states": {
+   "Ge": 2.0,
+   "Te": -2.0
+  },
+  "notes": []
+ },
+ "site_environments": [
+  {
+   "site_label": "Ge1",
+   "element": "Ge",
+   "wyckoff": "3a",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 3,
+   "representative_frac": [
+    0.666667,
+    0.333333,
+    0.325557
+   ],
+   "oxidation_state": 2.0,
+   "coordination_number": 6,
+   "ligand_formula": "Te6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 0.73,
+    "ligand_radius": 2.21,
+    "expected_bond_length": 2.94,
+    "radius_ratio": 0.330317,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 0.73,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Ge1-Te6"
+   ]
+  },
+  {
+   "site_label": "Te1",
+   "element": "Te",
+   "wyckoff": "3a",
+   "site_symmetry": "3m",
+   "multiplicity_in_cell": 3,
+   "representative_frac": [
+    0.333333,
+    0.666667,
+    0.195443
+   ],
+   "oxidation_state": -2.0,
+   "coordination_number": 6,
+   "ligand_formula": "Ge6",
+   "shape": "octahedron",
+   "forms_polyhedron": true,
+   "reason": "ok",
+   "symmetry_consistent": true,
+   "shannon": {
+    "shannon_cn": 6,
+    "shannon_consistent": true,
+    "center_radius": 2.21,
+    "ligand_radius": 0.73,
+    "expected_bond_length": 2.94,
+    "radius_ratio": 0.330317,
+    "pauling_cn": 4
+   },
+   "ionic_radius": 2.21,
+   "ionic_radius_cn": 6,
+   "type_ids": [
+    "Te1-Ge6"
+   ]
+  }
+ ],
+ "polyhedron_types": [
+  {
+   "type_id": "Ge1-Te6",
+   "kind": "coordination",
+   "center_label": "Ge1",
+   "center_element": "Ge",
+   "wyckoff": "3a",
+   "site_symmetry": "3m",
+   "ligand_formula": "Te6",
+   "n_instances": 3,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055618,
+    "min_bond_length": 2.812741,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272718,
+    "distortion_index": 0.079485,
+    "effective_coordination_number": 4.423717,
+    "weighted_average_bond_length": 2.894283,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487179,
+    "bond_valence_sum": 1.906602,
+    "center_offset": 0.403438
+   },
+   "connectivity": {
+    "edge": 12.0,
+    "corner": 6.0
+   },
+   "mean_bridging_angle": 167.858
+  },
+  {
+   "type_id": "Te1-Ge6",
+   "kind": "coordination",
+   "center_label": "Te1",
+   "center_element": "Te",
+   "wyckoff": "3a",
+   "site_symmetry": "3m",
+   "ligand_formula": "Ge6",
+   "n_instances": 3,
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055618,
+    "min_bond_length": 2.812741,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272718,
+    "distortion_index": 0.079485,
+    "effective_coordination_number": 4.423717,
+    "weighted_average_bond_length": 2.894283,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487179,
+    "bond_valence_sum": 1.906602,
+    "center_offset": 0.403438
+   },
+   "connectivity": {
+    "edge": 12.0,
+    "corner": 6.0
+   },
+   "mean_bridging_angle": 167.858
+  }
+ ],
+ "polyhedra": [
+  {
+   "type_id": "Ge1-Te6",
+   "center_index": 0,
+   "center_label": "Ge1",
+   "center_element": "Ge",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.325557
+   ],
+   "center_cart": [
+    2.094496,
+    1.209255,
+    3.593198
+   ],
+   "ligands": [
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.094491,
+      -1.209255,
+      2.157119
+     ],
+     "distance": 2.812741
+    },
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.188985,
+      2.418514,
+      2.157119
+     ],
+     "distance": 2.812741
+    },
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.418514,
+      2.157119
+     ],
+     "distance": 2.812747
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.188987,
+      0.0,
+      5.836152
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.094494,
+      3.627769,
+      5.836152
+     ],
+     "distance": 3.298493
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      5.836152
+     ],
+     "distance": 3.298493
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055618,
+    "min_bond_length": 2.812741,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272718,
+    "distortion_index": 0.079485,
+    "effective_coordination_number": 4.423717,
+    "weighted_average_bond_length": 2.894283,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487179,
+    "bond_valence_sum": 1.906602,
+    "center_offset": 0.403438
+   },
+   "faces": [
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     2
+    ],
+    [
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     5,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.402783,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      -1
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "center_distance": 4.402782,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 6.07718,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402775,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      -1
+     ],
+     "center_distance": 4.40278,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      -1,
+      0
+     ],
+     "center_distance": 6.077168,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      2,
+      1,
+      -1
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Ge1-Te6",
+   "center_index": 2,
+   "center_label": "Ge2",
+   "center_element": "Ge",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.65889
+   ],
+   "center_cart": [
+    -2e-6,
+    2.418514,
+    7.27222
+   ],
+   "ligands": [
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      -2.094493,
+      3.627769,
+      5.836152
+     ],
+     "distance": 2.812735
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      5.836152
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 3,
+     "label": "Te2",
+     "element": "Te",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.094494,
+      3.627769,
+      5.836152
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3e-6,
+      4.837024,
+      9.515174
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.094491,
+      1.209255,
+      9.515174
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.094496,
+      1.209255,
+      9.515174
+     ],
+     "distance": 3.298496
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055615,
+    "min_bond_length": 2.812735,
+    "max_bond_length": 3.298496,
+    "polyhedral_volume": 37.272606,
+    "distortion_index": 0.079486,
+    "effective_coordination_number": 4.423682,
+    "weighted_average_bond_length": 2.894276,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487755,
+    "bond_valence_sum": 1.906625,
+    "center_offset": 0.403444
+   },
+   "faces": [
+    [
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     5
+    ],
+    [
+     4,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     5
+    ],
+    [
+     3,
+     2,
+     5
+    ],
+    [
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     0
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      1,
+      0
+     ],
+     "center_distance": 6.077168,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402775,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Ge1-Te6",
+   "center_index": 4,
+   "center_label": "Ge3",
+   "center_element": "Ge",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.992223
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    10.951242
+   ],
+   "ligands": [
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.094491,
+      1.209255,
+      9.515174
+     ],
+     "distance": 2.812735
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.418514,
+      9.515174
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 5,
+     "label": "Te3",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.094496,
+      1.209255,
+      9.515174
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "cart": [
+      2.094491,
+      -1.209255,
+      13.194196
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "cart": [
+      -2e-6,
+      2.418514,
+      13.194196
+     ],
+     "distance": 3.298493
+    },
+    {
+     "index": 1,
+     "label": "Te1",
+     "element": "Te",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "cart": [
+      -2.094496,
+      -1.209255,
+      13.194196
+     ],
+     "distance": 3.298493
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055615,
+    "min_bond_length": 2.812735,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272606,
+    "distortion_index": 0.079486,
+    "effective_coordination_number": 4.423682,
+    "weighted_average_bond_length": 2.894276,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487755,
+    "bond_valence_sum": 1.906625,
+    "center_offset": 0.403444
+   },
+   "faces": [
+    [
+     0,
+     1,
+     5
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     0,
+     5
+    ],
+    [
+     4,
+     0,
+     2
+    ],
+    [
+     3,
+     1,
+     2
+    ],
+    [
+     3,
+     1,
+     5
+    ],
+    [
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -2,
+      -1,
+      1
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      1
+     ],
+     "center_distance": 4.40278,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 6.07718,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "center_distance": 4.402782,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 2,
+     "neighbor_label": "Ge2",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 4,
+     "neighbor_label": "Ge3",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      1,
+      1
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 0,
+     "neighbor_label": "Ge1",
+     "neighbor_element": "Ge",
+     "neighbor_type_id": "Ge1-Te6",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.402783,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te1-Ge6",
+   "center_index": 1,
+   "center_label": "Te1",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.333333,
+    0.666667,
+    0.195443
+   ],
+   "center_cart": [
+    -2e-6,
+    2.418514,
+    2.157119
+   ],
+   "ligands": [
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "cart": [
+      3e-6,
+      4.837024,
+      3.593198
+     ],
+     "distance": 2.812741
+    },
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.094491,
+      1.209255,
+      3.593198
+     ],
+     "distance": 2.812741
+    },
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.094496,
+      1.209255,
+      3.593198
+     ],
+     "distance": 2.812747
+    },
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "cart": [
+      -2.094493,
+      3.627769,
+      -0.085835
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      -0.085835
+     ],
+     "distance": 3.298493
+    },
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "cart": [
+      2.094494,
+      3.627769,
+      -0.085835
+     ],
+     "distance": 3.298493
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055618,
+    "min_bond_length": 2.812741,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272718,
+    "distortion_index": 0.079485,
+    "effective_coordination_number": 4.423717,
+    "weighted_average_bond_length": 2.894283,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487179,
+    "bond_valence_sum": 1.906602,
+    "center_offset": 0.403438
+   },
+   "faces": [
+    [
+     1,
+     4,
+     3
+    ],
+    [
+     1,
+     4,
+     2
+    ],
+    [
+     5,
+     4,
+     3
+    ],
+    [
+     5,
+     4,
+     2
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     1,
+     3
+    ],
+    [
+     0,
+     5,
+     2
+    ],
+    [
+     0,
+     5,
+     3
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      -1
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      1,
+      -1
+     ],
+     "center_distance": 6.077168,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.40278,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      -1
+     ],
+     "center_distance": 4.402775,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      -1
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.07718,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402782,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      -1
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      -1
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      2,
+      0
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.402783,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      96.257,
+      78.838
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te1-Ge6",
+   "center_index": 3,
+   "center_label": "Te2",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.0,
+    0.0,
+    0.528777
+   ],
+   "center_cart": [
+    0.0,
+    0.0,
+    5.836152
+   ],
+   "ligands": [
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.094491,
+      -1.209255,
+      7.27222
+     ],
+     "distance": 2.812735
+    },
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.418514,
+      7.27222
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      -2.094496,
+      -1.209255,
+      7.27222
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "cart": [
+      -2.094491,
+      1.209255,
+      3.593198
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "cart": [
+      2e-6,
+      -2.418514,
+      3.593198
+     ],
+     "distance": 3.298493
+    },
+    {
+     "index": 0,
+     "label": "Ge1",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      2.094496,
+      1.209255,
+      3.593198
+     ],
+     "distance": 3.298493
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055615,
+    "min_bond_length": 2.812735,
+    "max_bond_length": 3.298493,
+    "polyhedral_volume": 37.272606,
+    "distortion_index": 0.079486,
+    "effective_coordination_number": 4.423682,
+    "weighted_average_bond_length": 2.894276,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487755,
+    "bond_valence_sum": 1.906625,
+    "center_offset": 0.403444
+   },
+   "faces": [
+    [
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     1,
+     3,
+     2
+    ],
+    [
+     1,
+     3,
+     5
+    ],
+    [
+     0,
+     4,
+     5
+    ],
+    [
+     0,
+     4,
+     2
+    ],
+    [
+     0,
+     1,
+     5
+    ],
+    [
+     0,
+     1,
+     2
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.402783,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -2,
+      0
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -2,
+      -1,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402782,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 6.07718,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.40278,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 6.077178,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    }
+   ]
+  },
+  {
+   "type_id": "Te1-Ge6",
+   "center_index": 5,
+   "center_label": "Te3",
+   "center_element": "Te",
+   "center_wyckoff": "3a",
+   "center_frac": [
+    0.666667,
+    0.333333,
+    0.86211
+   ],
+   "center_cart": [
+    2.094496,
+    1.209255,
+    9.515174
+   ],
+   "ligands": [
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.188987,
+      0.0,
+      10.951242
+     ],
+     "distance": 2.812735
+    },
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "cart": [
+      2.094494,
+      3.627769,
+      10.951242
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 4,
+     "label": "Ge3",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      0.0,
+      0.0,
+      10.951242
+     ],
+     "distance": 2.812739
+    },
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "cart": [
+      2.094491,
+      -1.209255,
+      7.27222
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "cart": [
+      4.188985,
+      2.418514,
+      7.27222
+     ],
+     "distance": 3.29849
+    },
+    {
+     "index": 2,
+     "label": "Ge2",
+     "element": "Ge",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "cart": [
+      -2e-6,
+      2.418514,
+      7.27222
+     ],
+     "distance": 3.298496
+    }
+   ],
+   "metrics": {
+    "coordination_number": 6,
+    "shape": "octahedron",
+    "face_sizes": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "average_bond_length": 3.055615,
+    "min_bond_length": 2.812735,
+    "max_bond_length": 3.298496,
+    "polyhedral_volume": 37.272606,
+    "distortion_index": 0.079486,
+    "effective_coordination_number": 4.423682,
+    "weighted_average_bond_length": 2.894276,
+    "quadratic_elongation": 1.020074,
+    "bond_angle_variance": 46.487755,
+    "bond_valence_sum": 1.906625,
+    "center_offset": 0.403444
+   },
+   "faces": [
+    [
+     2,
+     3,
+     5
+    ],
+    [
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     5
+    ],
+    [
+     4,
+     3,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     4,
+     0
+    ],
+    [
+     1,
+     4,
+     5
+    ]
+   ],
+   "connections": [
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      1
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      1
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.402773,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      1
+     ],
+     "center_distance": 6.077174,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      0,
+      1
+     ],
+     "center_distance": 4.402775,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      -1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      -1,
+      1
+     ],
+     "center_distance": 6.077168,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      0,
+      -1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 3,
+     "neighbor_label": "Te2",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      2,
+      1,
+      0
+     ],
+     "center_distance": 6.077171,
+     "shared_ligands": 1,
+     "sharing": "corner",
+     "bridging_angles": [
+      167.858
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      1,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    },
+    {
+     "neighbor_index": 1,
+     "neighbor_label": "Te1",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      1
+     ],
+     "center_distance": 4.402771,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      91.831,
+      91.831
+     ]
+    },
+    {
+     "neighbor_index": 5,
+     "neighbor_label": "Te3",
+     "neighbor_element": "Te",
+     "neighbor_type_id": "Te1-Ge6",
+     "image": [
+      1,
+      0,
+      0
+     ],
+     "center_distance": 4.188987,
+     "shared_ligands": 2,
+     "sharing": "edge",
+     "bridging_angles": [
+      78.838,
+      96.257
+     ]
+    }
+   ]
+  }
+ ],
+ "crystal_chemistry": {
+  "pauling_rule_1_radius_ratio": [
+   {
+    "site": "Ge 3a",
+    "radius_ratio": 0.3303,
+    "predicted_cn": 4,
+    "observed_cn": 6,
+    "agrees": true
+   }
+  ],
+  "pauling_rule_2_electrostatic_valence": [
+   {
+    "site": "Te 3a",
+    "sum_of_electrostatic_bond_strengths": 2.0,
+    "anion_charge": 2.0,
+    "relative_deviation": -0.0,
+    "satisfied": true
+   }
+  ],
+  "pauling_rule_3_polyhedron_sharing": {
+   "Ge-Ge": {
+    "corner": 18,
+    "edge": 36,
+    "face": 0
+   }
+  },
+  "pauling_rule_4_high_valence_sharing": [],
+  "pauling_rule_5_parsimony": {
+   "Ge": 1,
+   "Te": 1
+  },
+  "bond_valence_sums": [
+   {
+    "site": "Ge 3a",
+    "bvs": 1.9066,
+    "expected": 2.0,
+    "deviation": -0.0934
+   },
+   {
+    "site": "Te 3a",
+    "bvs": 1.9066,
+    "expected": 2.0,
+    "deviation": -0.0934
+   }
+  ],
+  "global_instability_index": 0.0934,
+  "bond_count_balance": {
+   "cation_side": 18,
+   "anion_side": 18,
+   "balanced": true
+  },
+  "site_symmetry_consistent": true
+ }
+}

@@ -1,0 +1,41 @@
+# EuIn2As2_alex-pbesol_agm002329748
+# Source: Alexandria (PBEsol) agm002329748 (PBEsol), https://alexandria.icams.rub.de/pbesol/v1/structures/agm002329748
+# Conventional standard cell from spglib; symmetry detected: R-3m (No. 166) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_EuIn2As2_alex-pbesol_agm002329748
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     4.213500
+_cell_length_b     4.213500
+_cell_length_c     26.133800
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  120.0000
+_cell_volume       401.8030
+_chemical_formula_sum 'As2EuIn2'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Eu1    Eu  0.000000 0.000000 0.000000 1.0
+  As1    As  0.000000 0.000000 0.264656 1.0
+  As2    As  0.666667 0.333333 0.068677 1.0
+  In1    In  0.333333 0.666667 0.219606 1.0
+  In2    In  0.333333 0.666667 0.113728 1.0
+  Eu2    Eu  0.666667 0.333333 0.333333 1.0
+  As3    As  0.666667 0.333333 0.597990 1.0
+  As4    As  0.333333 0.666667 0.402010 1.0
+  In3    In  0.000000 0.000000 0.552939 1.0
+  In4    In  0.000000 0.000000 0.447061 1.0
+  Eu3    Eu  0.333333 0.666667 0.666667 1.0
+  As5    As  0.333333 0.666667 0.931323 1.0
+  As6    As  0.000000 -0.000000 0.735344 1.0
+  In5    In  0.666667 0.333333 0.886272 1.0
+  In6    In  0.666667 0.333333 0.780394 1.0

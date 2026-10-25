@@ -1,0 +1,4 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+mp:mp-1068431,Yb(ZnSb)2,P-3m1 (164),Yb1,Yb,2,1a,-3m.,1,0,0,0,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-1068431,Yb(ZnSb)2,P-3m1 (164),Zn1,Zn,2,2d,3m.,2,0.666667,0.333333,0.364618,0,,none,False,no ligands found,,,,,,,,,,,
+mp:mp-1068431,Yb(ZnSb)2,P-3m1 (164),Sb1,Sb,-3,2d,3m.,2,0.666667,0.333333,0.744588,0,,none,False,no ligands found,,,,,,,,,,,

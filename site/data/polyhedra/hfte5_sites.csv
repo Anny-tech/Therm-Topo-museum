@@ -1,0 +1,5 @@
+structure,formula,space_group,site,element,oxidation_state,wyckoff,site_symmetry,multiplicity_in_cell,x,y,z,CN,ligand_formula,shape,forms_polyhedron,reason,symmetry_consistent,shannon_cn,shannon_consistent,center_radius_A,ligand_radius_A,expected_bond_length_A,radius_ratio,pauling_cn,ionic_radius_A,ionic_radius_cn,polyhedron_types
+alex-pbesol:agm003211431,HfTe5,Cmcm (63),Te1,Te,-0.8,8f,m..,8,0,0.208327,0.565916,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbesol:agm003211431,HfTe5,Cmcm (63),Te3,Te,-0.8,4c,m2m,4,0.5,0.161685,0.75,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbesol:agm003211431,HfTe5,Cmcm (63),Te5,Te,-0.8,8f,m..,8,0.5,0.425282,0.647875,0,,none,False,no ligands found,,,,,,,,,,,
+alex-pbesol:agm003211431,HfTe5,Cmcm (63),Hf1,Hf,4,4c,m2m,4,0.5,0.187032,0.25,0,,none,False,no ligands found,,,,,,,,,,,

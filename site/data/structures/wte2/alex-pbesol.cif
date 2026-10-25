@@ -1,0 +1,38 @@
+# WTe2_alex-pbesol_agm002190249
+# Source: Alexandria (PBEsol) agm002190249 (PBEsol), https://alexandria.icams.rub.de/pbesol/v1/structures/agm002190249
+# Conventional standard cell from spglib; symmetry detected: P2_1/m (No. 11) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_WTe2_alex-pbesol_agm002190249
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     6.244100
+_cell_length_b     3.454400
+_cell_length_c     14.163600
+_cell_angle_alpha  90.0000
+_cell_angle_beta   91.5663
+_cell_angle_gamma  90.0000
+_cell_volume       305.3910
+_chemical_formula_sum 'Te2W'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Te1    Te  0.078751 0.250000 0.602647 1.0
+  Te2    Te  0.921249 0.750000 0.397353 1.0
+  Te3    Te  0.586588 0.750000 0.647668 1.0
+  Te4    Te  0.413412 0.250000 0.352332 1.0
+  Te5    Te  0.069336 0.750000 0.852369 1.0
+  Te6    Te  0.930664 0.250000 0.147631 1.0
+  Te7    Te  0.565549 0.250000 0.897290 1.0
+  Te8    Te  0.434451 0.750000 0.102710 1.0
+  W1    W   0.678202 0.250000 0.507693 1.0
+  W2    W   0.321798 0.750000 0.492307 1.0
+  W3    W   0.822759 0.750000 0.007549 1.0
+  W4    W   0.177241 0.250000 0.992451 1.0

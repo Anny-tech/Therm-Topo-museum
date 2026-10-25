@@ -1,0 +1,52 @@
+# Ca5Al2Sb6_alex-pbe_agm003234024
+# Source: Alexandria (PBE) agm003234024 (PBE), https://alexandria.icams.rub.de/pbe/v1/structures/agm003234024
+# Conventional standard cell from spglib; symmetry detected: Pbam (No. 55) at symprec = 0.001 A.
+# Positions are idealised (symmetrised) to that space group.
+# Written in P1 so that every site is listed explicitly.
+data_Ca5Al2Sb6_alex-pbe_agm003234024
+_symmetry_space_group_name_H-M   'P 1'
+_symmetry_Int_Tables_number      1
+_cell_length_a     12.120800
+_cell_length_b     14.138300
+_cell_length_c     4.499600
+_cell_angle_alpha  90.0000
+_cell_angle_beta   90.0000
+_cell_angle_gamma  90.0000
+_cell_volume       771.0870
+_chemical_formula_sum 'Al2Ca5Sb6'
+loop_
+_symmetry_equiv_pos_as_xyz
+  'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+  Al1    Al  0.331546 0.788605 0.500000 1.0
+  Al2    Al  0.668454 0.211395 0.500000 1.0
+  Al3    Al  0.168454 0.288605 0.500000 1.0
+  Al4    Al  0.831546 0.711395 0.500000 1.0
+  Ca1    Ca  0.326694 0.985895 0.000000 1.0
+  Ca2    Ca  0.673306 0.014105 0.000000 1.0
+  Ca3    Ca  0.173306 0.485895 0.000000 1.0
+  Ca4    Ca  0.826694 0.514105 0.000000 1.0
+  Ca5    Ca  0.000000 0.000000 0.000000 1.0
+  Ca6    Ca  0.500000 0.500000 0.000000 1.0
+  Ca7    Ca  0.907312 0.247251 0.000000 1.0
+  Ca8    Ca  0.092688 0.752749 0.000000 1.0
+  Ca9    Ca  0.592688 0.747251 0.000000 1.0
+  Ca10   Ca  0.407312 0.252749 0.000000 1.0
+  Sb1    Sb  0.161224 0.178341 0.000000 1.0
+  Sb2    Sb  0.838776 0.821659 0.000000 1.0
+  Sb3    Sb  0.338776 0.678341 0.000000 1.0
+  Sb4    Sb  0.661224 0.321659 0.000000 1.0
+  Sb5    Sb  0.156081 0.906729 0.500000 1.0
+  Sb6    Sb  0.843919 0.093271 0.500000 1.0
+  Sb7    Sb  0.343919 0.406729 0.500000 1.0
+  Sb8    Sb  0.656081 0.593271 0.500000 1.0
+  Sb9    Sb  0.525449 0.899787 0.500000 1.0
+  Sb10   Sb  0.474551 0.100213 0.500000 1.0
+  Sb11   Sb  0.974551 0.399787 0.500000 1.0
+  Sb12   Sb  0.025449 0.600213 0.500000 1.0
